@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.4.7)  20 JUL 2025 13:22
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.4.7)  20 JUL 2025 13:43
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -283,27 +283,29 @@ LaTeX Info: Redefining \pageref on input line 48.
 LaTeX Info: Redefining \nameref on input line 48.
  (./main.out) (./main.out)
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 55.
+(Font)              <7> on input line 56.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 55.
+(Font)              <5> on input line 56.
 
-Overfull \hbox (90.26999pt too wide) in paragraph at lines 55--61
+Overfull \hbox (90.26999pt too wide) in paragraph at lines 56--62
 [][] 
  []
 
 [1
 
-{/usr/local/texlive/2020/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
+{/usr/local/texlive/2020/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
+
+]
 [2]
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 241.
+(Font)              <8> on input line 244.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 241.
+(Font)              <6> on input line 244.
 
 ! Missing number, treated as zero.
 <to be read again> 
                    $
-l.246 \footnote[$\dagger$]
+l.249 \footnote[$\dagger$]
                           {\noindent $^\dagger$These six papers are the firs...
 A number should have been here; I inserted `0'.
 (If you can't figure out why I needed to see a number,
@@ -312,7 +314,7 @@ look up `weird error' in the index to The TeXbook.)
 ! Missing number, treated as zero.
 <to be read again> 
                    $
-l.251 \footnote[$^S$]
+l.254 \footnote[$^S$]
                      {\noindent $^S$These 10  papers are the first Galactic ...
 A number should have been here; I inserted `0'.
 (If you can't figure out why I needed to see a number,
@@ -327,7 +329,7 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.409 ...ne Interferometry Detections at 870 μm }
+l.412 ...ne Interferometry Detections at 870 μm }
                                                   . AJ, 168, 3, 130.
 You may provide a definition with
 \DeclareUnicodeCharacter 
@@ -340,7 +342,7 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.413 ...n the Tidal Disruption Event AT 2019azh }
+l.416 ...n the Tidal Disruption Event AT 2019azh }
                                                   . ApJ, 969, 2, 104.
 You may provide a definition with
 \DeclareUnicodeCharacter 
@@ -355,62 +357,8 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.537 ...ndrews et al.(2024)]{2024TNSCR3471....1A}
+l.540 ...ndrews et al.(2024)]{2024TNSCR3471....1A}
                                                    Andrews, M., Farah, J., H...
-
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-Underfull \hbox (badness 10000) detected at line 537
-[][]
- []
-
-
-! LaTeX Error: Lonely \item--perhaps a missing list environment.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.538 ...stroem et al.(2024)]{2024TNSCR2571....1B}
-                                                   Bostroem, K.~A. and 24 co...
-
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-Underfull \hbox (badness 10000) detected at line 538
-[][]
- []
-
-
-! LaTeX Error: Lonely \item--perhaps a missing list environment.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.539 ...ewsome et al.(2024)]{2024TNSCR1687....1N}
-                                                   Newsome, M., Farah, J., H...
-
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-Underfull \hbox (badness 10000) detected at line 539
-[][]
- []
-
-
-! LaTeX Error: Lonely \item--perhaps a missing list environment.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.540 ...nzadeh et al.(2024)]{2024TNSCR1686....1H}
-                                                   Hosseinzadeh, G. and 8 co...
 
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -420,7 +368,6 @@ Underfull \hbox (badness 10000) detected at line 540
 [][]
  []
 
-[9]
 
 ! LaTeX Error: Lonely \item--perhaps a missing list environment.
 
@@ -428,8 +375,8 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.541 ...rreran et al.(2024)]{2024TNSCR.843....1T}
-                                                   Terreran, G., Howell, D.~...
+l.541 ...stroem et al.(2024)]{2024TNSCR2571....1B}
+                                                   Bostroem, K.~A. and 24 co...
 
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -446,8 +393,8 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.542 ...rreran et al.(2024)]{2024TNSCR.828....1T}
-                                                   Terreran, G., Howell, D.~...
+l.542 ...ewsome et al.(2024)]{2024TNSCR1687....1N}
+                                                   Newsome, M., Farah, J., H...
 
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -464,8 +411,8 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.543 ...ewsome et al.(2024)]{2024TNSCR.505....1N}
-                                                   Newsome, M. and 7 colleag...
+l.543 ...nzadeh et al.(2024)]{2024TNSCR1686....1H}
+                                                   Hosseinzadeh, G. and 8 co...
 
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -475,6 +422,7 @@ Underfull \hbox (badness 10000) detected at line 543
 [][]
  []
 
+[9]
 
 ! LaTeX Error: Lonely \item--perhaps a missing list environment.
 
@@ -482,8 +430,8 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.544 ...ewsome et al.(2024)]{2024TNSCR.448....1N}
-                                                   Newsome, M., Farah, J., H...
+l.544 ...rreran et al.(2024)]{2024TNSCR.843....1T}
+                                                   Terreran, G., Howell, D.~...
 
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -500,8 +448,8 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.545 ...ewsome et al.(2024)]{2024TNSCR.413....1N}
-                                                   Newsome, M., Farah, J., H...
+l.545 ...rreran et al.(2024)]{2024TNSCR.828....1T}
+                                                   Terreran, G., Howell, D.~...
 
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -518,8 +466,8 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.546 ...nzalez et al.(2024)]{2024TNSCR.399....1G}
-                                                   Gonzalez, E.~P. and 6 col...
+l.546 ...ewsome et al.(2024)]{2024TNSCR.505....1N}
+                                                   Newsome, M. and 7 colleag...
 
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -536,8 +484,8 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.547 ...ewsome et al.(2024)]{2024TNSCR.344....1N}
-                                                   Newsome, M. and 8 colleag...
+l.547 ...ewsome et al.(2024)]{2024TNSCR.448....1N}
+                                                   Newsome, M., Farah, J., H...
 
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -554,8 +502,8 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.548 ...ewsome et al.(2024)]{2024TNSCR.261....1N}
-                                                   Newsome, M. and 6 colleag...
+l.548 ...ewsome et al.(2024)]{2024TNSCR.413....1N}
+                                                   Newsome, M., Farah, J., H...
 
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -572,8 +520,8 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.549 ...rreran et al.(2024)]{2024TNSCR.232....1T}
-                                                   Terreran, G. and 6 collea...
+l.549 ...nzalez et al.(2024)]{2024TNSCR.399....1G}
+                                                   Gonzalez, E.~P. and 6 col...
 
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -590,8 +538,8 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.550 ...ewsome et al.(2024)]{2024TNSCR..44....1N}
-                                                   Newsome, M. and 6 colleag...
+l.550 ...ewsome et al.(2024)]{2024TNSCR.344....1N}
+                                                   Newsome, M. and 8 colleag...
 
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -608,8 +556,8 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.551 ...Arcavi et al.(2023)]{2023TNSCR3391....1A}
-                                                   Arcavi, I., Terreran, G.,...
+l.551 ...ewsome et al.(2024)]{2024TNSCR.261....1N}
+                                                   Newsome, M. and 6 colleag...
 
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -626,8 +574,8 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.552 ...rreran et al.(2023)]{2023TNSCR3376....1T}
-                                                   Terreran, G., Howell, D.~...
+l.552 ...rreran et al.(2024)]{2024TNSCR.232....1T}
+                                                   Terreran, G. and 6 collea...
 
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -644,8 +592,8 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.553 ...[Farah et al.(2023)]{2023TNSCR2992....1F}
-                                                   Farah, J. and 6 colleague...
+l.553 ...ewsome et al.(2024)]{2024TNSCR..44....1N}
+                                                   Newsome, M. and 6 colleag...
 
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -662,8 +610,8 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.554 ...ewsome et al.(2023)]{2023TNSCR2557....1N}
-                                                   Newsome, M., Farah, J., H...
+l.554 ...Arcavi et al.(2023)]{2023TNSCR3391....1A}
+                                                   Arcavi, I., Terreran, G.,...
 
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -680,8 +628,8 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.555 ...nzalez et al.(2023)]{2023TNSCR2348....1G}
-                                                   Gonzalez, E.~P. and 6 col...
+l.555 ...rreran et al.(2023)]{2023TNSCR3376....1T}
+                                                   Terreran, G., Howell, D.~...
 
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -698,8 +646,8 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.556 ...egrino et al.(2023)]{2023TNSCR2244....1P}
-                                                   Pellegrino, C. and 6 coll...
+l.556 ...[Farah et al.(2023)]{2023TNSCR2992....1F}
+                                                   Farah, J. and 6 colleague...
 
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -709,7 +657,6 @@ Underfull \hbox (badness 10000) detected at line 556
 [][]
  []
 
-[10]
 
 ! LaTeX Error: Lonely \item--perhaps a missing list environment.
 
@@ -717,8 +664,8 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.557 ...[Farah et al.(2023)]{2023TNSCR2213....1F}
-                                                   Farah, J. and 6 colleague...
+l.557 ...ewsome et al.(2023)]{2023TNSCR2557....1N}
+                                                   Newsome, M., Farah, J., H...
 
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -735,8 +682,8 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.558 ...rreran et al.(2023)]{2023TNSCR2212....1T}
-                                                   Terreran, G. and 6 collea...
+l.558 ...nzalez et al.(2023)]{2023TNSCR2348....1G}
+                                                   Gonzalez, E.~P. and 6 col...
 
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -753,8 +700,8 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.559 ...rreran et al.(2023)]{2023TNSCR2162....1T}
-                                                   Terreran, G. and 6 collea...
+l.559 ...egrino et al.(2023)]{2023TNSCR2244....1P}
+                                                   Pellegrino, C. and 6 coll...
 
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -764,6 +711,7 @@ Underfull \hbox (badness 10000) detected at line 559
 [][]
  []
 
+[10]
 
 ! LaTeX Error: Lonely \item--perhaps a missing list environment.
 
@@ -771,8 +719,8 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.560 ...egrino et al.(2023)]{2023TNSCR2134....1P}
-                                                   Pellegrino, C. and 6 coll...
+l.560 ...[Farah et al.(2023)]{2023TNSCR2213....1F}
+                                                   Farah, J. and 6 colleague...
 
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -789,8 +737,8 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.561 ...nzalez et al.(2023)]{2023TNSCR2054....1G}
-                                                   Gonzalez, E.~P. and 6 col...
+l.561 ...rreran et al.(2023)]{2023TNSCR2212....1T}
+                                                   Terreran, G. and 6 collea...
 
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -807,8 +755,8 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.562 ...ewsome et al.(2023)]{2023TNSCR2033....1N}
-                                                   Newsome, M. and 6 colleag...
+l.562 ...rreran et al.(2023)]{2023TNSCR2162....1T}
+                                                   Terreran, G. and 6 collea...
 
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -825,8 +773,8 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.563 ...ewsome et al.(2023)]{2023TNSCR1999....1N}
-                                                   Newsome, M. and 6 colleag...
+l.563 ...egrino et al.(2023)]{2023TNSCR2134....1P}
+                                                   Pellegrino, C. and 6 coll...
 
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -843,8 +791,8 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.564 ...[Farah et al.(2023)]{2023TNSCR1960....1F}
-                                                   Farah, J. and 6 colleague...
+l.564 ...nzalez et al.(2023)]{2023TNSCR2054....1G}
+                                                   Gonzalez, E.~P. and 6 col...
 
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -861,8 +809,8 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.565 ...ewsome et al.(2023)]{2023TNSCR1865....1N}
-                                                   Newsome, M. and 8 colleag...
+l.565 ...ewsome et al.(2023)]{2023TNSCR2033....1N}
+                                                   Newsome, M. and 6 colleag...
 
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -879,8 +827,8 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.566 ...ewsome et al.(2023)]{2023TNSCR1767....1N}
-                                                   Newsome, M. and 7 colleag...
+l.566 ...ewsome et al.(2023)]{2023TNSCR1999....1N}
+                                                   Newsome, M. and 6 colleag...
 
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -897,8 +845,8 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.567 ...ewsome et al.(2023)]{2023TNSCR1754....1N}
-                                                   Newsome, M. and 8 colleag...
+l.567 ...[Farah et al.(2023)]{2023TNSCR1960....1F}
+                                                   Farah, J. and 6 colleague...
 
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -915,8 +863,8 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.568 ...nzalez et al.(2023)]{2023TNSCR1753....1G}
-                                                   Gonzalez, E.~P. and 6 col...
+l.568 ...ewsome et al.(2023)]{2023TNSCR1865....1N}
+                                                   Newsome, M. and 8 colleag...
 
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -933,8 +881,8 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.569 ...ewsome et al.(2023)]{2023TNSCR1737....1N}
-                                                   Newsome, M. and 6 colleag...
+l.569 ...ewsome et al.(2023)]{2023TNSCR1767....1N}
+                                                   Newsome, M. and 7 colleag...
 
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -951,8 +899,8 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.570 ...nzalez et al.(2023)]{2023TNSCR1496....1G}
-                                                   Gonzalez, E.~P. and 6 col...
+l.570 ...ewsome et al.(2023)]{2023TNSCR1754....1N}
+                                                   Newsome, M. and 8 colleag...
 
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -969,8 +917,8 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.571 ...egrino et al.(2023)]{2023TNSCR1474....1P}
-                                                   Pellegrino, C. and 6 coll...
+l.571 ...nzalez et al.(2023)]{2023TNSCR1753....1G}
+                                                   Gonzalez, E.~P. and 6 col...
 
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -987,8 +935,8 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.572 ...egrino et al.(2023)]{2023TNSCR1279....1P}
-                                                   Pellegrino, C. and 7 coll...
+l.572 ...ewsome et al.(2023)]{2023TNSCR1737....1N}
+                                                   Newsome, M. and 6 colleag...
 
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -1005,8 +953,8 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.573 ...[Farah et al.(2023)]{2023TNSCR1137....1F}
-                                                   Farah, J. and 6 colleague...
+l.573 ...nzalez et al.(2023)]{2023TNSCR1496....1G}
+                                                   Gonzalez, E.~P. and 6 col...
 
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -1023,8 +971,8 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.574 ...nzalez et al.(2023)]{2023TNSCR1017....1G}
-                                                   Gonzalez, E.~P. and 6 col...
+l.574 ...egrino et al.(2023)]{2023TNSCR1474....1P}
+                                                   Pellegrino, C. and 6 coll...
 
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -1034,7 +982,6 @@ Underfull \hbox (badness 10000) detected at line 574
 [][]
  []
 
-[11]
 
 ! LaTeX Error: Lonely \item--perhaps a missing list environment.
 
@@ -1042,8 +989,8 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.575 ...ewsome et al.(2023)]{2023TNSCR.944....1N}
-                                                   Newsome, M. and 6 colleag...
+l.575 ...egrino et al.(2023)]{2023TNSCR1279....1P}
+                                                   Pellegrino, C. and 7 coll...
 
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -1060,7 +1007,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.576 ...[Farah et al.(2023)]{2023TNSCR.793....1F}
+l.576 ...[Farah et al.(2023)]{2023TNSCR1137....1F}
                                                    Farah, J. and 6 colleague...
 
 Try typing  <return>  to proceed.
@@ -1078,8 +1025,8 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.577 ...egrino et al.(2023)]{2023TNSCR.725....1P}
-                                                   Pellegrino, C. and 6 coll...
+l.577 ...nzalez et al.(2023)]{2023TNSCR1017....1G}
+                                                   Gonzalez, E.~P. and 6 col...
 
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -1089,6 +1036,7 @@ Underfull \hbox (badness 10000) detected at line 577
 [][]
  []
 
+[11]
 
 ! LaTeX Error: Lonely \item--perhaps a missing list environment.
 
@@ -1096,8 +1044,8 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.578 ...egrino et al.(2023)]{2023TNSAN..75....1P}
-                                                   Pellegrino, C. and 6 coll...
+l.578 ...ewsome et al.(2023)]{2023TNSCR.944....1N}
+                                                   Newsome, M. and 6 colleag...
 
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -1114,8 +1062,8 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.579 ...egrino et al.(2023)]{2023TNSCR.542....1P}
-                                                   Pellegrino, C. and 7 coll...
+l.579 ...[Farah et al.(2023)]{2023TNSCR.793....1F}
+                                                   Farah, J. and 6 colleague...
 
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -1132,8 +1080,8 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.580 ...rreran et al.(2023)]{2023TNSCR.490....1T}
-                                                   Terreran, G. and 6 collea...
+l.580 ...egrino et al.(2023)]{2023TNSCR.725....1P}
+                                                   Pellegrino, C. and 6 coll...
 
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -1150,8 +1098,8 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.581 ...nzadeh et al.(2023)]{2023TNSCR.277....1H}
-                                                   Hosseinzadeh, G. and 8 co...
+l.581 ...egrino et al.(2023)]{2023TNSAN..75....1P}
+                                                   Pellegrino, C. and 6 coll...
 
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -1168,8 +1116,8 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.582 ...egrino et al.(2023)]{2023TNSCR.218....1P}
-                                                   Pellegrino, C. and 6 coll...
+l.582 ...egrino et al.(2023)]{2023TNSCR.542....1P}
+                                                   Pellegrino, C. and 7 coll...
 
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -1186,8 +1134,8 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.583 ...[Farah et al.(2023)]{2023TNSCR.144....1F}
-                                                   Farah, J. and 6 colleague...
+l.583 ...rreran et al.(2023)]{2023TNSCR.490....1T}
+                                                   Terreran, G. and 6 collea...
 
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -1204,8 +1152,8 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.584 ...egrino et al.(2022)]{2022TNSCR2757....1P}
-                                                   Pellegrino, C. and 8 coll...
+l.584 ...nzadeh et al.(2023)]{2023TNSCR.277....1H}
+                                                   Hosseinzadeh, G. and 8 co...
 
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -1222,8 +1170,8 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.585 ...egrino et al.(2022)]{2022TNSCR2707....1P}
-                                                   Pellegrino, C. and 7 coll...
+l.585 ...egrino et al.(2023)]{2023TNSCR.218....1P}
+                                                   Pellegrino, C. and 6 coll...
 
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -1240,8 +1188,8 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.586 ...egrino et al.(2022)]{2022TNSCR2535....1P}
-                                                   Pellegrino, C. and 8 coll...
+l.586 ...[Farah et al.(2023)]{2023TNSCR.144....1F}
+                                                   Farah, J. and 6 colleague...
 
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -1258,8 +1206,8 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.587 ...egrino et al.(2022)]{2022TNSCR2510....1P}
-                                                   Pellegrino, C. and 7 coll...
+l.587 ...egrino et al.(2022)]{2022TNSCR2757....1P}
+                                                   Pellegrino, C. and 8 coll...
 
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -1269,12 +1217,66 @@ Underfull \hbox (badness 10000) detected at line 587
 [][]
  []
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 598.
+
+! LaTeX Error: Lonely \item--perhaps a missing list environment.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.588 ...egrino et al.(2022)]{2022TNSCR2707....1P}
+                                                   Pellegrino, C. and 7 coll...
+
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Underfull \hbox (badness 10000) detected at line 588
+[][]
+ []
+
+
+! LaTeX Error: Lonely \item--perhaps a missing list environment.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.589 ...egrino et al.(2022)]{2022TNSCR2535....1P}
+                                                   Pellegrino, C. and 8 coll...
+
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Underfull \hbox (badness 10000) detected at line 589
+[][]
+ []
+
+
+! LaTeX Error: Lonely \item--perhaps a missing list environment.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.590 ...egrino et al.(2022)]{2022TNSCR2510....1P}
+                                                   Pellegrino, C. and 7 coll...
+
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Underfull \hbox (badness 10000) detected at line 590
+[][]
+ []
+
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 601.
 [12]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 598.
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 598.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 598.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 598.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 601.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 601.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 601.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 601.
  ) 
 Here is how much of TeX's memory you used:
  5809 strings out of 480608
