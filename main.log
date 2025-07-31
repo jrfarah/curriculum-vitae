@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.4.7)  23 JUL 2025 16:17
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.4.7)  31 JUL 2025 16:23
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1285,7 +1285,7 @@ Here is how much of TeX's memory you used:
  21598 multiletter control sequences out of 15000+600000
  540655 words of font info for 51 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 34i,9n,37p,552b,454s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 34i,9n,37p,508b,454s stack positions out of 5000i,500n,10000p,200000b,80000s
 pdfTeX warning (dest): name{Hfootnote.2} has been referenced but does not exi
 st, replaced by a fixed one
 
@@ -1310,7 +1310,7 @@ ive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local/texliv
 e/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/
 2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2
 020/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb>
-Output written on main.pdf (12 pages, 191123 bytes).
+Output written on main.pdf (12 pages, 191054 bytes).
 PDF statistics:
  163 PDF objects out of 1000 (max. 8388607)
  133 compressed objects within 2 object streams
