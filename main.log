@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.4.7)  4 AUG 2025 14:19
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.4.7)  5 AUG 2025 16:34
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -321,6 +321,116 @@ A number should have been here; I inserted `0'.
 look up `weird error' in the index to The TeXbook.)
 
 [3] [4] [5]
+! Misplaced alignment tab character &.
+l.412 ...n the black hole images of M87$^{*}$}. A&
+                                                  A, 699, A279.
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Misplaced alignment tab character &.
+l.414 ... submillimeter wavelengths with ALMA}. A&
+                                                  A, 699, A265.
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Misplaced alignment tab character &.
+l.426 ...Supernova rate in the local Universe}. A&
+                                                  A, 698, A306.
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Misplaced alignment tab character &.
+l.428 ...s of supernovae in a complete sample}. A&
+                                                  A, 698, A305.
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+[6
+
+]
+! Misplaced alignment tab character &.
+l.430 ...ng isolated high-velocity signatures}. A&
+                                                  A, 698, A70.
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+
+Overfull \hbox (23.2381pt too wide) in paragraph at lines 442--443
+\OT1/cmr/m/it/10 Bowen Flu-o-res-cence Flare With a Pre-cur-sor Flare in an Ac-
+tive Galac-tic Nu-cleus\OT1/cmr/m/n/10 . arXiv, arXiv:2505.00083. 
+ []
+
+! Misplaced alignment tab character &.
+l.454 ...ets with the Event Horizon Telescope}. A&
+                                                  A, 695, A233.
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Misplaced alignment tab character &.
+l.460 ... supernovae and their time evolution}. A&
+                                                  A, 693, A307.
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Misplaced alignment tab character &.
+l.463 ...sons and theoretical interpretations}. A&
+                                                  A, 693, A265.
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+[7]
+! Misplaced alignment tab character &.
+l.471 ...xtit{The putative center in NGC 1052}. A&
+                                                  A, 692, A205.
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Misplaced alignment tab character &.
+l.473 ...g a very high energy flaring episode}. A&
+                                                  A, 692, A140.
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
 
 ! Package inputenc Error: Unicode character μ (U+03BC)
 (inputenc)                not set up for use with LaTeX.
@@ -329,7 +439,7 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.410 ...ne Interferometry Detections at 870 μm }
+l.487 ...ne Interferometry Detections at 870 μm }
                                                   . AJ, 168, 3, 130.
 You may provide a definition with
 \DeclareUnicodeCharacter 
@@ -342,14 +452,12 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.414 ...n the Tidal Disruption Event AT 2019azh }
+l.491 ...n the Tidal Disruption Event AT 2019azh }
                                                   . ApJ, 969, 2, 104.
 You may provide a definition with
 \DeclareUnicodeCharacter 
 
-[6
-
-] [7] [8]
+[8] [9] [10] [11]
 
 ! LaTeX Error: Lonely \item--perhaps a missing list environment.
 
@@ -357,14 +465,267 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.538 ...ndrews et al.(2024)]{2024TNSCR3471....1A}
+l.617 ...[Farah et al.(2025)]{2025TNSCR3013....1F}
+                                                   Farah, J., Andrews, M., W...
+
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Underfull \hbox (badness 10000) detected at line 617
+[][]
+ []
+
+
+! LaTeX Error: Lonely \item--perhaps a missing list environment.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.618 ...ndrews et al.(2025)]{2025TNSCR2699....1A}
+                                                   Andrews, M., Farah, J., W...
+
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Underfull \hbox (badness 10000) detected at line 618
+[][]
+ []
+
+
+! LaTeX Error: Lonely \item--perhaps a missing list environment.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.619 ...tem[Li et al.(2025)]{2025GCN.40975....1L}
+                                                   Li, W.~X. and 8 colleague...
+
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Underfull \hbox (badness 10000) detected at line 619
+[][]
+ []
+
+
+! LaTeX Error: Lonely \item--perhaps a missing list environment.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.620 ...[Farah et al.(2025)]{2025TNSCR2162....1F}
+                                                   Farah, J., Andrew, M., Ho...
+
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Underfull \hbox (badness 10000) detected at line 620
+[][]
+ []
+
+
+! LaTeX Error: Lonely \item--perhaps a missing list environment.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.621 ...tem[Ni et al.(2025)]{2025TNSCR2041....1N}
+                                                   Ni, C., Andrews, M., Fara...
+
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Underfull \hbox (badness 10000) detected at line 621
+[][]
+ []
+
+
+! LaTeX Error: Lonely \item--perhaps a missing list environment.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.622 ...tem[Ni et al.(2025)]{2025TNSCR2027....1N}
+                                                   Ni, C., Andrews, M., Fara...
+
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Underfull \hbox (badness 10000) detected at line 622
+[][]
+ []
+
+
+! LaTeX Error: Lonely \item--perhaps a missing list environment.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.623 ...ndrews et al.(2025)]{2025TNSCR1947....1A}
+                                                   Andrews, M., Farah, J., N...
+
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Underfull \hbox (badness 10000) detected at line 623
+[][]
+ []
+
+
+! LaTeX Error: Lonely \item--perhaps a missing list environment.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.624 ...tem[Ni et al.(2025)]{2025TNSCR1733....1N}
+                                                   Ni, C., Andrews, M., Fara...
+
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Underfull \hbox (badness 10000) detected at line 624
+[][]
+ []
+
+
+! LaTeX Error: Lonely \item--perhaps a missing list environment.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.625 ...aldini et al.(2025)]{2025TNSCR1720....1B}
+                                                   Baldini, P. and 7 colleag...
+
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Underfull \hbox (badness 10000) detected at line 625
+[][]
+ []
+
+
+! LaTeX Error: Lonely \item--perhaps a missing list environment.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.626 ...aldini et al.(2025)]{2025TNSAN.142....1B}
+                                                   Baldini, P. and 7 colleag...
+
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Underfull \hbox (badness 10000) detected at line 626
+[][]
+ []
+
+
+! LaTeX Error: Lonely \item--perhaps a missing list environment.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.627 ...ndrews et al.(2025)]{2025TNSCR1539....1A}
+                                                   Andrews, M., Farah, J., N...
+
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Underfull \hbox (badness 10000) detected at line 627
+[][]
+ []
+
+
+! LaTeX Error: Lonely \item--perhaps a missing list environment.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.628 ...ndrews et al.(2025)]{2025TNSCR1531....1A}
+                                                   Andrews, M., Farah, J., N...
+
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Underfull \hbox (badness 10000) detected at line 628
+[][]
+ []
+
+
+! LaTeX Error: Lonely \item--perhaps a missing list environment.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.629 ...ewsome et al.(2025)]{2025TNSCR1351....1N}
+                                                   Newsome, M. and 8 colleag...
+
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Underfull \hbox (badness 10000) detected at line 629
+[][]
+ []
+
+[12]
+
+! LaTeX Error: Lonely \item--perhaps a missing list environment.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.630 ...tem[Li et al.(2025)]{2025GCN.40157....1L}
+                                                   Li, W.~X. and 8 colleague...
+
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Underfull \hbox (badness 10000) detected at line 630
+[][]
+ []
+
+
+! LaTeX Error: Lonely \item--perhaps a missing list environment.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.631 ...ndrews et al.(2025)]{2025TNSCR1076....1A}
                                                    Andrews, M., Farah, J., H...
 
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-Underfull \hbox (badness 10000) detected at line 538
+Underfull \hbox (badness 10000) detected at line 631
 [][]
  []
 
@@ -375,14 +736,465 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.539 ...stroem et al.(2024)]{2024TNSCR2571....1B}
+l.632 ...ndrews et al.(2025)]{2025TNSCR1033....1A}
+                                                   Andrews, M., Farah, J., H...
+
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Underfull \hbox (badness 10000) detected at line 632
+[][]
+ []
+
+
+! LaTeX Error: Lonely \item--perhaps a missing list environment.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.633 ...ndrews et al.(2025)]{2025TNSCR.991....1A}
+                                                   Andrews, M., Farah, J., H...
+
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Underfull \hbox (badness 10000) detected at line 633
+[][]
+ []
+
+
+! LaTeX Error: Lonely \item--perhaps a missing list environment.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.634 ...ndrews et al.(2025)]{2025TNSCR.977....1A}
+                                                   Andrews, M., Farah, J., H...
+
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Underfull \hbox (badness 10000) detected at line 634
+[][]
+ []
+
+
+! LaTeX Error: Lonely \item--perhaps a missing list environment.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.635 ...[Farah et al.(2025)]{2025TNSCR.922....1F}
+                                                   Farah, J., Andrews, M., N...
+
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Underfull \hbox (badness 10000) detected at line 635
+[][]
+ []
+
+
+! LaTeX Error: Lonely \item--perhaps a missing list environment.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.636 ...ndrews et al.(2025)]{2025TNSCR.914....1A}
+                                                   Andrews, M. and 6 colleag...
+
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Underfull \hbox (badness 10000) detected at line 636
+[][]
+ []
+
+
+! LaTeX Error: Lonely \item--perhaps a missing list environment.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.637 ...restha et al.(2025)]{2025GCN.39896....1S}
+                                                   Shrestha, M. and 13 colle...
+
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Underfull \hbox (badness 10000) detected at line 637
+[][]
+ []
+
+
+! LaTeX Error: Lonely \item--perhaps a missing list environment.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.638 ...tem[Li et al.(2025)]{2025GCN.39627....1L}
+                                                   Li, W.~X. and 8 colleague...
+
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Underfull \hbox (badness 10000) detected at line 638
+[][]
+ []
+
+
+! LaTeX Error: Lonely \item--perhaps a missing list environment.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.639 ...ndrews et al.(2025)]{2025TNSCR.802....1A}
+                                                   Andrews, M., Hiramatsu, D...
+
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Underfull \hbox (badness 10000) detected at line 639
+[][]
+ []
+
+
+! LaTeX Error: Lonely \item--perhaps a missing list environment.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.640 ...[Farah et al.(2025)]{2025TNSCR.530....1F}
+                                                   Farah, J., Andrews, M., N...
+
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Underfull \hbox (badness 10000) detected at line 640
+[][]
+ []
+
+
+! LaTeX Error: Lonely \item--perhaps a missing list environment.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.641 ...tem[Li et al.(2025)]{2025GCN.39489....1L}
+                                                   Li, W.~X. and 8 colleague...
+
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Underfull \hbox (badness 10000) detected at line 641
+[][]
+ []
+
+
+! LaTeX Error: Lonely \item--perhaps a missing list environment.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.642 ...tem[Li et al.(2025)]{2025GCN.39477....1L}
+                                                   Li, W.~X. and 8 colleague...
+
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Underfull \hbox (badness 10000) detected at line 642
+[][]
+ []
+
+
+! LaTeX Error: Lonely \item--perhaps a missing list environment.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.643 ...[Faris et al.(2025)]{2025TNSCR..25....1F}
+                                                   Faris, S. and 6 colleague...
+
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Underfull \hbox (badness 10000) detected at line 643
+[][]
+ []
+
+
+! LaTeX Error: Lonely \item--perhaps a missing list environment.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.644 ...ndrews et al.(2024)]{2024TNSCR4593....1A}
+                                                   Andrews, M., Farah, J., N...
+
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Underfull \hbox (badness 10000) detected at line 644
+[][]
+ []
+
+
+! LaTeX Error: Lonely \item--perhaps a missing list environment.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.645 ...ewsome et al.(2024)]{2024TNSCR4486....1N}
+                                                   Newsome, M. and 6 colleag...
+
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Underfull \hbox (badness 10000) detected at line 645
+[][]
+ []
+
+
+! LaTeX Error: Lonely \item--perhaps a missing list environment.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.646 ...ewsome et al.(2024)]{2024TNSCR4446....1N}
+                                                   Newsome, M. and 6 colleag...
+
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Underfull \hbox (badness 10000) detected at line 646
+[][]
+ []
+
+
+! LaTeX Error: Lonely \item--perhaps a missing list environment.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.647 ...[Faris et al.(2024)]{2024TNSCR4428....1F}
+                                                   Faris, S. and 6 colleague...
+
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Underfull \hbox (badness 10000) detected at line 647
+[][]
+ []
+
+[13]
+
+! LaTeX Error: Lonely \item--perhaps a missing list environment.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.648 ...ewsome et al.(2024)]{2024TNSCR4337....1N}
+                                                   Newsome, M. and 6 colleag...
+
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Underfull \hbox (badness 10000) detected at line 648
+[][]
+ []
+
+
+! LaTeX Error: Lonely \item--perhaps a missing list environment.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.649 ...tem[Li et al.(2024)]{2024GCN.38338....1L}
+                                                   Li, W.~X. and 8 colleague...
+
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Underfull \hbox (badness 10000) detected at line 649
+[][]
+ []
+
+
+! LaTeX Error: Lonely \item--perhaps a missing list environment.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.650 ...tem[Li et al.(2024)]{2024GCN.38127....1L}
+                                                   Li, W.~X. and 8 colleague...
+
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Underfull \hbox (badness 10000) detected at line 650
+[][]
+ []
+
+
+! LaTeX Error: Lonely \item--perhaps a missing list environment.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.651 ...[Faris et al.(2024)]{2024TNSCR4005....1F}
+                                                   Faris, S. and 6 colleague...
+
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Underfull \hbox (badness 10000) detected at line 651
+[][]
+ []
+
+
+! LaTeX Error: Lonely \item--perhaps a missing list environment.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.652 ...restha et al.(2024)]{2024GCN.37913....1S}
+                                                   Shrestha, M. and 11 colle...
+
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Underfull \hbox (badness 10000) detected at line 652
+[][]
+ []
+
+
+! LaTeX Error: Lonely \item--perhaps a missing list environment.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.653 ...tem[Li et al.(2024)]{2024GCN.37844....1L}
+                                                   Li, W.~X. and 8 colleague...
+
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Underfull \hbox (badness 10000) detected at line 653
+[][]
+ []
+
+
+! LaTeX Error: Lonely \item--perhaps a missing list environment.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.654 ...ewsome et al.(2024)]{2024TNSCR3794....1N}
+                                                   Newsome, M., Andrews, M.,...
+
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Underfull \hbox (badness 10000) detected at line 654
+[][]
+ []
+
+
+! LaTeX Error: Lonely \item--perhaps a missing list environment.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.655 ...ndrews et al.(2024)]{2024TNSCR3490....1A}
+                                                   Andrews, M., Farah, J., H...
+
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Underfull \hbox (badness 10000) detected at line 655
+[][]
+ []
+
+
+! LaTeX Error: Lonely \item--perhaps a missing list environment.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.657 ...ndrews et al.(2024)]{2024TNSCR3471....1A}
+                                                   Andrews, M., Farah, J., H...
+
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Underfull \hbox (badness 10000) detected at line 657
+[][]
+ []
+
+
+! LaTeX Error: Lonely \item--perhaps a missing list environment.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.658 ...stroem et al.(2024)]{2024TNSCR2571....1B}
                                                    Bostroem, K.~A. and 24 co...
 
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-Underfull \hbox (badness 10000) detected at line 539
+Underfull \hbox (badness 10000) detected at line 658
 [][]
  []
 
@@ -393,18 +1205,17 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.540 ...ewsome et al.(2024)]{2024TNSCR1687....1N}
+l.659 ...ewsome et al.(2024)]{2024TNSCR1687....1N}
                                                    Newsome, M., Farah, J., H...
 
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-Underfull \hbox (badness 10000) detected at line 540
+Underfull \hbox (badness 10000) detected at line 659
 [][]
  []
 
-[9]
 
 ! LaTeX Error: Lonely \item--perhaps a missing list environment.
 
@@ -412,14 +1223,14 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.541 ...nzadeh et al.(2024)]{2024TNSCR1686....1H}
+l.660 ...nzadeh et al.(2024)]{2024TNSCR1686....1H}
                                                    Hosseinzadeh, G. and 8 co...
 
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-Underfull \hbox (badness 10000) detected at line 541
+Underfull \hbox (badness 10000) detected at line 660
 [][]
  []
 
@@ -430,14 +1241,14 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.542 ...rreran et al.(2024)]{2024TNSCR.843....1T}
+l.661 ...rreran et al.(2024)]{2024TNSCR.843....1T}
                                                    Terreran, G., Howell, D.~...
 
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-Underfull \hbox (badness 10000) detected at line 542
+Underfull \hbox (badness 10000) detected at line 661
 [][]
  []
 
@@ -448,14 +1259,14 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.543 ...rreran et al.(2024)]{2024TNSCR.828....1T}
+l.662 ...rreran et al.(2024)]{2024TNSCR.828....1T}
                                                    Terreran, G., Howell, D.~...
 
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-Underfull \hbox (badness 10000) detected at line 543
+Underfull \hbox (badness 10000) detected at line 662
 [][]
  []
 
@@ -466,14 +1277,14 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.544 ...ewsome et al.(2024)]{2024TNSCR.505....1N}
+l.663 ...ewsome et al.(2024)]{2024TNSCR.505....1N}
                                                    Newsome, M. and 7 colleag...
 
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-Underfull \hbox (badness 10000) detected at line 544
+Underfull \hbox (badness 10000) detected at line 663
 [][]
  []
 
@@ -484,14 +1295,14 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.545 ...ewsome et al.(2024)]{2024TNSCR.448....1N}
+l.664 ...ewsome et al.(2024)]{2024TNSCR.448....1N}
                                                    Newsome, M., Farah, J., H...
 
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-Underfull \hbox (badness 10000) detected at line 545
+Underfull \hbox (badness 10000) detected at line 664
 [][]
  []
 
@@ -502,17 +1313,18 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.546 ...ewsome et al.(2024)]{2024TNSCR.413....1N}
+l.665 ...ewsome et al.(2024)]{2024TNSCR.413....1N}
                                                    Newsome, M., Farah, J., H...
 
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-Underfull \hbox (badness 10000) detected at line 546
+Underfull \hbox (badness 10000) detected at line 665
 [][]
  []
 
+[14]
 
 ! LaTeX Error: Lonely \item--perhaps a missing list environment.
 
@@ -520,14 +1332,14 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.547 ...nzalez et al.(2024)]{2024TNSCR.399....1G}
+l.666 ...nzalez et al.(2024)]{2024TNSCR.399....1G}
                                                    Gonzalez, E.~P. and 6 col...
 
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-Underfull \hbox (badness 10000) detected at line 547
+Underfull \hbox (badness 10000) detected at line 666
 [][]
  []
 
@@ -538,14 +1350,14 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.548 ...ewsome et al.(2024)]{2024TNSCR.344....1N}
+l.667 ...ewsome et al.(2024)]{2024TNSCR.344....1N}
                                                    Newsome, M. and 8 colleag...
 
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-Underfull \hbox (badness 10000) detected at line 548
+Underfull \hbox (badness 10000) detected at line 667
 [][]
  []
 
@@ -556,14 +1368,14 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.549 ...ewsome et al.(2024)]{2024TNSCR.261....1N}
+l.668 ...ewsome et al.(2024)]{2024TNSCR.261....1N}
                                                    Newsome, M. and 6 colleag...
 
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-Underfull \hbox (badness 10000) detected at line 549
+Underfull \hbox (badness 10000) detected at line 668
 [][]
  []
 
@@ -574,14 +1386,14 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.550 ...rreran et al.(2024)]{2024TNSCR.232....1T}
+l.669 ...rreran et al.(2024)]{2024TNSCR.232....1T}
                                                    Terreran, G. and 6 collea...
 
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-Underfull \hbox (badness 10000) detected at line 550
+Underfull \hbox (badness 10000) detected at line 669
 [][]
  []
 
@@ -592,14 +1404,14 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.551 ...ewsome et al.(2024)]{2024TNSCR..44....1N}
+l.670 ...ewsome et al.(2024)]{2024TNSCR..44....1N}
                                                    Newsome, M. and 6 colleag...
 
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-Underfull \hbox (badness 10000) detected at line 551
+Underfull \hbox (badness 10000) detected at line 670
 [][]
  []
 
@@ -610,14 +1422,14 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.552 ...Arcavi et al.(2023)]{2023TNSCR3391....1A}
+l.671 ...Arcavi et al.(2023)]{2023TNSCR3391....1A}
                                                    Arcavi, I., Terreran, G.,...
 
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-Underfull \hbox (badness 10000) detected at line 552
+Underfull \hbox (badness 10000) detected at line 671
 [][]
  []
 
@@ -628,14 +1440,14 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.553 ...rreran et al.(2023)]{2023TNSCR3376....1T}
+l.672 ...rreran et al.(2023)]{2023TNSCR3376....1T}
                                                    Terreran, G., Howell, D.~...
 
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-Underfull \hbox (badness 10000) detected at line 553
+Underfull \hbox (badness 10000) detected at line 672
 [][]
  []
 
@@ -646,14 +1458,14 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.554 ...[Farah et al.(2023)]{2023TNSCR2992....1F}
+l.673 ...[Farah et al.(2023)]{2023TNSCR2992....1F}
                                                    Farah, J. and 6 colleague...
 
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-Underfull \hbox (badness 10000) detected at line 554
+Underfull \hbox (badness 10000) detected at line 673
 [][]
  []
 
@@ -664,14 +1476,14 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.555 ...ewsome et al.(2023)]{2023TNSCR2557....1N}
+l.674 ...ewsome et al.(2023)]{2023TNSCR2557....1N}
                                                    Newsome, M., Farah, J., H...
 
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-Underfull \hbox (badness 10000) detected at line 555
+Underfull \hbox (badness 10000) detected at line 674
 [][]
  []
 
@@ -682,18 +1494,17 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.556 ...nzalez et al.(2023)]{2023TNSCR2348....1G}
+l.675 ...nzalez et al.(2023)]{2023TNSCR2348....1G}
                                                    Gonzalez, E.~P. and 6 col...
 
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-Underfull \hbox (badness 10000) detected at line 556
+Underfull \hbox (badness 10000) detected at line 675
 [][]
  []
 
-[10]
 
 ! LaTeX Error: Lonely \item--perhaps a missing list environment.
 
@@ -701,14 +1512,14 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.557 ...egrino et al.(2023)]{2023TNSCR2244....1P}
+l.676 ...egrino et al.(2023)]{2023TNSCR2244....1P}
                                                    Pellegrino, C. and 6 coll...
 
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-Underfull \hbox (badness 10000) detected at line 557
+Underfull \hbox (badness 10000) detected at line 676
 [][]
  []
 
@@ -719,14 +1530,14 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.558 ...[Farah et al.(2023)]{2023TNSCR2213....1F}
+l.677 ...[Farah et al.(2023)]{2023TNSCR2213....1F}
                                                    Farah, J. and 6 colleague...
 
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-Underfull \hbox (badness 10000) detected at line 558
+Underfull \hbox (badness 10000) detected at line 677
 [][]
  []
 
@@ -737,14 +1548,14 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.559 ...rreran et al.(2023)]{2023TNSCR2212....1T}
+l.678 ...rreran et al.(2023)]{2023TNSCR2212....1T}
                                                    Terreran, G. and 6 collea...
 
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-Underfull \hbox (badness 10000) detected at line 559
+Underfull \hbox (badness 10000) detected at line 678
 [][]
  []
 
@@ -755,14 +1566,14 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.560 ...rreran et al.(2023)]{2023TNSCR2162....1T}
+l.679 ...rreran et al.(2023)]{2023TNSCR2162....1T}
                                                    Terreran, G. and 6 collea...
 
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-Underfull \hbox (badness 10000) detected at line 560
+Underfull \hbox (badness 10000) detected at line 679
 [][]
  []
 
@@ -773,14 +1584,14 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.561 ...egrino et al.(2023)]{2023TNSCR2134....1P}
+l.680 ...egrino et al.(2023)]{2023TNSCR2134....1P}
                                                    Pellegrino, C. and 6 coll...
 
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-Underfull \hbox (badness 10000) detected at line 561
+Underfull \hbox (badness 10000) detected at line 680
 [][]
  []
 
@@ -791,14 +1602,14 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.562 ...nzalez et al.(2023)]{2023TNSCR2054....1G}
+l.681 ...nzalez et al.(2023)]{2023TNSCR2054....1G}
                                                    Gonzalez, E.~P. and 6 col...
 
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-Underfull \hbox (badness 10000) detected at line 562
+Underfull \hbox (badness 10000) detected at line 681
 [][]
  []
 
@@ -809,17 +1620,18 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.563 ...ewsome et al.(2023)]{2023TNSCR2033....1N}
+l.682 ...ewsome et al.(2023)]{2023TNSCR2033....1N}
                                                    Newsome, M. and 6 colleag...
 
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-Underfull \hbox (badness 10000) detected at line 563
+Underfull \hbox (badness 10000) detected at line 682
 [][]
  []
 
+[15]
 
 ! LaTeX Error: Lonely \item--perhaps a missing list environment.
 
@@ -827,14 +1639,14 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.564 ...ewsome et al.(2023)]{2023TNSCR1999....1N}
+l.683 ...ewsome et al.(2023)]{2023TNSCR1999....1N}
                                                    Newsome, M. and 6 colleag...
 
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-Underfull \hbox (badness 10000) detected at line 564
+Underfull \hbox (badness 10000) detected at line 683
 [][]
  []
 
@@ -845,14 +1657,14 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.565 ...[Farah et al.(2023)]{2023TNSCR1960....1F}
+l.684 ...[Farah et al.(2023)]{2023TNSCR1960....1F}
                                                    Farah, J. and 6 colleague...
 
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-Underfull \hbox (badness 10000) detected at line 565
+Underfull \hbox (badness 10000) detected at line 684
 [][]
  []
 
@@ -863,14 +1675,14 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.566 ...ewsome et al.(2023)]{2023TNSCR1865....1N}
+l.685 ...ewsome et al.(2023)]{2023TNSCR1865....1N}
                                                    Newsome, M. and 8 colleag...
 
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-Underfull \hbox (badness 10000) detected at line 566
+Underfull \hbox (badness 10000) detected at line 685
 [][]
  []
 
@@ -881,14 +1693,14 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.567 ...ewsome et al.(2023)]{2023TNSCR1767....1N}
+l.686 ...ewsome et al.(2023)]{2023TNSCR1767....1N}
                                                    Newsome, M. and 7 colleag...
 
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-Underfull \hbox (badness 10000) detected at line 567
+Underfull \hbox (badness 10000) detected at line 686
 [][]
  []
 
@@ -899,14 +1711,14 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.568 ...ewsome et al.(2023)]{2023TNSCR1754....1N}
+l.687 ...ewsome et al.(2023)]{2023TNSCR1754....1N}
                                                    Newsome, M. and 8 colleag...
 
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-Underfull \hbox (badness 10000) detected at line 568
+Underfull \hbox (badness 10000) detected at line 687
 [][]
  []
 
@@ -917,14 +1729,14 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.569 ...nzalez et al.(2023)]{2023TNSCR1753....1G}
+l.688 ...nzalez et al.(2023)]{2023TNSCR1753....1G}
                                                    Gonzalez, E.~P. and 6 col...
 
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-Underfull \hbox (badness 10000) detected at line 569
+Underfull \hbox (badness 10000) detected at line 688
 [][]
  []
 
@@ -935,14 +1747,14 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.570 ...ewsome et al.(2023)]{2023TNSCR1737....1N}
+l.689 ...ewsome et al.(2023)]{2023TNSCR1737....1N}
                                                    Newsome, M. and 6 colleag...
 
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-Underfull \hbox (badness 10000) detected at line 570
+Underfull \hbox (badness 10000) detected at line 689
 [][]
  []
 
@@ -953,14 +1765,14 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.571 ...nzalez et al.(2023)]{2023TNSCR1496....1G}
+l.690 ...nzalez et al.(2023)]{2023TNSCR1496....1G}
                                                    Gonzalez, E.~P. and 6 col...
 
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-Underfull \hbox (badness 10000) detected at line 571
+Underfull \hbox (badness 10000) detected at line 690
 [][]
  []
 
@@ -971,14 +1783,14 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.572 ...egrino et al.(2023)]{2023TNSCR1474....1P}
+l.691 ...egrino et al.(2023)]{2023TNSCR1474....1P}
                                                    Pellegrino, C. and 6 coll...
 
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-Underfull \hbox (badness 10000) detected at line 572
+Underfull \hbox (badness 10000) detected at line 691
 [][]
  []
 
@@ -989,14 +1801,14 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.573 ...egrino et al.(2023)]{2023TNSCR1279....1P}
+l.692 ...egrino et al.(2023)]{2023TNSCR1279....1P}
                                                    Pellegrino, C. and 7 coll...
 
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-Underfull \hbox (badness 10000) detected at line 573
+Underfull \hbox (badness 10000) detected at line 692
 [][]
  []
 
@@ -1007,18 +1819,17 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.574 ...[Farah et al.(2023)]{2023TNSCR1137....1F}
+l.693 ...[Farah et al.(2023)]{2023TNSCR1137....1F}
                                                    Farah, J. and 6 colleague...
 
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-Underfull \hbox (badness 10000) detected at line 574
+Underfull \hbox (badness 10000) detected at line 693
 [][]
  []
 
-[11]
 
 ! LaTeX Error: Lonely \item--perhaps a missing list environment.
 
@@ -1026,14 +1837,14 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.575 ...nzalez et al.(2023)]{2023TNSCR1017....1G}
+l.694 ...nzalez et al.(2023)]{2023TNSCR1017....1G}
                                                    Gonzalez, E.~P. and 6 col...
 
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-Underfull \hbox (badness 10000) detected at line 575
+Underfull \hbox (badness 10000) detected at line 694
 [][]
  []
 
@@ -1044,14 +1855,14 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.576 ...ewsome et al.(2023)]{2023TNSCR.944....1N}
+l.695 ...ewsome et al.(2023)]{2023TNSCR.944....1N}
                                                    Newsome, M. and 6 colleag...
 
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-Underfull \hbox (badness 10000) detected at line 576
+Underfull \hbox (badness 10000) detected at line 695
 [][]
  []
 
@@ -1062,14 +1873,14 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.577 ...[Farah et al.(2023)]{2023TNSCR.793....1F}
+l.696 ...[Farah et al.(2023)]{2023TNSCR.793....1F}
                                                    Farah, J. and 6 colleague...
 
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-Underfull \hbox (badness 10000) detected at line 577
+Underfull \hbox (badness 10000) detected at line 696
 [][]
  []
 
@@ -1080,14 +1891,14 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.578 ...egrino et al.(2023)]{2023TNSCR.725....1P}
+l.697 ...egrino et al.(2023)]{2023TNSCR.725....1P}
                                                    Pellegrino, C. and 6 coll...
 
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-Underfull \hbox (badness 10000) detected at line 578
+Underfull \hbox (badness 10000) detected at line 697
 [][]
  []
 
@@ -1098,14 +1909,14 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.579 ...egrino et al.(2023)]{2023TNSAN..75....1P}
+l.698 ...egrino et al.(2023)]{2023TNSAN..75....1P}
                                                    Pellegrino, C. and 6 coll...
 
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-Underfull \hbox (badness 10000) detected at line 579
+Underfull \hbox (badness 10000) detected at line 698
 [][]
  []
 
@@ -1116,14 +1927,14 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.580 ...egrino et al.(2023)]{2023TNSCR.542....1P}
+l.699 ...egrino et al.(2023)]{2023TNSCR.542....1P}
                                                    Pellegrino, C. and 7 coll...
 
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-Underfull \hbox (badness 10000) detected at line 580
+Underfull \hbox (badness 10000) detected at line 699
 [][]
  []
 
@@ -1134,17 +1945,18 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.581 ...rreran et al.(2023)]{2023TNSCR.490....1T}
+l.700 ...rreran et al.(2023)]{2023TNSCR.490....1T}
                                                    Terreran, G. and 6 collea...
 
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-Underfull \hbox (badness 10000) detected at line 581
+Underfull \hbox (badness 10000) detected at line 700
 [][]
  []
 
+[16]
 
 ! LaTeX Error: Lonely \item--perhaps a missing list environment.
 
@@ -1152,14 +1964,14 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.582 ...nzadeh et al.(2023)]{2023TNSCR.277....1H}
+l.701 ...nzadeh et al.(2023)]{2023TNSCR.277....1H}
                                                    Hosseinzadeh, G. and 8 co...
 
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-Underfull \hbox (badness 10000) detected at line 582
+Underfull \hbox (badness 10000) detected at line 701
 [][]
  []
 
@@ -1170,14 +1982,14 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.583 ...egrino et al.(2023)]{2023TNSCR.218....1P}
+l.702 ...egrino et al.(2023)]{2023TNSCR.218....1P}
                                                    Pellegrino, C. and 6 coll...
 
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-Underfull \hbox (badness 10000) detected at line 583
+Underfull \hbox (badness 10000) detected at line 702
 [][]
  []
 
@@ -1188,14 +2000,14 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.584 ...[Farah et al.(2023)]{2023TNSCR.144....1F}
+l.703 ...[Farah et al.(2023)]{2023TNSCR.144....1F}
                                                    Farah, J. and 6 colleague...
 
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-Underfull \hbox (badness 10000) detected at line 584
+Underfull \hbox (badness 10000) detected at line 703
 [][]
  []
 
@@ -1206,14 +2018,14 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.585 ...egrino et al.(2022)]{2022TNSCR2757....1P}
+l.704 ...egrino et al.(2022)]{2022TNSCR2757....1P}
                                                    Pellegrino, C. and 8 coll...
 
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-Underfull \hbox (badness 10000) detected at line 585
+Underfull \hbox (badness 10000) detected at line 704
 [][]
  []
 
@@ -1224,14 +2036,14 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.586 ...egrino et al.(2022)]{2022TNSCR2707....1P}
+l.705 ...egrino et al.(2022)]{2022TNSCR2707....1P}
                                                    Pellegrino, C. and 7 coll...
 
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-Underfull \hbox (badness 10000) detected at line 586
+Underfull \hbox (badness 10000) detected at line 705
 [][]
  []
 
@@ -1242,14 +2054,14 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.587 ...egrino et al.(2022)]{2022TNSCR2535....1P}
+l.706 ...egrino et al.(2022)]{2022TNSCR2535....1P}
                                                    Pellegrino, C. and 8 coll...
 
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-Underfull \hbox (badness 10000) detected at line 587
+Underfull \hbox (badness 10000) detected at line 706
 [][]
  []
 
@@ -1260,29 +2072,29 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.588 ...egrino et al.(2022)]{2022TNSCR2510....1P}
+l.707 ...egrino et al.(2022)]{2022TNSCR2510....1P}
                                                    Pellegrino, C. and 7 coll...
 
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-Underfull \hbox (badness 10000) detected at line 588
+Underfull \hbox (badness 10000) detected at line 707
 [][]
  []
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 599.
-[12]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 599.
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 599.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 599.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 599.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 718.
+[17]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 718.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 718.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 718.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 718.
  ) 
 Here is how much of TeX's memory you used:
- 5809 strings out of 480608
- 87462 string characters out of 5903631
+ 5818 strings out of 480608
+ 87529 string characters out of 5903631
  360507 words of memory out of 5000000
- 21598 multiletter control sequences out of 15000+600000
+ 21602 multiletter control sequences out of 15000+600000
  540655 words of font info for 51 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  34i,9n,37p,508b,454s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1310,10 +2122,10 @@ ive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local/texliv
 e/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/
 2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2
 020/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb>
-Output written on main.pdf (12 pages, 191630 bytes).
+Output written on main.pdf (17 pages, 203680 bytes).
 PDF statistics:
- 163 PDF objects out of 1000 (max. 8388607)
- 133 compressed objects within 2 object streams
- 16 named destinations out of 1000 (max. 500000)
+ 185 PDF objects out of 1000 (max. 8388607)
+ 150 compressed objects within 2 object streams
+ 21 named destinations out of 1000 (max. 500000)
  9 words of extra memory for PDF output out of 10000 (max. 10000000)
 

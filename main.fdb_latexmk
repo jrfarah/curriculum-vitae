@@ -1,5 +1,5 @@
 # Fdb version 3
-["pdflatex"] 1754342379 "main.tex" "main.pdf" "main" 1754342379
+["pdflatex"] 1754436890 "main.tex" "main.pdf" "main" 1754436890
   "/usr/local/texlive/2020/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc" 1136849721 2900 1537cc8184ad1792082cd229ecc269f4 ""
   "/usr/local/texlive/2020/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2020/texmf-dist/fonts/tfm/jknappen/ec/tcrm1000.tfm" 1136768653 1536 e07581a4bb3136ece9eeb4c3ffab8233 ""
@@ -87,8 +87,8 @@
   "/usr/local/texlive/2020/texmf.cnf" 1586288231 577 d60164b4589a341208aff7a667fbbdcb ""
   "main.aux" 1752448599 969 340c255c96fc77af8066554a0fa0d7f4 ""
   "main.out" 1752448599 67 581f6e71b2fdcaffe1c835bf95517d9e ""
-  "main.tex" 1754342373 42595 414e360f773cb71147d2294eb35e60d0 ""
+  "main.tex" 1754436889 58956 9f68f39127bebd9ab7bb6db8e2fb0448 ""
   "res.cls" 1752448666 25109 4aaddbc00695c74cbaf6137679c86a6e ""
   (generated)
-  "main.log"
   "main.pdf"
+  "main.log"
