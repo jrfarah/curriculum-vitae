@@ -1,5 +1,6 @@
 \documentclass[margin,line]{res}
 \usepackage[dvipsnames,table,xcdraw]{xcolor}
+\usepackage{mdframed}
 % \usepackage{txfonts}
 \oddsidemargin -.5in
 \evensidemargin -.5in
@@ -51,10 +52,11 @@
 \name{Joseph R. Farah \vspace*{.1in}}
 \begin{resume}
 
+
 \section{\sc Contact Information}
 \vspace{.05in}
 \begin{tabular}{@{}p{3in}p{4in}}
-Las Cumbres Observatory and Global Telescope \\             
+Las Cumbres Observatory and Global Telescope & \textit{ORCID}: \href{https://orcid.org/0000-0003-4914-5625}{0000-0003-4914-5625} \\             
 6740 Cortona Dr  & {\it E-mail:} \href{mailto:jfarah@lco.global}{\color{blue}jfarah@lco.global}\\
 Goleta, CA 93117  & {\it Website:} \href{http://jrfarah.com}{\color{blue}http://jrfarah.com} \\
 USA & \textit{Citations}: \href{https://scholar.google.com/citations?hl=en&user=EVnW70sAAAAJ}{\color{blue}Google Scholar profile}\\
@@ -240,40 +242,6 @@ I image supermassive black holes and assist in observations using the Event Hori
 
 
 
-\vspace{+.4cm}
-\section{{\sc Featured Publications  \\ \vspace{0.3cm} {\footnotesize Citations: 19000+ \\ \vspace{0.1cm} \noindent Ref'd Papers: 110+ \vspace{0.1cm} \\ $h$-index: 37 \\ i10-index: 68}} \\ }
-
-\textbf{NB:} Please see full list of publications on page 6
-
-
-\footnote[$\dagger$]{\noindent $^\dagger$These six papers are the first results papers from the Event Horizon Telescope, presenting the first image of a black hole.}1--6. \textbf{Event Horizon Telescope Collaboration} et al. (2019) ApJL, 875, L2-6
-
-
-
-\footnote[$^S$]{\noindent $^S$These 10  papers are the first Galactic Center results papers from the Event Horizon Telescope, presenting the second image of a black hole and the first horizon-scale images of Sgr A$^\ast$.}7--16. \textbf{Event Horizon Telescope Collaboration et al}. (2022) ApJL 930 L12-17,L19-21
-
-17. \textbf{$^S$J. R. Farah}, ..., and the Event Horizon Telescope Collaboration. (2022) \textit{Selective Dynamical Imaging of Interferometric Data.} ApJL, 930, L18
-
-18. \textbf{J. R. Farah}, L. J. Prust, D. A. Howell. Y. Q. Ni, et al. 2025. \textit{Lense-Thirring precessing magnetar engine drives a superluminous supernova.} Nature, submitted.
-
-
-19. \textbf{J. R. Farah}, D. A. Howell, G. Terreran, et al. 2024. \textit{Shock-cooling Constraints via Early-time Observations of the Type IIb SN 2022hnt}. ApJ, accepted.
-
-
-20. \textbf{J. R. Farah}, J. Davelaar, D. Palumbo, M. Johnson, J. Delgado. 2024. \textit{Machine- and deep-learning-driven angular momentum inference from BHEX observations of the $n = 1$ photon ring}. ApJ, accepted.
-
-21. \textbf{J. R. Farah}, D. W. Pesce, M. D. Johnson, \& L. Blackburn. 2020. \textit{On the Approximation of the Black Hole Shadow with a Simple Polar Curve}. ApJ, 900, 77.
-
-
-22. \textbf{J. R. Farah}, D. Hiramatsu, D. A. Howell, et al. 2025. \textit{When IIb Ceases To Be: Bridging the Gap Between Type IIb and Short-plateau Supernovae}. ApJ, submitted.
-
-23. \textbf{J. R. Farah}, L. J. Prust, G. Terreran, D. A. Howell. 2025. \textit{The First 4 Years of SN 1993J Revisited: Geometric Modeling of the Radio Shell with Closure Quantities}. ApJ, in prep.
-
-24. \textbf{J. R. Farah}, A. Lupsasca, C. Gammie. 2025. \textit{Interferometric inference of black hole spin from the photon ring brightness profile}. ApJ, in prep.
-
-
-
-
 
 
 \vspace{+.4cm}
@@ -283,20 +251,27 @@ I image supermassive black holes and assist in observations using the Event Hori
 \begin{itemize}
     \item[] Courtney Duong (UC Santa Barbara) \hfill 2024 - Present
     \begin{itemize}
-        \item[] \textit{Gene and Susan Lucas Undergraduate Research Scholarship}
+        \item[] Project: Convolutional neural network for extraction of the $n=1$ black hole photon ring
+        \item[] Award: \textit{Gene and Susan Lucas Undergraduate Research Scholarship}
+        \item[] Award: \textit{Edison STEM Research Scholarship}
     \end{itemize}
     \item[] Franklin Myhre (UC Santa Barbara) \hfill 2024 - Present
-    \item[] Jingkai Wang (UC Santa Barbara) \hfill 2024 - Present
+    \begin{itemize}
+        \item[] Project: Development of a \texttt{python} library for automated image-domain subring extraction
+    \end{itemize}
     \item[] Sanjit Masanam (UC Santa Barbara) \hfill 2024 - Present
     \begin{itemize}
-        \item[] \textit{2025 Goldwater Scholarship (nominated)}
-        \item[] \textit{2025 Ernest F. Hollings Scholarship}
+        \item[] Award: \textit{2025 Goldwater Scholarship (nominated)}
+        \item[] Award: \textit{2025 Ernest F. Hollings Scholarship}
     \end{itemize}
     \item[] Songgun Lee (UC Santa Barbara) \hfill 2024 - Present
     \begin{itemize}
         \item[] \textit{Co-founder at Masterminding}
     \end{itemize}
-    \item[] Tazzy Imbabi (UC Santa Barbara)
+    \item[] Tazzy Imbabi (UC Santa Barbara) \hfill 2024
+    \begin{itemize}
+        \item[] Project: Exploration of selective dynamical imaging applications to BHEX
+    \end{itemize}
 \end{itemize}
 
 
@@ -304,7 +279,19 @@ I image supermassive black holes and assist in observations using the Event Hori
 \vspace{+.4cm}
 \section{\sc Invited Talks, Panels, Interviews and Filmography}
 
+The first 4 years of SN 1993J revisited. UC Berkeley, Berkeley, CA. Invited seminar speaker. September 2025. 
+
+Lense-Thirring precessing magnetar engine drives a superluminous supernova. UC Berkeley, Berkeley, CA. Invited speaker for Multi-RAPTOR colloquium. September 2025. 
+
+Extragalactic science with the Vera C. Rubin Observatory. Santa Barbara Museum of Natural History. Invited speaker for public lecture. August 2025. {\color{blue}\href{https://www.sbnature.org/visit/calendar/8760/new-frontiers-in-astronomy-powered-by-the-rubin-observatory}{Event URL.}}
+
+Probing fundamental physics using high-energy astrophysical phenomena. Goleta, CA. Invited speaker for the Las Cumbres Observatory Science Advisory Committee. August 2025.
+
 Machine- and deep-learning-driven angular momentum inference from Black Hole Explorer observations of the n=1 photon subring. \textit{Topics in Gravitational Physics}. Presentation at the APS Global Physics Summit. March 2025. {\color{blue}\href{https://summit.aps.org/events/APR-C20/8}{Event URL.}}
+
+Current and Future Impacts of Survey Capabilities on the Stripped Envelope Problem. Kavli Institute for Theoretical Physics, Santa Barbara, CA. February 2025. 
+
+Shock-cooling Constraints via Early-time Observations of the Type IIb SN 2022hnt. Kavli Institute for Theoretical Physics, Santa Barbara. February 2025. 
 
 The Black Hole Explorer and the Edge of the Universe. Santa Barbara Museum of Natural History. April 2025. Invited speaker for public lecture. {\color{blue}\href{https://www.sbnature.org/visit/calendar/8642/the-black-hole-explorer-and-the-edge-of-the-universe}{Event URL.}}
 
@@ -363,7 +350,7 @@ UMass Boston Alum Wins Prestigious National Academic Award in Physics. Danielle 
 
 The First Image of a Black Hole. Seagrave Memorial Observatory, North Scituate, Rhode Island. Invited speaker for Skyscrapers, Inc. 2021.
 
-Galison, P. L. (Director). 2021. \textit{Black Holes: The Edge of All We Know.} Film. Sandbox Films.
+Galison, P. L. (Director). 2021. \textit{Black Holes: The Edge of All We Know.} Film. Sandbox Films. \href{https://www.netflix.com/title/81343342}{View on Netflix.}
 
 Very Long Baseline Interferometry and the Event Horizon Telescope. University of Massachusetts, Boston, Massachusetts. Invited speaker for Astronomy 121. 2019 (2 times), 2020 (2 times).
 
@@ -391,196 +378,265 @@ Imaging a Black Hole with the Event Horizon Telescope. Harvard University, Cambr
 2019.
 
 
+\newpage
+\vspace{+.4cm}
+\section{{\sc Publications (first-author)  \\ \vspace{0.3cm} {\footnotesize \textbf{\color{Maroon} Stats (all papers)}: \\Citations: 19,100+ \\ \vspace{0.1cm} \noindent Ref'd Papers: 118+ \vspace{0.1cm} \\ $h$-index: 37 \\ i10-index: 73}} \\ }
+
+% \textbf{NB:} Please see full list of publications on page 6
+
+8. \textbf{J. R. Farah}, Lupsasca, A., Quataert, E., Johnson, M. D. 2025. \textit{Interferometric inference of black hole spin from photon ring size and brightness}. Submitted to ApJ. \href{https://arxiv.org/abs/2509.23628}{arXiv:2509.23628}.
+
+7. \textbf{J. R. Farah}, Prust, L. J., Howell, D. A., \textit{et al.}. 2025. \textit{Lense-Thirring precessing magnetar engine drives a superluminous supernova}. Submitted to \textit{Nature}, positive referee report received, response submitted. \href{https://arxiv.org/abs/2509.08051}{arXiv:2509.08051}.
+
+6. \textbf{J. R. Farah}, Howell, D. A., Hiramatsu, D., \textit{et al.}. 2025. \textit{When IIb Ceases To Be: Bridging the Gap Between IIb and Short-plateau Supernovae}. Submitted to ApJ, positive referee report received. \href{https://arxiv.org/abs/2509.12470}{arXiv:2509.12470}.
+
+5. \textbf{J. R. Farah}, Prust, L. J., Terreran, G., \textit{et al.}. 2025. \textit{The First 4 Years of SN 1993J Revisited: Geometric $m$-ring Modeling of the Radio Shell with Closure Quantities Only}. arXiv e-prints, \href{https://arxiv.org/abs/2509.20601}{arXiv:2509.20601}.
+
+4. \textbf{J. R. Farah}, Davelaar, J., Palumbo, D., Johnson, M., Delgado, J. 2025. \textit{Machine and Deep Learning-driven Angular Momentum Inference from BHEX Observations of the n = 1 Photon Ring}. \apj, 983, \href{https://iopscience.iop.org/article/10.3847/1538-4357/adbbe3}{185}. \href{https://arxiv.org/abs/2411.01060}{arXiv:2411.01060}.
+
+3. \textbf{J. R. Farah}, Howell, D. A., Terreran, G., \textit{et al.}. 2025. \textit{Shock-cooling Constraints via Early-time Observations of the Type IIb SN 2022hnt}. \apj, 984, \href{https://iopscience.iop.org/article/10.3847/1538-4357/adad5a}{60}. \href{https://arxiv.org/abs/2501.17221}{arXiv:2501.17221}.
+
+
+2. \footnote[$^S$]{\noindent $^S$This was the seventh paper of the 10-paper first Galactic Center results series from the Event Horizon Telescope, presenting the second image of a black hole and the first horizon-scale images of Sgr A$^\ast$.}\textbf{J. R. Farah}, Galison, P., Akiyama, K., \textit{et al.}. 2022. \textit{Selective Dynamical Imaging of Interferometric Data}. \apjl, 930, \href{https://iopscience.iop.org/article/10.3847/2041-8213/ac6615}{L18}. \href{https://arxiv.org/abs/2409.08321}{arXiv:2409.08321}.
+
+1. \textbf{J. R. Farah}, Pesce, D. W., Johnson, M. D., Blackburn, L. 2020. \textit{On the Approximation of the Black Hole Shadow with a Simple Polar Curve}. \apj, 900, \href{https://iopscience.iop.org/article/10.3847/1538-4357/aba59a}{77}. \href{https://arxiv.org/abs/2007.06732}{arXiv:2007.06732}.
+
+
 
 
 \vspace{+.4cm}
-\section{\sc Publications} 
+\section{\sc Publications (\fcolorbox{red}{white}{Major} or normal contribution)} 
 \label{sec:publications}
 
-(last updated: Aug 2025)
+(last updated: Sep 2025)
 
-111. S. H. Park, J. Rho, S.-C. Yoon, ...\textbf{J. R. Farah} et al. (2025). \textit{Near-Infrared Spectroscopy and Detection of Carbon Monoxide in the Type II Supernova SN 2023ixf}. arXiv:2507.11877.
+110. Wang, Z. Y., Pastorello, A., Cai, Y. Z., ..., \textbf{J. R. Farah}, \textit{et al.}. 2025. \textit{Massive stars exploding in a He-rich circumstellar medium: XI. Diverse evolution of five Ibn SNe 2020nxt, 2020taz, 2021bbv, 2023utc, and 2024aej}. \aap, 700, A156. \href{https://arxiv.org/abs/2506.15139}{arXiv:2506.15139}.
 
-110. H. Sun, W.-X. Li, L.-D. Liu, ...\textbf{J. Farah} et al. (2025). \textit{A fast X-ray transient from a weak relativistic jet associated with a type Ic-BL supernova}. Nature Astronomy, 9, 1073–1085.
+109. Bostroem, K. A., Valenti, S., Sand, D. J., ..., \textbf{J. R. Farah}, \textit{et al.}. 2025. \textit{Late-time Hubble Space Telescope Ultraviolet Spectra of SN 2023ixf and SN 2024ggi Show Ongoing Interaction with Circumstellar Material}. arXiv e-prints, \href{https://arxiv.org/abs/2508.11756}{arXiv:2508.11756}.
 
-109. S.-Q. Jiang, D. Xu, A. P. C. van Hoof, ...\textbf{J. R. Farah} et al. (2025). \textit{EP240801a/XRF 240801B: An X-Ray Flash Detected by the Einstein Probe and the Implications of Its Multiband Afterglow}. ApJL, 988(1), L34.
+108. Kwok, L. A., Singh, M., Jha, S. W., ..., \textbf{J. R. Farah}, \textit{et al.}. 2025. \textit{JWST and Ground-based Observations of the Type Iax Supernovae SN 2024pxl and SN 2024vjm: Evidence for Weak Deflagration Explosions}. \apjl, 989, L33. \href{https://arxiv.org/abs/2505.02944}{arXiv:2505.02944}.
 
-108. L. Makrygianni, I. Arcavi, M. Newsome, ...\textbf{J. R. Farah} et al. (2025). \textit{The Double Tidal Disruption Event AT 2022dbl Implies that at Least Some “Standard” Optical Tidal Disruption Events Are Partial Disruptions}. ApJL, 987(1), L20.
+107. Gagliano, A., Villar, V., Matsumoto, T., ..., \textbf{J. R. Farah}, \textit{et al.}. 2025. \textit{Evidence for an Instability-induced Binary Merger in the Double-peaked, Helium-rich Type IIn Supernova 2023zkd}. \apj, 989, 182. \href{https://arxiv.org/abs/2502.19469}{arXiv:2502.19469}.
 
-107. H. Kumar, E. Berger, P. K. Blanchard, ...\textbf{J. R. Farah} et al. (2025). \textit{A Near-infrared Search for Helium in the Superluminous Supernova SN 2024ahr}. ApJ, 987(2), 127.
+106. \'Sniegowska, M., Trakhtenbrot, B., Makrygianni, L., ..., \textbf{J. R. Farah}, \textit{et al.}. 2025. \textit{AT 2019aalc: A Bowen Fluorescence Flare with a Precursor Flare in an Active Galactic Nucleus}. \apj, 989, 173. \href{https://arxiv.org/abs/2505.00083}{arXiv:2505.00083}.
 
-106. R. Dahale, I. Cho, K. Moriyama, ...\textbf{J. R. Farah} et al. (2025). \textit{Origin of the ring ellipticity in the black hole images of M87$^{*}$}. A&A, 699, A279.
+105. Makrygianni, L., Arcavi, I., Newsome, M., ..., \textbf{J. R. Farah}, \textit{et al.}. 2025. \textit{The Double Tidal Disruption Event AT 2022dbl Implies that at Least Some ``Standard'' Optical Tidal Disruption Events Are Partial Disruptions}. \apjl, 987, L20. \href{https://arxiv.org/abs/2505.16867}{arXiv:2505.16867}.
 
-105. C. Goddi, D. F. Carlos, G. B. Crew, ...\textbf{J. R. Farah} et al. (2025). \textit{First polarization study of the M87 jet and active galactic nuclei at submillimeter wavelengths with ALMA}. A&A, 699, A265.
+104. Dahale, R., Cho, I., Moriyama, K., ..., \textbf{J. R. Farah}, \textit{et al.}. 2025. \textit{Origin of the ring ellipticity in the black hole images of M87$^{*}$}. \aap, 699, A279. \href{https://arxiv.org/abs/2505.10333}{arXiv:2505.10333}.
 
-104. Z.-Y. Wang, A. Pastorello, Y.-Z. Cai, ...\textbf{J. R. Farah} et al. (2025). \textit{Massive stars exploding in a He-rich circumstellar medium. XI. Diverse evolution of five Ibn SNe 2020nxt, 2020taz, 2021bbv, 2023utc and 2024aej}. arXiv, arXiv:2506.15139.
+103. Park, S. H., Rho, J., Yoon, S. C., ..., \textbf{J. R. Farah}, \textit{et al.}. 2025. \textit{Near-Infrared Spectroscopy and Detection of Carbon Monoxide in the Type II Supernova SN 2023ixf}. arXiv e-prints, \href{https://arxiv.org/abs/2507.11877}{arXiv:2507.11877}.
 
-103. H. Kumar, E. Berger, P. K. Blanchard, ...\textbf{J. R. Farah} et al. (2025). \textit{A Detection of Helium in the Bright Superluminous Supernova SN 2024rmj}. arXiv, arXiv:2506.06417.
+102. Goddi, C., Carlos, D. F., Crew, G. B., ..., \textbf{J. R. Farah}, \textit{et al.}. 2025. \textit{First polarization study of the M87 jet and active galactic nuclei at submillimeter wavelengths with ALMA}. \aap, 699, A265. \href{https://arxiv.org/abs/2505.10181}{arXiv:2505.10181}.
 
-102. B. Palit, M. Śniegowska, A. Markowitz, ...\textbf{J. R. Farah} et al. (2025). \textit{Markarian 590: the AGN awakens}. MNRAS, 540(1), L14–L20.
+101. Jiang, S. Q., Xu, D., van Hoof, A. P., ..., \textbf{J. R. Farah}, \textit{et al.}. 2025. \textit{EP240801a/XRF 240801B: An X-Ray Flash Detected by the Einstein Probe and the Implications of Its Multiband Afterglow}. \apjl, 988, L34. \href{https://arxiv.org/abs/2503.04306}{arXiv:2503.04306}.
 
-101. F. Onori, M. Nicholl, P. Ramsden, ...\textbf{J. R. Farah} et al. (2025). \textit{The case of AT2022wtn: a tidal disruption event in an interacting galaxy}. MNRAS, 540(1), 498–520.
+100. Sun, H., Li, W. X., Liu, L. D., ..., \textbf{J. R. Farah}, \textit{et al.}. 2025. \textit{A fast X-ray transient from a weak relativistic jet associated with a type Ic-BL supernova}. Nature Astronomy, 9, 1073-1085. \href{https://arxiv.org/abs/2410.02315}{arXiv:2410.02315}.
 
-100. X. Zeng, L. Hu, S. Zheng, ...\textbf{J. R. Farah} et al. (2025). \textit{SN 2023ehl: A Normal Type Ia Supernova with High-velocity Features}. ApJ, 986(1), 68.
+99. Kumar, H., Berger, E., Blanchard, P. K., ..., \textbf{J. R. Farah}, \textit{et al.}. 2025. \textit{A Near-infrared Search for Helium in the Superluminous Supernova SN 2024ahr}. \apj, 987, 127. \href{https://arxiv.org/abs/2501.01485}{arXiv:2501.01485}.
 
-99. X. Ma, X. Wang, J. Mo, ...\textbf{J. Farah} et al. (2025). \textit{Supernovae at distances <40 Mpc: II. Supernova rate in the local Universe}. A&A, 698, A306.
+98. Singh, M., Kwok, L. A., Jha, S. W., ..., \textbf{J. R. Farah}, \textit{et al.}. 2025. \textit{Photometry and Spectroscopy of SN 2024pxl: A Luminosity Link Among Type Iax Supernovae}. arXiv e-prints, \href{https://arxiv.org/abs/2505.02943}{arXiv:2505.02943}.
 
-98. X. Ma, X. Wang, J. Mo, ...\textbf{J. Farah} et al. (2025). \textit{Supernovae at distances <40 Mpc: I. Catalogues and fractions of supernovae in a complete sample}. A&A, 698, A305.
+97. Jacobson-Gal\'an, W., Dessart, L., Davis, K., \textit{et al.}. 2025. \textit{Final Moments III: Explosion Properties and Progenitor Constraints of CSM-Interacting Type II Supernovae}. arXiv e-prints, \href{https://arxiv.org/abs/2505.04698}{arXiv:2505.04698}.
 
-97. X. Zeng, Y. Luo, X. Wang, ...\textbf{J. R. Farah} et al. (2025). \textit{SN 2023xqm: A gradually fading Ia supernova exhibiting isolated high-velocity signatures}. A&A, 698, A70.
+96. Liu, M., Zhang, Y., Wang, Y., ..., \textbf{J. R. Farah}, \textit{et al.}. 2025. \textit{Detection of an Orphan X-Ray Flare from a Blazar Candidate EP240709a with the Einstein Probe}. \apj, 984, 5. \href{https://arxiv.org/abs/2412.18463}{arXiv:2412.18463}.
 
-96. W. V. Jacobson-Galán, L. Dessart, K. W. Davis, ...\textbf{J. R. Farah} et al. (2025). \textit{Final Moments III: Explosion Properties and Progenitor Constraints of CSM-Interacting Type II Supernovae}. arXiv, arXiv:2505.04698.
+95. Shrestha, M., DeSoto, S., Sand, D. J., ..., \textbf{J. R. Farah}, \textit{et al.}. 2025. \textit{Spectropolarimetry of SN 2023ixf Reveals Both Circumstellar Material and an Aspherical Helium Core}. \apjl, 982, L32. \href{https://arxiv.org/abs/2410.08199}{arXiv:2410.08199}.
 
-95. L. A. Kwok, M. Singh, S. W. Jha, ...\textbf{J. R. Farah} et al. (2025). \textit{JWST and Ground-based Observations of the Type Iax Supernovae SN 2024pxl and SN 2024vjm: Evidence for Weak Deflagration Explosions}. arXiv, arXiv:2505.02944.
+94. Ravi, A. P., Valenti, S., Dong, Y., ..., \textbf{J. R. Farah}, \textit{et al.}. 2025. \textit{Luminous Type II Short-plateau SN 2023ufx: Asymmetric Explosion of a Partially Stripped Massive Progenitor}. \apj, 982, 12. \href{https://arxiv.org/abs/2411.02493}{arXiv:2411.02493}.
 
-94. M. Singh, L. A. Kwok, S. W. Jha, ...\textbf{J. R. Farah} et al. (2025). \textit{Photometry and Spectroscopy of SN 2024pxl: A Luminosity Link Among Type Iax Supernovae}. arXiv, arXiv:2505.02943.
+93. R\"oder, J., Wielgus, M., Lobanov, A. P., ..., \textbf{J. R. Farah}, \textit{et al.}. 2025. \textit{A multifrequency study of sub-parsec jets with the Event Horizon Telescope}. \aap, 695, A233. \href{https://arxiv.org/abs/2501.05518}{arXiv:2501.05518}.
 
-93. B. M. Subrayan, D. J. Sand, K. A. Bostroem, ...\textbf{J. R. Farah} et al. (2025). \textit{Early Shock-Cooling Observations and Progenitor Constraints of Type IIb SN 2024uwq}. arXiv, arXiv:2505.02908.
+92. Event Horizon Telescope Collaboration, ..., \textbf{J. R. Farah}, \textit{et al.}. 2025. \textit{The persistent shadow of the supermassive black hole of M87: II. Model comparisons and theoretical interpretations}. \aap, 693, A265.
 
-92. M. Liu, Y. Zhang, Y. Wang, ...\textbf{J. R. Farah} et al. (2025). \textit{Detection of an Orphan X-Ray Flare from a Blazar Candidate EP240709a with the Einstein Probe}. ApJ, 984(1), 5.
+91. Yesmin, N., Pellegrino, C., Modjaz, M., ..., \textbf{J. R. Farah}, \textit{et al.}. 2025. \textit{Spectral dataset of young type Ib supernovae and their time evolution}. \aap, 693, A307. \href{https://arxiv.org/abs/2409.04522}{arXiv:2409.04522}.
 
-91. M. Śniegowska, B. Trakhtenbrot, L. Makrygianni, ...\textbf{J. R. Farah} et al. (2025). \textit{AT 2019aalc: a Bowen Fluorescence Flare With a Precursor Flare in an Active Galactic Nucleus}. arXiv, arXiv:2505.00083.
+90. Onori, F., Nicholl, M., Ramsden, P., ..., \textbf{J. R. Farah}, \textit{et al.}. 2025. \textit{The case of AT2022wtn: a tidal disruption event in an interacting galaxy}. \mnras, 540, 498-520. \href{https://arxiv.org/abs/2504.21686}{arXiv:2504.21686}.
 
-90. W.-X. Li, Z.-P. Zhu, X.-Z. Zou, ...\textbf{J. R. Farah} et al. (2025). \textit{An extremely soft and weak fast X-ray transient associated with a luminous supernova}. arXiv, arXiv:2504.17034.
+89. Ma, X., Wang, X., Mo, J., ..., \textbf{J. R. Farah}, \textit{et al.}. 2025. \textit{Supernovae at distances <40 Mpc: II. Supernova rate in the local Universe}. \aap, 698, A306. \href{https://arxiv.org/abs/2504.04507}{arXiv:2504.04507}.
 
-89. R. Baer-Way, P. Chandra, M. Modjaz, ...\textbf{J. R. Farah} et al. (2025). \textit{A Multiwavelength Autopsy of the Interacting Type IIn Supernova 2020ywx: Tracing Its Progenitor Mass-loss History for 100 Yr Before Death}. ApJ, 983(2), 101.
+88. Ma, X., Wang, X., Mo, J., ..., \textbf{J. R. Farah}, \textit{et al.}. 2025. \textit{Supernovae at distances <40 Mpc: I. Catalogues and fractions of supernovae in a complete sample}. \aap, 698, A305. \href{https://arxiv.org/abs/2504.04393}{arXiv:2504.04393}.
 
-88. A. Pastorello, A. Reguitti, L. Tartaglia, ...\textbf{J. R. Farah} et al. (2025). \textit{A long-lasting eruption heralds SN 2023ldh, a clone of SN 2009ip}. arXiv, arXiv:2503.23123.
+87. Zeng, X., Luo, Y., Wang, X., ..., \textbf{J. R. Farah}, \textit{et al.}. 2025. \textit{SN 2023xqm: A gradually fading Ia supernova exhibiting isolated high-velocity signatures}. \aap, 698, A70.
 
-87. M. Shrestha, S. DeSoto, D. J. Sand, ...\textbf{J. R. Farah} et al. (2025). \textit{Spectropolarimetry of SN 2023ixf Reveals Both Circumstellar Material and an Aspherical Helium Core}. ApJL, 982(1), L32.
+86. Zeng, X., Hu, L., Zheng, S., ..., \textbf{J. R. Farah}, \textit{et al.}. 2025. \textit{SN 2023ehl: A Normal Type Ia Supernova with High-velocity Features}. \apj, 986, 68.
 
-86. A. P. Ravi, S. Valenti, Y. Dong, ...\textbf{J. R. Farah} et al. (2025). \textit{Luminous Type II Short-plateau SN 2023ufx: Asymmetric Explosion of a Partially Stripped Massive Progenitor}. ApJ, 982(1), 12.
+85. Hsu, B., Smith, N., Goldberg, J. A., ..., \textbf{J. R. Farah}, \textit{et al.}. 2025. \textit{One Year of SN 2023ixf: Breaking through the Degenerate Parameter Space in Light-curve Models with Pulsating Progenitors}. \apj, 990, 148. \href{https://arxiv.org/abs/2408.07874}{arXiv:2408.07874}.
 
-85. J. Röder, M. Wielgus, A. P. Lobanov, ...\textbf{J. R. Farah} et al. (2025). \textit{A multifrequency study of sub-parsec jets with the Event Horizon Telescope}. A&A, 695, A233.
+84. Palit, B., \'Sniegowska, M., Markowitz, A., ..., \textbf{J. R. Farah}, \textit{et al.}. 2025. \textit{Markarian 590: the AGN awakens}. \mnras, 540, L14-L20. \href{https://arxiv.org/abs/2501.07225}{arXiv:2501.07225}.
 
-84. A. Gagliano, V. A. Villar, T. Matsumoto, ...\textbf{J. R. Farah} et al. (2025). \textit{Evidence for an Instability-Induced Binary Merger in the Double-Peaked, Helium-Rich Type IIn Supernova 2023zkd}. arXiv, arXiv:2502.19469.
+83. Subrayan, B. M., Sand, D. J., Bostroem, K. A., ..., \textbf{J. R. Farah}, \textit{et al.}. 2025. \textit{Early Shock Cooling Observations and Progenitor Constraints of Type IIb Supernova SN 2024uwq}. \apjl, 990, L68. \href{https://arxiv.org/abs/2505.02908}{arXiv:2505.02908}.
 
-83. J. E. Andrews, M. Shrestha, K. A. Bostroem, ...\textbf{J. R. Farah} et al. (2025). \textit{Asymmetries and Circumstellar Interaction in the Type II SN 2024bch}. ApJ, 980(1), 37.
+82. Shu, X., Yang, L., Yang, H., ..., \textbf{J. R. Farah}, \textit{et al.}. 2025. \textit{EP241021a: A Months-duration X-Ray Transient with Luminous Optical and Radio Emission}. \apjl, 990, L29. \href{https://arxiv.org/abs/2505.07665}{arXiv:2505.07665}.
 
-82. N. Yesmin, C. Pellegrino, M. Modjaz, ...\textbf{J. R. Farah} et al. (2025). \textit{Spectral dataset of young type Ib supernovae and their time evolution}. A&A, 693, A307.
+81. Andrews, J. E., Shrestha, M., Bostroem, K. A., ..., \textbf{J. R. Farah}, \textit{et al.}. 2025. \textit{Asymmetries and Circumstellar Interaction in the Type II SN 2024bch}. \apj, 980, 37. \href{https://arxiv.org/abs/2411.02497}{arXiv:2411.02497}.
 
+80. Li, W. X., Zhu, Z. P., Zou, X. Z., ..., \textbf{J. R. Farah}, \textit{et al.}. 2025. \textit{An extremely soft and weak fast X-ray transient associated with a luminous supernova}. arXiv e-prints, \href{https://arxiv.org/abs/2504.17034}{arXiv:2504.17034}.
 
-81. \textbf{Event Horizon Telescope Collaboration} et al. (2025). \textit{The persistent shadow of the supermassive black hole of M87: II. Model comparisons and theoretical interpretations}. A&A, 693, A265.
+79. Pastorello, A., Reguitti, A., Tartaglia, L., ..., \textbf{J. R. Farah}, \textit{et al.}. 2025. \textit{A long-lasting eruption heralds SN 2023ldh, a clone of SN 2009ip}. \aap, 701, A32. \href{https://arxiv.org/abs/2503.23123}{arXiv:2503.23123}.
 
-80. M. Newsome, I. Arcavi, D. A. Howell, ...\textbf{J. R. Farah} et al. (2024). \textit{Mapping the Inner 0.1 pc of a Supermassive Black Hole Environment with the Tidal Disruption Event and Extreme Coronal-line Emitter AT 2022upj}. ApJ, 977(2), 258.
+78. Baer-Way, R., Chandra, P., Modjaz, M., ..., \textbf{J. R. Farah}, \textit{et al.}. 2025. \textit{A Multiwavelength Autopsy of the Interacting Type IIn Supernova 2020ywx: Tracing Its Progenitor Mass-loss History for 100 Yr Before Death}. \apj, 983, 101. \href{https://arxiv.org/abs/2412.06914}{arXiv:2412.06914}.
 
-79. Y. Dong, D. Tsuna, S. Valenti, ...\textbf{J. R. Farah} et al. (2024). \textit{SN2023fyq: A Type Ibn Supernova with Long-standing Precursor Activity Due to Binary Interaction}. ApJ, 977(2), 254.
+77. Kumar, H., Berger, E., Blanchard, P. K., ..., \textbf{J. R. Farah}, \textit{et al.}. 2025. \textit{A Detection of Helium in the Bright Superluminous Supernova SN 2024rmj}. arXiv e-prints, \href{https://arxiv.org/abs/2506.06417}{arXiv:2506.06417}.
 
-78. C. Pellegrino, M. Modjaz, Y. Takei, ...\textbf{J. R. Farah} et al. (2024). \textit{The X-Ray Luminous Type Ibn SN 2022ablq: Estimates of Preexplosion Mass Loss and Constraints on Precursor Emission}. ApJ, 977(1), 2.
+76. Baczko, A. K., Kadler, M., Ros, E., ..., \textbf{J. R. Farah}, \textit{et al.}. 2024. \textit{The putative center in NGC 1052}. \aap, 692, A205. \href{https://arxiv.org/abs/2501.08685}{arXiv:2501.08685}.
 
-77. A.-K. Baczko, M. Kadler, E. Ros, ...\textbf{J. R. Farah} et al. (2024). \textit{The putative center in NGC 1052}. A&A, 692, A205.
+75. Pellegrino, C., Modjaz, M., Takei, Y., ..., \textbf{J. R. Farah}, \textit{et al.}. 2024. \textit{The X-Ray Luminous Type Ibn SN 2022ablq: Estimates of Preexplosion Mass Loss and Constraints on Precursor Emission}. \apj, 977, 2. \href{https://arxiv.org/abs/2407.18291}{arXiv:2407.18291}.
 
-76. J. C. Algaba, M. Baloković, S. Chandra, ...\textbf{J. R. Farah} et al. (2024). \textit{Broadband multi-wavelength properties of M87 during the 2018 EHT campaign including a very high energy flaring episode}. A&A, 692, A140.
+74. Dong, Y., Tsuna, D., Valenti, S., ..., \textbf{J. R. Farah}, \textit{et al.}. 2024. \textit{SN2023fyq: A Type Ibn Supernova with Long-standing Precursor Activity Due to Binary Interaction}. \apj, 977, 254. \href{https://arxiv.org/abs/2405.04583}{arXiv:2405.04583}.
 
-75. H. Kumar, E. Berger, D. Hiramatsu, ...\textbf{J. R. Farah} et al. (2024). \textit{AT2023vto: An Exceptionally Luminous Helium Tidal Disruption Event from a Massive Star}. ApJL, 974(2), L36.
+73. Newsome, M., Arcavi, I., Howell, D. A., ..., \textbf{J. R. Farah}, \textit{et al.}. 2024. \textit{Mapping the Inner 0.1 pc of a Supermassive Black Hole Environment with the Tidal Disruption Event and Extreme Coronal-line Emitter AT 2022upj}. \apj, 977, 258. \href{https://arxiv.org/abs/2406.11972}{arXiv:2406.11972}.
 
-74. Y. Dong, S. Valenti, C. Ashall, ...\textbf{J. R. Farah} et al. (2024). \textit{Characterizing the Rapid Hydrogen Disappearance in SN 2022crv: Evidence of a Continuum between Type Ib and IIb Supernova Properties}. ApJ, 974(2), 316.
+72. Algaba, J., Balokovi\'c, M., Chandra, S., ..., \textbf{J. R. Farah}, \textit{et al.}. 2024. \textit{Broadband multi-wavelength properties of M87 during the 2018 EHT campaign including a very high energy flaring episode}. \aap, 692, A140. \href{https://arxiv.org/abs/2404.17623}{arXiv:2404.17623}.
 
-73. T. Szalai, R. Konyves-Toth, A. P. Nagy, ...\textbf{J. R. Farah} et al. (2024). \textit{ The story of SN 2021aatd: A peculiar 1987A-like supernova with an early-phase luminosity excess }. A\&A, 690, A17.
+71. Szalai, T., K\"onyves-T\'oth, R., Nagy, A., ..., \textbf{J. R. Farah}, \textit{et al.}. 2024. \textit{The story of SN 2021aatd: A peculiar 1987A-like supernova with an early-phase luminosity excess}. \aap, 690, A17. \href{https://arxiv.org/abs/2406.02498}{arXiv:2406.02498}.
 
-72. Z. Bora, R. Konyves-Toth, J. Vinko, ...\textbf{J. R. Farah} et al. (2024). \textit{ Ejecta Masses in Type Ia Supernovae—Implications for the Progenitor and the Explosion Scenario }. PASP, 136, 9.
+70. Dong, Y., Valenti, S., Ashall, C., ..., \textbf{J. R. Farah}, \textit{et al.}. 2024. \textit{Characterizing the Rapid Hydrogen Disappearance in SN 2022crv: Evidence of a Continuum between Type Ib and IIb Supernova Properties}. \apj, 974, 316. \href{https://arxiv.org/abs/2309.09433}{arXiv:2309.09433}.
 
-71. M. Shrestha, K. A. Bostroem, D. J. Sand, ...\textbf{J. R. Farah} et al. (2024). \textit{ Extended Shock Breakout and Early Circumstellar Interaction in SN 2024ggi }. ApJL, 972, 1, L15.
+69. Kumar, H., Berger, E., Hiramatsu, D., ..., \textbf{J. R. Farah}, \textit{et al.}. 2024. \textit{AT2023vto: An Exceptionally Luminous Helium Tidal Disruption Event from a Massive Star}. \apjl, 974, L36. \href{https://arxiv.org/abs/2408.01482}{arXiv:2408.01482}.
 
-70. S. K. Yadavalli, A. V. Villar, L. Izzo, ...\textbf{J. R. Farah} et al. (2024). \textit{ SN 2022oqm: A Bright and Multipeaked Calcium-rich Transient }. ApJ, 972, 2, 194.
+68. Johnson, M. D., Akiyama, K., Baturin, R., ..., \textbf{J. R. Farah}, \textit{et al.}. 2024. \textit{The Black Hole Explorer: motivation and vision}. 13092, 130922D. \href{https://arxiv.org/abs/2406.12917}{arXiv:2406.12917}.
 
-69. A. W. Raymond, S. S. Doeleman, K. Asada, ...\textbf{J. R. Farah} et al. (2024). \textit{ First Very Long Baseline Interferometry Detections at 870 μm }. AJ, 168, 3, 130.
+67. Jacobson-Gal\'an, W., Dessart, L., Davis, K., \textit{et al.}. 2024. \textit{Final Moments. II. Observational Properties and Physical Modeling of Circumstellar-material-interacting Type II Supernovae}. \apj, 970, 189. \href{https://arxiv.org/abs/2403.02382}{arXiv:2403.02382}.
 
-68. W. Jacobson-Galan, L. Dessart, K. W. Davis, ...\textbf{J. R. Farah} et al. (2024). \textit{  Final Moments. II. Observational Properties and Physical Modeling of Circumstellar-material-interacting Type II Supernovae }. ApJ, 970, 2, 189.
+66. Park, S., Rho, J., Yoon, S. C., ..., \textbf{J. R. Farah}, \textit{et al.}. 2024. \textit{Optical and Infrared Observation of a Type IIP Supernova 2021qqu}. 536, 165.
 
-68. S. Faris, I. Arcavi, L. Makrygianni, ...\textbf{J. R. Farah} et al. (2024). \textit{  Light-curve Structure and Hα Line Formation in the Tidal Disruption Event AT 2019azh }. ApJ, 969, 2, 104.
+65. Faris, S., Arcavi, I., Makrygianni, L., ..., \textbf{J. R. Farah}, \textit{et al.}. 2024. \textit{Light-curve Structure and H{\ensuremath{alpha}} Line Formation in the Tidal Disruption Event AT 2019azh}. \apj, 969, 104. \href{https://arxiv.org/abs/2312.03842}{arXiv:2312.03842}.
 
-67. L. A. Kwok, M. R. Siebert, J. Johansson, ...\textbf{J. R. Farah} et al. (2024). \textit{ Ground-based and JWST Observations of SN 2022pul. II. Evidence from Nebular Spectroscopy for a Violent Merger in a Peculiar Type Ia Supernova }. ApJ, 966, 1, 135.
+64. Kwok, L. A., Siebert, M. R., Johansson, J., ..., \textbf{J. R. Farah}, \textit{et al.}. 2024. \textit{Ground-based and JWST Observations of SN 2022pul. II. Evidence from Nebular Spectroscopy for a Violent Merger in a Peculiar Type Ia Supernova}. \apj, 966, 135. \href{https://arxiv.org/abs/2308.12450}{arXiv:2308.12450}.
 
-66. J. E. Andrews, J. Pearson, G. Hosseinzadeh, ...\textbf{J. R. Farah} et al. (2024). \textit{ SN 2022jox: An Extraordinarily Ordinary Type II SN with Flash Spectroscopy }. ApJ, 965, 1, 85.
+63. Event Horizon Telescope Collaboration, ..., \textbf{J. R. Farah}, \textit{et al.}. 2024. \textit{The persistent shadow of the supermassive black hole of M 87. I. Observations, calibration, imaging, and analysis}. \aap, 681, A79.
 
+62. Pearson, J., Sand, D. J., Lundqvist, P., ..., \textbf{J. R. Farah}, \textit{et al.}. 2024. \textit{Strong Carbon Features and a Red Early Color in the Underluminous Type Ia SN 2022xkq}. \apj, 960, 29. \href{https://arxiv.org/abs/2309.10054}{arXiv:2309.10054}.
 
-65. \textbf{$^S$Event Horizon Telescope Collaboration} et al. (2024). \textit{ First Sagittarius A* Event Horizon Telescope Results. VII. Polarization of the Ring } ApJL, 964, 2, L25.
+61. Siebert, M. R., Kwok, L. A., Johansson, J., ..., \textbf{J. R. Farah}, \textit{et al.}. 2024. \textit{Ground-based and JWST Observations of SN 2022pul. I. Unusual Signatures of Carbon, Oxygen, and Circumstellar Interaction in a Peculiar Type Ia Supernova}. \apj, 960, 88. \href{https://arxiv.org/abs/2308.12449}{arXiv:2308.12449}.
 
-64. \textbf{$^S$Event Horizon Telescope Collaboration} et al. (2024). \textit{ First Sagittarius A* Event Horizon Telescope Results. VIII. Physical Interpretation of the Polarized Ring } ApJL, 964, 2, L26.
+60. Yadavalli, S. K., Villar, V. A., Izzo, L., ..., \textbf{J. R. Farah}, \textit{et al.}. 2024. \textit{SN 2022oqm: A Bright and Multipeaked Calcium-rich Transient}. \apj, 972, 194. \href{https://arxiv.org/abs/2308.12991}{arXiv:2308.12991}.
 
-63. E. P. Gonzalez, D. A. Howell, G. Terreran ...\textbf{J. R. Farah} et al. (2024). \textit{ SN 2022joj: A Potential Double Detonation with a Thin Helium Shell  }. ApJ, 961, 2, 196.
+59. Andrews, J. E., Pearson, J., Hosseinzadeh, G., ..., \textbf{J. R. Farah}, \textit{et al.}. 2024. \textit{SN 2022jox: An Extraordinarily Ordinary Type II SN with Flash Spectroscopy}. \apj, 965, 85. \href{https://arxiv.org/abs/2310.16092}{arXiv:2310.16092}.
 
-62. D. Hiramatsu, T. Matsumoto, E. Berger ...\textbf{J. R. Farah} et al. (2024). \textit{ Multiple Peaks and a Long Precursor in the Type IIn Supernova 2021qqp: An Energetic Explosion in a Complex Circumstellar Environment   }. ApJ, 961, 2, 181.
+58. Padilla Gonzalez, E., Howell, D., Terreran, G., ..., \textbf{J. R. Farah}, \textit{et al.}. 2024. \textit{SN 2022joj: A Potential Double Detonation with a Thin Helium Shell}. \apj, 964, 196. \href{https://arxiv.org/abs/2308.06334}{arXiv:2308.06334}.
 
-61. M. Shrestha, J. Pearson, S. Wyatt ...\textbf{J. R. Farah} et al. (2024). \textit{ Evidence of Weak Circumstellar Medium Interaction in the Type II SN 2023axu  }. ApJ, 961, 2, 247.
+57. Newsome, M., Arcavi, I., Howell, D. A., ..., \textbf{J. R. Farah}, \textit{et al.}. 2024. \textit{Probing the Subparsec Dust of a Supermassive Black Hole with the Tidal Disruption Event AT 2020mot}. \apj, 961, 239. \href{https://arxiv.org/abs/2305.03767}{arXiv:2305.03767}.
 
-60. M. Newsome, I. Arcavi, D. A. Howell, ...\textbf{J. R. Farah} et al. (2023). \textit{ Probing the Subparsec Dust of a Supermassive Black Hole with the Tidal Disruption Event AT 2020mot }. ApJ, 961, 2, 239.
+56. Paraschos, G., Kim, J. Y., Wielgus, M., ..., \textbf{J. R. Farah}, \textit{et al.}. 2024. \textit{Ordered magnetic fields around the 3C 84 central black hole}. \aap, 682, L3. \href{https://arxiv.org/abs/2402.00927}{arXiv:2402.00927}.
 
-59. G. Paraschos, J. Kim, M. Wielgus ...\textbf{J. R. Farah} et al. (2023). \textit{ Ordered magnetic fields around the 3C 84 central black hole}. A\&A, 682, L3.
+55. Hiramatsu, D., Matsumoto, T., Berger, E., ..., \textbf{J. R. Farah}, \textit{et al.}. 2024. \textit{Multiple Peaks and a Long Precursor in the Type IIn Supernova 2021qqp: An Energetic Explosion in a Complex Circumstellar Environment}. \apj, 964, 181. \href{https://arxiv.org/abs/2305.11168}{arXiv:2305.11168}.
 
-58. M. Siebert, L. Kwok, J. Johansson ...\textbf{J. R. Farah} et al. (2024). \textit{Ground-based and JWST Observations of SN 2022pul. I. Unusual Signatures of Carbon, Oxygen, and Circumstellar Interaction in a Peculiar Type Ia Supernova }. ApJ, 960, 1, 88.
+54. Raymond, A. W., Doeleman, S. S., Asada, K., ..., \textbf{J. R. Farah}, \textit{et al.}. 2024. \textit{First Very Long Baseline Interferometry Detections at 870 {\ensuremath{mu}}m}. \aj, 168, 130. \href{https://arxiv.org/abs/2410.07453}{arXiv:2410.07453}.
 
-57. J. Pearson, D. Sand, P. Lundqvist, ...\textbf{J. R. Farah} et al. (2024). \textit{Strong Carbon Features and a Red Early Color in the Underluminous Type Ia SN 2022xkq}. ApJ, 960, 1, 29.
+53. Event Horizon Telescope Collaboration, ..., \textbf{J. R. Farah}, \textit{et al.}. 2024. \textit{First Sagittarius A* Event Horizon Telescope Results. VIII. Physical Interpretation of the Polarized Ring}. \apjl, 964, L26.
 
-56. \textbf{$^S$Event Horizon Telescope Collaboration} et al. (2024). \textit{The persistent shadow of the supermassive black hole of M 87. I. Observations, calibration, imaging, and analysis } A\&A, 681, A79.
+52. Event Horizon Telescope Collaboration, ..., \textbf{J. R. Farah}, \textit{et al.}. 2024. \textit{First Sagittarius A* Event Horizon Telescope Results. VII. Polarization of the Ring}. \apjl, 964, L25.
 
-55. S. Faris, I. Arcavi, L. Makrygianni, ...\textbf{J. R. Farah} et al. (2023). \textit{Light-Curve Structure and Halpha Line Formation in the Tidal Disruption Event AT 2019azh}. arXiv:2312.03842.
+51. Shrestha, M., Bostroem, K. A., Sand, D. J., ..., \textbf{J. R. Farah}, \textit{et al.}. 2024. \textit{Extended Shock Breakout and Early Circumstellar Interaction in SN 2024ggi}. \apjl, 972, L15. \href{https://arxiv.org/abs/2405.18490}{arXiv:2405.18490}.
 
-54. P. Torne, K. Liu, R. Eatough, ...\textbf{J. R. Farah} et al. (2023). \textit{ A Search for Pulsars around Sgr A$^\ast$ in the First Event Horizon Telescope Data Set } ApJ, 959, 1.
+50. Shrestha, M., Pearson, J., Wyatt, S., ..., \textbf{J. R. Farah}, \textit{et al.}. 2024. \textit{Evidence of Weak Circumstellar Medium Interaction in the Type II SN 2023axu}. \apj, 961, 247. \href{https://arxiv.org/abs/2310.00162}{arXiv:2310.00162}.
 
-53. F. Roelofs, M. Johhnson, A. Chael, ...\textbf{J. R. Farah} et al. (2023). \textit{ Polarimetric Geometric Modeling for mm-VLBI Observations of Black Holes. } ApJL, 957, 2, L21.
+49. Bora, Z., K\"onyves-T\'oth, R., Vink\'o, J., ..., \textbf{J. R. Farah}, \textit{et al.}. 2024. \textit{Ejecta Masses in Type Ia Supernovae---Implications for the Progenitor and the Explosion Scenario}. \pasp, 136, 094201. \href{https://arxiv.org/abs/2408.11928}{arXiv:2408.11928}.
 
-52. \textbf{$^S$Event Horizon Telescope Collaboration} et al. (2023). \textit{First M87 Event Horizon Telescope Results. IX. Detection of Near-horizon Circular Polarization} ApJL, 957, 2, L20.
+48. Torne, P., Liu, K., Eatough, R. P., ..., \textbf{J. R. Farah}, \textit{et al.}. 2023. \textit{A Search for Pulsars around Sgr A* in the First Event Horizon Telescope Data Set}. \apj, 959, 14. \href{https://arxiv.org/abs/2308.15381}{arXiv:2308.15381}.
 
-51. J. Andrews, J. Pearson, G. Hosseinzadeh, ...\textbf{J. R. Farah} et al. 2023. \textit{ SN 2022jox: An extraordinarily ordinary Type II SN with Flash Spectroscopy. }. arXiv:2310.16092.
+47. Bostroem, K. A., Pearson, J., Shrestha, M., ..., \textbf{J. R. Farah}, \textit{et al.}. 2023. \textit{Early Spectroscopy and Dense Circumstellar Medium Interaction in SN 2023ixf}. \apjl, 956, L5. \href{https://arxiv.org/abs/2306.10119}{arXiv:2306.10119}.
 
-50. M. Shrestha, J. Pearson, S. Wyatt, ...\textbf{J. R. Farah} et al. 2023. \textit{Evidence of weak circumstellar medium interaction in the Type II SN 2023axu}. arXiv:2310.00162.
+46. Hosseinzadeh, G., Sand, D. J., Sarbadhicary, S. K., ..., \textbf{J. R. Farah}, \textit{et al.}. 2023. \textit{The Early Light Curve of SN 2023bee: Constraining Type Ia Supernova Progenitors the Apian Way}. \apjl, 953, L15. \href{https://arxiv.org/abs/2305.03071}{arXiv:2305.03071}.
 
-49. Y. Dong, S. Valenti, C. Ashall, ...\textbf{J. R. Farah} et al. 2023. \textit{ SN 2022crv: IIb, Or Not IIb: That is the Question }. arXiv:2309.09433.
+\begin{mdframed}[linecolor=red]
+45. Hosseinzadeh, G., \textbf{J. R. Farah}, Shrestha, M., \textit{et al.}. 2023. \textit{Shock Cooling and Possible Precursor Emission in the Early Light Curve of the Type II SN 2023ixf}. \apjl, 953, L16. \href{https://arxiv.org/abs/2306.06097}{arXiv:2306.06097}.
+\end{mdframed}
 
-48. D. Hiramatsu, D. Tsuna, E. Berger, ...\textbf{J. R. Farah} et al. 2023. \textit{From Discovery to the First Month of the Type II Supernova 2023ixf: High and Variable Mass Loss in the Final Year Before Explosion}. arXiv:2307.03165.
+44. Bostroem, K. A., Dessart, L., Hillier, D. J., ..., \textbf{J. R. Farah}, \textit{et al.}. 2023. \textit{SN 2022acko: The First Early Far-ultraviolet Spectra of a Type IIP Supernova}. \apjl, 953, L18. \href{https://arxiv.org/abs/2305.01654}{arXiv:2305.01654}.
 
-47. A. Bostroem, J. Pearson, M. Shrestha, ...\textbf{J. R. Farah} et al. 2023. \textit{Early Spectroscopy and Dense Circumstellar Medium Interaction in SN~2023ixf}. ApJL, 956, 1.
+43. Ben-Ami, T., Arcavi, I., Newsome, M., ..., \textbf{J. R. Farah}, \textit{et al.}. 2023. \textit{The Type Ibn Supernova 2019kbj: Indications for Diversity in Type Ibn Supernova Progenitors}. \apj, 946, 30. \href{https://arxiv.org/abs/2212.03407}{arXiv:2212.03407}.
 
-46. G. Hosseinzadeh, \textbf{J. R. Farah} et al. 2023. \textit{Shock Cooling and Possible Precursor Emission in the Early Light Curve of the Type II SN 2023ixf}. ApJL. 953, 1, L16.  
+42. Shrestha, M., Sand, D. J., Alexander, K. D., ..., \textbf{J. R. Farah}, \textit{et al.}. 2023. \textit{Limit on Supernova Emission in the Brightest Gamma-Ray Burst, GRB 221009A}. \apjl, 946, L25. \href{https://arxiv.org/abs/2302.03829}{arXiv:2302.03829}.
 
-45. B. S. Prather, J. Dexter, M. Moscibrodzka,  ... \textbf{J. R. Farah} et al. 2023. \textit{Comparison of Polarized Radiative Transfer Codes Used by the EHT Collaboration}. ApJ, 950, 1.
+41. Jorstad, S., Wielgus, M., Lico, R., ..., \textbf{J. R. Farah}, \textit{et al.}. 2023. \textit{The Event Horizon Telescope Image of the Quasar NRAO 530}. \apj, 943, 170. \href{https://arxiv.org/abs/2302.04622}{arXiv:2302.04622}.
 
-44. D. Hiramatsu, T. Matsumoto, E. Berger, ... \textbf{J. R. Farah} et al. 2023. \textit{Multiple Peaks and a Long Precursor in the Type IIn Supernova 2021qqp: An Energetic Explosion in a Complex Circumsteller Environment}. arXiv:2305.11168. 
+40. Roelofs, F., Johnson, M. D., Chael, A., ..., \textbf{J. R. Farah}, \textit{et al.}. 2023. \textit{Polarimetric Geometric Modeling for mm-VLBI Observations of Black Holes}. \apjl, 957, L21. \href{https://arxiv.org/abs/2311.10695}{arXiv:2311.10695}.
 
-43. M. Newsome, I. Arcavi, D. A. Howell, ... \textbf{J. R. Farah} et al. 2023. 2023.  \textit{Probing the Sub-Parsec Dust of a Supermassive Black Hole with the Tidal Disruption Event AT 2020mot}. arXiv:2305.03767.
+39. Hiramatsu, D., Tsuna, D., Berger, E., ..., \textbf{J. R. Farah}, \textit{et al.}. 2023. \textit{From Discovery to the First Month of the Type II Supernova 2023ixf: High and Variable Mass Loss in the Final Year before Explosion}. \apjl, 955, L8. \href{https://arxiv.org/abs/2307.03165}{arXiv:2307.03165}.
 
-42. G. Hosseinzadeh, D. Sand, S. Sarbadhicary, ... \textbf{J. R. Farah} et al. 2023. \textit{The Early Light Curve of SN 2023bee: Constraining Type Ia Supernova Progenitors the Apian Way}. 2023. arXiv:2305.03071. 
+38. Event Horizon Telescope Collaboration, ..., \textbf{J. R. Farah}, \textit{et al.}. 2023. \textit{First M87 Event Horizon Telescope Results. IX. Detection of Near-horizon Circular Polarization}. \apjl, 957, L20. \href{https://arxiv.org/abs/2311.10976}{arXiv:2311.10976}.
 
-41. A. Bostroem, L. Dessart,  D. John Hillier, ... \textbf{J. R. Farah} et al. 2023. \textit{SN 2022acko: the First Early Far-Ultraviolet Spectra of a Type IIP Supernova}. 2023. arXiv:2305.01654.
+37. Prather, B. S., Dexter, J., Moscibrodzka, M., ..., \textbf{J. R. Farah}, \textit{et al.}. 2023. \textit{Comparison of Polarized Radiative Transfer Codes Used by the EHT Collaboration}. \apj, 950, 35. \href{https://arxiv.org/abs/2303.12004}{arXiv:2303.12004}.
 
-40. T. Ben-Ami, I. Arcavi, M. Newsome, \textbf{J. R. Farah} et al. \textit{The Type Ibn Supernova 2019kbj --- Indications for Diversity in Type Ibn Supernova Progenitors}. ApJ, 946, 1.
+36. Broderick, A. E., Pesce, D. W., Gold, R., ..., \textbf{J. R. Farah}, \textit{et al.}. 2022. \textit{The Photon Ring in M87*}. \apj, 935, 61. \href{https://arxiv.org/abs/2208.09004}{arXiv:2208.09004}.
 
-39. S. Jorstand, M. Wielgus, R. Lico, ..., and the \textbf{Event Horizon Telescope Collaboration}. 2023. \textit{The Event Horizon Telescope Image of the Quasar NRAO 530}. ApJ, 943, 2.
- 
-38. M. Wielgus, M. Moscibrodzka, J. Vos, ... \textbf{J. R. Farah} et al. 2022. \textit{Orbital motion near Sagittarius A$^\ast$ . Constraints from polarimetric ALMA observations}. A\&A, 665, 6.
+35. Issaoun, S., Wielgus, M., Jorstad, S., ..., \textbf{J. R. Farah}, \textit{et al.}. 2022. \textit{Resolving the Inner Parsec of the Blazar J1924-2914 with the Event Horizon Telescope}. \apj, 934, 145. \href{https://arxiv.org/abs/2208.01662}{arXiv:2208.01662}.
 
-37. A. E. Broderick, D. W. Pesce, R. Gold, ... \textbf{J. R. Farah} et al. 2022. \textit{The Photon Ring in M87$^\ast$}. ApJL, 935, 1.
+\begin{mdframed}[linecolor=red]
+34.  \footnote[$^S$]{\noindent $^S$This is the first Galactic Center results series from the Event Horizon Telescope, presenting the second image of a black hole and the first horizon-scale images of Sgr A$^\ast$.}Event Horizon Telescope Collaboration, ..., \textbf{J. R. Farah}, \textit{et al.}. 2022. \textit{First Sagittarius A* Event Horizon Telescope Results. VI. Testing the Black Hole Metric}. \apjl, 930, L17.
 
-36. S. Issaoun, M. Wielgus, S. Jorstad, ..., and the \textbf{Event Horizon Telescope Collaboration}. 2022. \textit{Resolving the Inner Parsec of the Blazar J1924-2914 with the Event Horizon Telescope}. ApJL, 934, 2.
+33. $^S$Event Horizon Telescope Collaboration, ..., \textbf{J. R. Farah}, \textit{et al.}. 2022. \textit{First Sagittarius A* Event Horizon Telescope Results. V. Testing Astrophysical Models of the Galactic Center Black Hole}. \apjl, 930, L16.
 
-35. K. Satapathy, F. Ozel, D. Psaltis, ..., and the \textbf{Event Horizon Telescope Collaboration}. 2021. \textit{The Variability of the Black-Hole Image in M87 at the Dynamical Time Scale}. ApJL, 925, 13.
+32. $^S$Event Horizon Telescope Collaboration, ..., \textbf{J. R. Farah}, \textit{et al.}. 2022. \textit{First Sagittarius A* Event Horizon Telescope Results. IV. Variability, Morphology, and Black Hole Mass}. \apjl, 930, L15. \href{https://arxiv.org/abs/2311.08697}{arXiv:2311.08697}.
 
+31. $^S$Event Horizon Telescope Collaboration, ..., \textbf{J. R. Farah}, \textit{et al.}. 2022. \textit{First Sagittarius A* Event Horizon Telescope Results. III. Imaging of the Galactic Center Supermassive Black Hole}. \apjl, 930, L14.
 
-34. M. Janssen, H. Falcke, ..., and the \textbf{Event Horizon Telescope Collaboration}. 2021. \textit{Event Horizon Telescope observations of the jet launching and collimation in Centaurus A}. Nature Astronomy.
+30. $^S$Event Horizon Telescope Collaboration, ..., \textbf{J. R. Farah}, \textit{et al.}. 2022. \textit{First Sagittarius A* Event Horizon Telescope Results. II. EHT and Multiwavelength Observations, Data Processing, and Calibration}. \apjl, 930, L13.
 
-33. P. Kocherlakota, L. Rezzolla, ..., and the \textbf{Event Horizon Telescope Collaboration}. 2021. \textit{Constraints on black-hole charges with the 2017 EHT observations of M87$^\ast$}. Phys. Rev. D, 103, 10.
+29. $^S$Event Horizon Telescope Collaboration, ..., \textbf{J. R. Farah}, \textit{et al.}. 2022. \textit{First Sagittarius A* Event Horizon Telescope Results. I. The Shadow of the Supermassive Black Hole in the Center of the Milky Way}. \apjl, 930, L12.
 
-32. R. Narayan, D. Palumbo, ... \textbf{J. R. Farah}, et al. 2021.\textit{The Polarized Image of a Synchrotron Emitting Ring of Gas Orbiting a Black Hole} ApJ, 912, 35.
+28. $^S$Broderick, A. E., Gold, R., Georgiev, B., ..., \textbf{J. R. Farah}, \textit{et al.}. 2022. \textit{Characterizing and Mitigating Intraday Variability: Reconstructing Source Structure in Accreting Black Holes with mm-VLBI}. \apjl, 930, L21.
 
-31. \textbf{Event Horizon Telescope Collaboration} et al. 2021.\textit{ Broadband Multi-wavelength Properties of M87 during the 2017 Event Horizon Telescope Campaign.} ApJL, 911, L11.
+27. $^S$Georgiev, B., Pesce, D. W., Broderick, A. E., ..., \textbf{J. R. Farah}, \textit{et al.}. 2022. \textit{A Universal Power-law Prescription for Variability from Synthetic Images of Black Hole Accretion Flows}. \apjl, 930, L20.
+\end{mdframed}
 
-30. C. Goddi and the \textbf{Event Horizon Telescope Collaboration}. 2021.\textit{ Polarimetric Properties of Event Horizon Telescope Targets from ALMA.} ApJL, 910, L14.
+26. Satapathy, K., Psaltis, D., \"Ozel, F., ..., \textbf{J. R. Farah}, \textit{et al.}. 2022. \textit{The Variability of the Black Hole Image in M87 at the Dynamical Timescale}. \apj, 925, 13. \href{https://arxiv.org/abs/2111.01317}{arXiv:2111.01317}.
 
-29. A. R. Raymond, D. Palumbo, ... \textbf{J. R. Farah}, et al. 2021. \textit{Evaluation of New Submillimeter VLBI Sites for the Event Horizon Telescope}. arXiv:2102.05482
+25. Wielgus, M., Marchili, N., Mart\'\i-Vidal, I., ..., \textbf{J. R. Farah}, \textit{et al.}. 2022. \textit{Millimeter Light Curves of Sagittarius A* Observed during the 2017 Event Horizon Telescope Campaign}. \apjl, 930, L19. \href{https://arxiv.org/abs/2207.06829}{arXiv:2207.06829}.
 
-28. \textbf{Event Horizon Telescope Collaboration} et al. 2021.\textit{ First M87 Event Horizon Telescope Results. VIII. Magnetic Field Structure near The Event Horizon} ApJL, 910, L13.
+\begin{mdframed}[linecolor=red]
+24. Wielgus, M., Moscibrodzka, M., Vos, J., ..., \textbf{J. R. Farah}, \textit{et al.}. 2022. \textit{Orbital motion near Sagittarius A$^{*}$ . Constraints from polarimetric ALMA observations}. \aap, 665, L6. \href{https://arxiv.org/abs/2209.09926}{arXiv:2209.09926}.
+\end{mdframed}
 
-27. \textbf{Event Horizon Telescope Collaboration} et al. 2021.\textit{ First M87 Event Horizon Telescope Results. VII. Polarization of the Ring.} ApJL, 910, L12.
+23. Janssen, M., Falcke, H., Kadler, M., ..., \textbf{J. R. Farah}, \textit{et al.}. 2021. \textit{Event Horizon Telescope observations of the jet launching and collimation in Centaurus A}. Nature Astronomy, 5, 1017-1028. \href{https://arxiv.org/abs/2111.03356}{arXiv:2111.03356}.
 
+22. Narayan, R., Palumbo, D. C., Johnson, M. D., ..., \textbf{J. R. Farah}, \textit{et al.}. 2021. \textit{The Polarized Image of a Synchrotron-emitting Ring of Gas Orbiting a Black Hole}. \apj, 912, 35. \href{https://arxiv.org/abs/2105.01804}{arXiv:2105.01804}.
 
+21. Kocherlakota, P., Rezzolla, L., Falcke, H., ..., \textbf{J. R. Farah}, \textit{et al.}. 2021. \textit{Constraints on black-hole charges with the 2017 EHT observations of M87*}. \prd, 103, 104047. \href{https://arxiv.org/abs/2105.09343}{arXiv:2105.09343}.
 
+20. Goddi, C., Mart\'\i-Vidal, I., Messias, H., ..., \textbf{J. R. Farah}, \textit{et al.}. 2021. \textit{Polarimetric Properties of Event Horizon Telescope Targets from ALMA}. \apjl, 910, L14. \href{https://arxiv.org/abs/2105.02272}{arXiv:2105.02272}.
 
-26. Jae-Young Kim and the \textbf{Event Horizon Telescope Collaboration}. 2020.\textit{ Event Horizon Telescope imaging of the archetypal blazar 3C 279 at an extreme 20 microarcsecond resolution.} Astronomy and Astrophysics. DOI:10.1051/0004-6361/202037493.
+19. Event Horizon Telescope Collaboration, ..., \textbf{J. R. Farah}, \textit{et al.}. 2021. \textit{First M87 Event Horizon Telescope Results. VIII. Magnetic Field Structure near The Event Horizon}. \apjl, 910, L13. \href{https://arxiv.org/abs/2105.01173}{arXiv:2105.01173}.
 
-25. Johnson, M. D., Lupsasca, A., Strominger, A., ... \textbf{J. R. Farah}, et al. 2019. \textit{Universal Interferometric Signatures of a Black Hole’s Photon Ring}. Science Advances, arXiv:1907.04329.
+18. Event Horizon Telescope Collaboration, ..., \textbf{J. R. Farah}, \textit{et al.}. 2021. \textit{First M87 Event Horizon Telescope Results. VII. Polarization of the Ring}. \apjl, 910, L12. \href{https://arxiv.org/abs/2105.01169}{arXiv:2105.01169}.
 
+17. Raymond, A. W., Palumbo, D., Paine, S. N., ..., \textbf{J. R. Farah}, \textit{et al.}. 2021. \textit{Evaluation of New Submillimeter VLBI Sites for the Event Horizon Telescope}. \apjs, 253, 5. \href{https://arxiv.org/abs/2102.05482}{arXiv:2102.05482}.
+
+16. Group, E. M. S. W., Algaba, J., Anczarski, J., ..., \textbf{J. R. Farah}, \textit{et al.}. 2021. \textit{Broadband Multi-wavelength Properties of M87 during the 2017 Event Horizon Telescope Campaign}. \apjl, 911, L11. \href{https://arxiv.org/abs/2104.06855}{arXiv:2104.06855}.
+
+15. Kim, J. Y., Krichbaum, T. P., Broderick, A. E., \textit{et al.}. 2020. \textit{Event Horizon Telescope imaging of the archetypal blazar 3C 279 at an extreme 20 microarcsecond resolution}. \aap, 640, A69.
+
+14. Johnson, M. D., Lupsasca, A., Strominger, A., ..., \textbf{J. R. Farah}, \textit{et al.}. 2020. \textit{Universal interferometric signatures of a black hole's photon ring}. Science Advances, 6, eaaz1310. \href{https://arxiv.org/abs/1907.04329}{arXiv:1907.04329}.
+
+13. Fabbiano, G., Elvis, M., Accomazzi, A., \textit{et al.}. 2019. \textit{Increasing the Discovery Space in Astrophysics: The Exploration Question for Stars and Stellar Evolution}. \baas, 51, 85.
+
+12. Fabbiano, G., Elvis, M., Accomazzi, A., \textit{et al.}. 2019. \textit{Increasing the Discovery Space in Astrophysics: The Exploration Question for Resolved Stellar Populations}. \baas, 51, 84.
+
+11. Fabbiano, G., Elvis, M., Accomazzi, A., \textit{et al.}. 2019. \textit{Increasing the Discovery Space in Astrophysics: The Exploration Question for Planetary Systems}. \baas, 51, 86.
+
+10. Fabbiano, G., Elvis, M., Accomazzi, A., \textit{et al.}. 2019. \textit{Increasing the Discovery Space in Astrophysics: The Exploration Question for Galaxy Evolution}. \baas, 51, 87.
+
+9. Fabbiano, G., Elvis, M., Accomazzi, A., \textit{et al.}. 2019. \textit{Increasing the Discovery Space in Astrophysics: The Exploration Question for Cosmology}. \baas, 51, 88.
+
+8. Fabbiano, G., Elvis, M., Accomazzi, A., \textit{et al.}. 2019. \textit{Increasing the Discovery Space in Astrophysics: The Exploration Question for Compact Objects}. \baas, 51, 89.
+
+7. Fabbiano, G., Elvis, M., Accomazzi, A., \textit{et al.}. 2019. \textit{Increasing the Discovery Space in Astrophysics - A Collation of Six Submitted White Papers}. arXiv e-prints, \href{https://arxiv.org/abs/1903.06634}{arXiv:1903.06634}.
+
+\begin{mdframed}[linecolor=red]
+6. $^\dagger$Event Horizon Telescope Collaboration, ..., \textbf{J. R. Farah}, \textit{et al.}. 2019. \textit{First M87 Event Horizon Telescope Results. VI. The Shadow and Mass of the Central Black Hole}. \apjl, 875, L6. \href{https://arxiv.org/abs/1906.11243}{arXiv:1906.11243}.
+
+5. $^\dagger$Event Horizon Telescope Collaboration, ..., \textbf{J. R. Farah}, \textit{et al.}. 2019. \textit{First M87 Event Horizon Telescope Results. V. Physical Origin of the Asymmetric Ring}. \apjl, 875, L5. \href{https://arxiv.org/abs/1906.11242}{arXiv:1906.11242}.
+
+4. $^\dagger$Event Horizon Telescope Collaboration, ..., \textbf{J. R. Farah}, \textit{et al.}. 2019. \textit{First M87 Event Horizon Telescope Results. IV. Imaging the Central Supermassive Black Hole}. \apjl, 875, L4. \href{https://arxiv.org/abs/1906.11241}{arXiv:1906.11241}.
+
+3. $^\dagger$Event Horizon Telescope Collaboration, ..., \textbf{J. R. Farah}, \textit{et al.}. 2019. \textit{First M87 Event Horizon Telescope Results. III. Data Processing and Calibration}. \apjl, 875, L3. \href{https://arxiv.org/abs/1906.11240}{arXiv:1906.11240}.
+
+2. $^\dagger$Event Horizon Telescope Collaboration, ..., \textbf{J. R. Farah}, \textit{et al.}. 2019. \textit{First M87 Event Horizon Telescope Results. II. Array and Instrumentation}. \apjl, 875, L2. \href{https://arxiv.org/abs/1906.11239}{arXiv:1906.11239}.
+
+1.  \footnote[$\dagger$]{\noindent $^\dagger$These six papers are the first results papers from the Event Horizon Telescope, presenting the first image of a black hole.}Event Horizon Telescope Collaboration, ..., \textbf{J. R. Farah}, \textit{et al.}. 2019. \textit{First M87 Event Horizon Telescope Results. I. The Shadow of the Supermassive Black Hole}. \apjl, 875, L1. \href{https://arxiv.org/abs/1906.11238}{arXiv:1906.11238}.
+\end{mdframed}
 
 
 \vspace{+.4cm}
