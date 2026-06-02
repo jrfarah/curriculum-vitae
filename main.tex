@@ -12,6 +12,9 @@
 %\setlength{\pdfpageheight}{\paperheight} 
 \raggedbottom
 
+\pagestyle{empty}
+
+
 \usepackage{xcolor}
 \definecolor{linkblue}{HTML}{0000EE}
 \usepackage[colorlinks=true, linkcolor=linkblue, urlcolor=linkblue, citecolor=linkblue]{hyperref}
@@ -26,6 +29,50 @@
   \endgroup
 }
  
+% Common Astronomy & Physics Journal Abbreviations
+\newcommand{\aj}{AJ}                      % Astronomical Journal
+\newcommand{\apj}{ApJ}                    % Astrophysical Journal
+\newcommand{\apjl}{ApJL}                  % Astrophysical Journal Letters
+\newcommand{\apjs}{ApJS}                  % Astrophysical Journal Supplement
+\newcommand{\araa}{ARA\&A}                % Annual Review of Astronomy and Astrophysics
+\newcommand{\aap}{A\&A}                   % Astronomy & Astrophysics
+\newcommand{\aaps}{A\&AS}                 % Astronomy & Astrophysics Supplement
+\newcommand{\aapr}{A\&ARv}                % Astronomy & Astrophysics Review
+\newcommand{\mnras}{MNRAS}                % Monthly Notices of the RAS
+\newcommand{\nat}{Nature}                 % Nature
+\newcommand{\sci}{Science}                % Science
+\newcommand{\pasp}{PASP}                  % Publications of the ASP
+\newcommand{\pasj}{PASJ}                  % Publications of the Astronomical Society of Japan
+\newcommand{\jcap}{JCAP}                  % Journal of Cosmology and Astroparticle Physics
+\newcommand{\prd}{Phys.~Rev.~D}           % Physical Review D
+\newcommand{\prl}{Phys.~Rev.~Lett.}       % Physical Review Letters
+\newcommand{\physrep}{Phys.~Rep.}         % Physics Reports
+\newcommand{\baas}{BAAS}                  % Bulletin of the AAS
+\newcommand{\icarus}{Icarus}              % Icarus (planetary science)
+\newcommand{\solphys}{Sol.~Phys.}         % Solar Physics
+\newcommand{\ssr}{Space~Sci.~Rev.}        % Space Science Reviews
+\newcommand{\apss}{Ap\&SS}                % Astrophysics and Space Science
+\newcommand{\rmxaa}{RMxAA}                % Revista Mexicana de Astronomía y Astrofísica
+\newcommand{\cjaa}{Chin.~J.~Astron.~Astrophys.} % Chinese Journal of Astronomy & Astrophysics
+\newcommand{\zap}{ZAp}                    % Zeitschrift für Astrophysik (historic)
+\newcommand{\na}{New~Astron.}             % New Astronomy
+\newcommand{\nar}{New~Astron.~Rev.}       % New Astronomy Reviews
+\newcommand{\actaa}{Acta Astron.}         % Acta Astronomica
+\newcommand{\an}{Astron.~Nachr.}          % Astronomische Nachrichten
+\newcommand{\aip}{AIP~Conf.~Proc.}        % AIP Conference Proceedings
+\newcommand{\aspconf}{ASP~Conf.~Ser.}     % ASP Conference Series
+\newcommand{\jqsrt}{J.~Quant.~Spec.~Radiat.~Transf.} % Journal of Quantitative Spectroscopy & Radiative Transfer
+\newcommand{\memsai}{Mem.~Soc.~Astron.~Italiana} % Memorie della Società Astronomica Italiana
+\newcommand{\memsaii}{Mem.~Soc.~Astron.~Italiana~Suppl.} % Supplements
+\newcommand{\planss}{Planet.~Space~Sci.}  % Planetary and Space Science
+\newcommand{\gca}{Geochim.~Cosmochim.~Acta} % Geochimica et Cosmochimica Acta
+\newcommand{\natastro}{Nat.~Astron.}      % Nature Astronomy
+\newcommand{\natastron}{Nat.~Astron.}     % Alternative alias
+\newcommand{\natphys}{Nat.~Phys.}         % Nature Physics
+\newcommand{\sovast}{Sov.~Astron.}        % Soviet Astronomy
+\newcommand{\azh}{AZh}                    % Astronomicheskii Zhurnal
+\newcommand{\ao}{Appl.~Opt.}              % Applied Optics
+\newcommand{\jgr}{J.~Geophys.~Res.}       % Journal of Geophysical Research
 
 
 \renewcommand{\thefootnote}{\fnsymbol{footnote}}
@@ -51,7 +98,6 @@
 % \vspace{-.35cm}
 \name{Joseph R. Farah \vspace*{.1in}}
 \begin{resume}
-
 
 \section{\sc Contact Information}
 \vspace{.05in}
@@ -94,7 +140,12 @@ Astrophysics, supernovae, photon ring, radio astronomy, black holes, magnetars, 
 \section{\sc {\color{Maroon} Selected\\ Honors} and Awards} 
 \vspace*{0.67cm}
 
-% \vspace*{-2mm}
+{\color{Maroon} Miller Fellowship, Miller Institute for Basic Science, Berkeley} \hfill 2026--2029
+
+\vspace*{-2mm}
+Bhaumik Prize Postdoctoral Fellowship, UCLA (declined) \hfill 2026
+
+\vspace*{-2mm}
 UC Santa Barbara Mananya Tantiwiwat Award \hfill 2025
 
 \vspace*{-2mm}
@@ -130,9 +181,6 @@ Arthur W. Martin III Scholarship \hfill 2021
 
 
 \vspace*{-2mm}
-{LeRoy Apker Award (finalist) (2 times)  \hfill 2020, 2021}
-
-\vspace*{-2mm}
 {\color{Maroon} Breakthrough Prize in Fundamental Physics (co-recipient) \hfill 2020}
 
 \vspace*{-2mm}
@@ -150,12 +198,11 @@ National Science Foundation Diamond Achievement Award$^\ddag$ \hfill 2019
 
 
 \vspace*{-2mm}
-Named one of Boston's \textrm{\color{blue}{\href{https://www.bizjournals.com/boston/news/2019/12/12/25-under-25-here-are-young-achievers-in-the-boston.html}{25 Under 25}}} \hfill 2019
-\newpage
-
-\vspace*{-2mm}
 Alton J. Brann Endowed Scholarship \hfill 2019
 
+
+
+\newpage
 \vspace*{-2mm}
 Smithsonian Fellowship \hfill 2018, 2019
 
@@ -227,7 +274,7 @@ I image supermassive black holes and assist in observations using the Event Hori
 {\bf QBism Research Group}\hfill 2017 - 2019
 
 \vspace{-.4cm}
-{\em Research Intern with Dr. Christopher Fuchs  --- Boston, MA}
+{\em Oracle Fellow with Dr. Christopher Fuchs  --- Boston, MA}
 
 {\bf Harvard School for Engineering and Applied Sciences}\hfill Summer 2016
 
@@ -243,8 +290,44 @@ I image supermassive black holes and assist in observations using the Event Hori
 
 
 
+% \vspace{+.4cm}
+% \section{{\sc Publications (major contribution)  \\ \vspace{0.3cm} {\footnotesize Citations: 19,100+ \\ \vspace{0.1cm} \noindent Ref'd Papers: 110+ \vspace{0.1cm} \\ $h$-index: 37 \\ i10-index: 74}} \\ }
 
-\vspace{+.4cm}
+% \textbf{NB:} Please see full list of publications on page 5
+
+
+% 1--6. \footnote[$\dagger$]{\noindent $^\dagger$These six papers are the first results papers from the Event Horizon Telescope, presenting the first image of a black hole.} \textbf{Event Horizon Telescope Collaboration} et al. (2019) ApJL, 875, \href{https://iopscience.iop.org/journal/2041-8205/page/Focus_on_EHT}{L2-6}.
+
+
+
+% 7--16. \footnote[$^S$]{\noindent $^S$These 10  papers are the first Galactic Center results papers from the Event Horizon Telescope, presenting the second image of a black hole and the first horizon-scale images of Sgr A$^\ast$.}\textbf{Event Horizon Telescope Collaboration et al}. (2022) ApJL 930 \href{https://iopscience.iop.org/journal/2041-8205/page/Focus_on_First_Sgr_A_Results}{L12-17,L19-21}.
+
+% 17. \textbf{$^S$J. R. Farah}, ..., and the Event Horizon Telescope Collaboration. (2022) \textit{Selective Dynamical Imaging of Interferometric Data.} ApJL, 930, \href{https://iopscience.iop.org/article/10.3847/2041-8213/ac6615}{L18}.
+
+% 18. \textbf{J. R. Farah}, L. J. Prust, D. A. Howell. Y. Q. Ni, et al. 2025. \textit{Lense-Thirring precessing magnetar engine drives a superluminous supernova.} Nature, submitted; positive referee report received. \href{https://arxiv.org/abs/2509.08051}{arXiv:2509.08051}.
+
+
+% 19. \textbf{J. R. Farah}, D. A. Howell, G. Terreran, et al. 2025. \textit{Shock-cooling Constraints via Early-time Observations of the Type IIb SN 2022hnt}. ApJ, 984, \href{https://iopscience.iop.org/article/10.3847/1538-4357/adad5a}{60}.
+
+
+% 20. \textbf{J. R. Farah}, J. Davelaar, D. Palumbo, M. Johnson, J. Delgado. 2025. \textit{Machine- and deep-learning-driven angular momentum inference from BHEX observations of the $n = 1$ photon ring}. ApJ, 983, \href{https://iopscience.iop.org/article/10.3847/1538-4357/adbbe3}{185}.
+
+% 21. \textbf{J. R. Farah}, D. W. Pesce, M. D. Johnson, \& L. Blackburn. 2020. \textit{On the Approximation of the Black Hole Shadow with a Simple Polar Curve}. ApJ, 900, \href{https://iopscience.iop.org/article/10.3847/1538-4357/aba59a}{77}.
+
+
+% 22. \textbf{J. R. Farah}, D. Hiramatsu, D. A. Howell, et al. 2025. \textit{When IIb Ceases To Be: Bridging the Gap Between Type IIb and Short-plateau Supernovae}. ApJ, submitted; positive referee report received. \href{https://arxiv.org/abs/2509.12470}{arXiv:2509.12470}.
+
+% 23. \textbf{J. R. Farah}, L. J. Prust, G. Terreran, D. A. Howell. 2025. \textit{The First 4 Years of SN 1993J Revisited: Geometric Modeling of the Radio Shell with Closure Quantities}. ApJ, submitted. \href{https://arxiv.org/abs/2509.20601}{arXiv:2509.20601}.
+
+% 24. \textbf{J. R. Farah}, A. Lupsasca, C. Gammie. 2025. \textit{Interferometric inference of black hole spin from the photon ring brightness profile}. ApJ, submitted. \href{https://arxiv.org/abs/2509.23628}{arXiv:2509.23628}.
+
+% 46. G. Hosseinzadeh, \textbf{J. R. Farah} et al. 2023. \textit{Shock Cooling and Possible Precursor Emission in the Early Light Curve of the Type II SN 2023ixf}. ApJL. 953, 1, \href{https://iopscience.iop.org/article/10.3847/2041-8213/ace4c4}{L16}.  
+
+
+
+
+
+\vspace{+.0cm}
 \section{\sc Students mentored}
 
 \textbf{Undergraduate}
@@ -276,8 +359,19 @@ I image supermassive black holes and assist in observations using the Event Hori
 
 
 % \section{\sc Academic\\ Service}
-\vspace{+.4cm}
-\section{\sc Invited Talks, Panels, Interviews and Filmography}
+\vspace{+.0cm}
+\section{\sc Invited Talks, Panels, and Filmography}
+
+(last updated: Sep 2025)
+
+\textbf{NB:} for a list of interviews, please see \href{www.jrfarah.com}{my online CV}.
+% Talk title. Location. Invited? Date. 
+
+General relativity beats the heart of a dying star. Santa Barbara Museum of Natural History. Invited speaker for public lecture. March 2026. {\color{blue}\href{https://www.sbnature.org/visit/calendar/9132/general-relativity-beats-the-heart-of-a-dying-star}{Event URL.}}
+
+Presentation presentation: a seminar on seminars. Las Cumbres Observatory. Invited to lead workshop. Jan 2026. 
+
+General relativity meets a supernova for the first time. Las Cumbres Observatory. Invited speaker for colloquium. Jan 2026. {\color{blue}\href{https://lco.global/seminar/jfarah/}{Event URL.}}
 
 The first 4 years of SN 1993J revisited. UC Berkeley, Berkeley, CA. Invited seminar speaker. September 2025. 
 
@@ -291,7 +385,7 @@ Machine- and deep-learning-driven angular momentum inference from Black Hole Exp
 
 Current and Future Impacts of Survey Capabilities on the Stripped Envelope Problem. Kavli Institute for Theoretical Physics, Santa Barbara, CA. February 2025. 
 
-Shock-cooling Constraints via Early-time Observations of the Type IIb SN 2022hnt. Kavli Institute for Theoretical Physics, Santa Barbara. February 2025. 
+Shock-cooling Constraints via Early-time Observations of the Type IIb SN 2022hnt. Kavli Institute for Theoretical Physics, Santa Barbara, CA. February 2025. 
 
 The Black Hole Explorer and the Edge of the Universe. Santa Barbara Museum of Natural History. April 2025. Invited speaker for public lecture. {\color{blue}\href{https://www.sbnature.org/visit/calendar/8642/the-black-hole-explorer-and-the-edge-of-the-universe}{Event URL.}}
 
@@ -311,42 +405,10 @@ LCO's Top 9 Tips For Taking Your Best Black Hole Photo. Santa Barbara, CA. Invit
 
 Selective Dynamical Imaging of Interferometric Data and the Second Image of a Black Hole. University of California, Santa Barbara, California. Invited speaker for \textit{Astro Tea}. June 2022.
 
-New EHT Image of Sagittarius A*. \textit{Montecito Journal}. June 2022. {\color{blue}\href{https://www.montecitojournal.net/2022/06/07/new-eht-image-of-sagittarius-a/}{Article URL.}}
-
-Santa Barbara Astronomer Bags a Black Hole.
-\textit{Santa Barbara Independent}. June 2022. {\color{blue}\href{https://www.independent.com/2022/05/19/santa-barbara-astronomer-bags-a-black-hole/}{Article URL.}}
-
-Research in Review, 2022.
-\textit{The Daily Nexus}. May 2022. {\color{blue}\href{https://dailynexus.com/2022-05-26/research-in-review/}{Article URL.}}
-
-Spotted! Astrophysicists Release the First Ever Image of a Black Hole in the Milky Way.
-\textit{The Bottom Line}. May 2022. {\color{blue}\href{https://thebottomline.as.ucsb.edu/2022/06/spotted-astrophysicists-release-the-first-ever-image-of-a-black-hole-in-the-milky-way}{Article URL.}}
-
-
-Joseph Farah '21 Among Researchers to Capture First Image of Black Hole.
-\textit{UMB News}. May 2022. {\color{blue}\href{https://www.umb.edu/news/detail/joseph_farah_21_among_researchers_to_capture_first_image_of_black_hole}{Article URL.}}
-
-South Coast scientist played a critical role in capturing the first image of our galaxy's black hole. \textit{NPR via KCLU}. May 2022. {\color{blue}\href{https://www.kclu.org/local-news/2022-05-12/south-coast-scientist-played-a-critical-role-in-capturing-the-first-image-of-our-galaxys-black-hole}{Article URL.}}
-
 AskScience AMA Series: We're Event Horizon Telescope scientists with groundbreaking results on our own galaxy; Ask Us Anything. \textit{Reddit}. May 2022. {\color{blue}\href{https://old.reddit.com/r/askscience/comments/unyg77/askscience_ama_series_were_event_horizon/}{Article URL.}}
-
-Sagittarius A* Revealed. \textit{ScienceX}. May 2022. {\color{blue}\href{https://sciencex.com/wire-news/413826795/sagittarius-a-revealed.html}{Article URL.}}
-
-Astronomers reveal first image of the black hole at the heart of our galaxy. Sandy Seale, \textit{Las Cumbres Observatory}. May 2022. {\color{blue}\href{https://lco.global/news/astronomers-reveal-first-image-of-the-black-hole-at-the-heart-of-our-galaxy/}{Article URL.}}
-
-
-Sagittarius A* Revealed. Sonia Fernandez \& Sandy Seale, \textit{UC Santa Barbara News}. May 2022. {\color{blue}\href{https://www.news.ucsb.edu/2022/020632/astronomers-reveal-first-image-black-hole-heart-our-galaxy}{Article URL.}}
-
-
-Meet the 2021 LeRoy Apker Award Recipients. David Barnstone, \textit{American Physical Society}. February 2022. {\color{blue}\href{https://www.aps.org/publications/apsnews/202202/apker.cfm}{Article URL.}}
-
-Looking Deep into Space: Grad student and 2021 LeRoy Apker Award winner Joseph Farah brings his curiosity and drive to Las Cumbres Observatory. David Barnstone, \textit{The Current}. February 2022. {\color{blue}\href{https://www.news.ucsb.edu/2022/020559/looking-deep-space}{Article URL.}}
 
 What Lies Within: Imaging the Galactic Center. April 2022. April APS Meeting, New York City, New York. Invited speaker for American Physical Society.
 
-Rising EHT Scientist Awarded Prestigious Physics Award. Nadia Whitehead, \textit{Center for Astrophysics $\vert$ Harvard-Smithsonian}. October 2021. {\color{blue}\href{https://www.cfa.harvard.edu/news/rising-eht-scientist-awarded-prestigious-physics-award}{Article URL.}}
-
-UMass Boston Alum Wins Prestigious National Academic Award in Physics. Danielle Bilotta, \textit{UMB News}. November 2021. {\color{blue}\href{https://www.umb.edu/news/detail/umass_boston_alum_wins_prestigious_national_academic_award_in_physics}{Article URL.}}
 
 The First Image of a Black Hole. Seagrave Memorial Observatory, North Scituate, Rhode Island. Invited speaker for Skyscrapers, Inc. 2021.
 
@@ -354,39 +416,23 @@ Galison, P. L. (Director). 2021. \textit{Black Holes: The Edge of All We Know.} 
 
 Very Long Baseline Interferometry and the Event Horizon Telescope. University of Massachusetts, Boston, Massachusetts. Invited speaker for Astronomy 121. 2019 (2 times), 2020 (2 times).
 
-Physics Student Named Finalist for Prestigious National Academic Award. DeWayne Lehman, \textit{UMass Boston News}. July 2020. {\color{blue}\href{https://www.umb.edu/news/detail/physics_student_named_finalist_for_prestigious_national_academic_award}{Article URL.}}
-
-Drag Racing and Black Hole Physics. Catherine Steffel, \textit{Symmetry Magazine}. January 2020. {\color{blue}\href{https://www.symmetrymagazine.org/article/drag-racing-and-black-hole-physics}{Article URL.}}
-
-Fortnite flashback: Just how accurate was the black hole that launched Chapter 2? Doris Elin Urrutia, \textit{Space.com}. February 2020. {\color{blue}\href{https://www.atlasobscura.com/articles/biggest-telescope-black-hole}{Article URL.}}
-
 Galison, P. L. (Director). 2019. \textit{Portrait of a Shadow.} Film. Sandbox Films.
 
-
-UMass Boston Physics Major Shares in \$3M Breakthrough Prize for Black Hole Image. Colleen Locke, \textit{UMass Boston News}. September 2019. {\color{blue}\href{https://www.umb.edu/news/detail/umass_boston_physics_major_shares_in_3m_breakthrough_prize_for_black_hole_image}{Article URL.}}
-
-Student Spotlight: Joseph Farah. Lisa Allen, \textit{UMass Boston News}. September 2019. {\color{blue}\href{https://www.umb.edu/news/detail/student_spotlight_joseph_farah}{Article URL.}}
-
 Seeing the Unseeable: The First Image of a Black Hole. University of Massachusetts Boston, Boston, Massachusetts. May 2019.
-
-Scientists Needed to Build a ‘Planet-Sized Telescope’ to See the Black Hole. Jessica Heister, \textit{Atlas Obscura}. April 2019. {\color{blue}\href{https://www.space.com/fortnite-chapter-2-black-hole-science.html}{Article URL.}}
-
-Two UMass Boston Students Earn Prestigious Goldwater Scholarships. Maedot Kassa, \textit{UMass Boston News}. April 2019. {\color{blue}\href{https://www.umb.edu/news/detail/two_umass_boston_students_earn_prestigious_goldwater_scholarships}{Article URL.}}
-
 
 Imaging a Black Hole with the Event Horizon Telescope. Harvard University, Cambridge, MA. April
 2019.
 
 
-\newpage
+
 \vspace{+.4cm}
 \section{{\sc Publications (first-author)  \\ \vspace{0.3cm} {\footnotesize \textbf{\color{Maroon} Stats (all papers)}: \\Citations: 19,100+ \\ \vspace{0.1cm} \noindent Ref'd Papers: 118+ \vspace{0.1cm} \\ $h$-index: 37 \\ i10-index: 73}} \\ }
 
 % \textbf{NB:} Please see full list of publications on page 6
 
-8. \textbf{J. R. Farah}, Lupsasca, A., Quataert, E., Johnson, M. D. 2025. \textit{Interferometric inference of black hole spin from photon ring size and brightness}. Submitted to ApJ. \href{https://arxiv.org/abs/2509.23628}{arXiv:2509.23628}.
+8. \textbf{J. R. Farah}, Lupsasca, A., Quataert, E., Johnson, M. D. 2025. \textit{Interferometric inference of black hole spin from photon ring size and brightness}. Submitted to ApJ, positive referee report received. \href{https://arxiv.org/abs/2509.23628}{arXiv:2509.23628}.
 
-7. \textbf{J. R. Farah}, Prust, L. J., Howell, D. A., \textit{et al.}. 2025. \textit{Lense-Thirring precessing magnetar engine drives a superluminous supernova}. Submitted to \textit{Nature}, positive referee report received, response submitted. \href{https://arxiv.org/abs/2509.08051}{arXiv:2509.08051}.
+7. \textbf{J. R. Farah}, Prust, L. J., Howell, D. A., \textit{et al.}. 2025. \textit{Lense-Thirring precessing magnetar engine drives a superluminous supernova}. \textit{Nature}, accepted. \href{https://arxiv.org/abs/2509.08051}{arXiv:2509.08051}.
 
 6. \textbf{J. R. Farah}, Howell, D. A., Hiramatsu, D., \textit{et al.}. 2025. \textit{When IIb Ceases To Be: Bridging the Gap Between IIb and Short-plateau Supernovae}. Submitted to ApJ, positive referee report received. \href{https://arxiv.org/abs/2509.12470}{arXiv:2509.12470}.
 
@@ -643,61 +689,61 @@ Imaging a Black Hole with the Event Horizon Telescope. Harvard University, Cambr
 \section{\sc Conference publications}
 (last updated: Aug 2025)
 
-M. D. Johnson, K. Akiyama, R. Baturin, ...\textbf{J. Farah} et al. (2024). \textit{The Black Hole Explorer: motivation and vision}. In: Space Telescopes and Instrumentation 2024: Optical, Infrared, and Millimeter Wave (SPIE Conf. Ser. 13092), 130922D.
+4. M. D. Johnson, K. Akiyama, R. Baturin, ... \textbf{J. Farah} et al. (2024). \textit{The Black Hole Explorer: motivation and vision}. In: Space Telescopes and Instrumentation 2024: Optical, Infrared, and Millimeter Wave (SPIE Conf. Ser. 13092), 130922D.
 
-Haworth, K., Johnson, M.~D., Pesce, D.~W., ... \textbf{J. R. Farah}  et al.\ 2019. \textit{Studying black holes on horizon scales with space-VLBI}. arXiv:1909.01405 
+3. Haworth, K., Johnson, M.~D., Pesce, D.~W., ... \textbf{J. R. Farah}  et al.\ 2019. \textit{Studying black holes on horizon scales with space-VLBI}. arXiv:1909.01405 
 
-Blackburn, L., Doeleman, S., Dexter, J., ... \textbf{J. R. Farah} et al.\ 2019. \textit{Studying Black Holes on Horizon Scales with VLBI Ground Arrays}. arXiv:1909.01411 
+2. Blackburn, L., Doeleman, S., Dexter, J., ... \textbf{J. R. Farah} et al.\ 2019. \textit{Studying Black Holes on Horizon Scales with VLBI Ground Arrays}. arXiv:1909.01411 
 
-Fabbiano, E., Berriman, B., Bose, C., ... \textbf{J. R. Farah}, et al. 2019. \textit{Increasing the Discovery Space in Astrophysics - A Collation of Six Submitted White Papers.} 
+1. Fabbiano, E., Berriman, B., Bose, C., ... \textbf{J. R. Farah}, et al. 2019. \textit{Increasing the Discovery Space in Astrophysics - A Collation of Six Submitted White Papers.} 
 
 
 \vspace{+.4cm}
 \section{\sc Technical publications}
 (last updated: Aug 2025)
 
-Chael A., Bouman, K., Johnson  M., Wielgus M., Blackburn L., Chan C., \textbf{Farah J.}, Palumbo D., Pesce D., et al. 2022. \textit{eht-imaging: v1.2.4: Imaging interferometric data with regularized maximum likelihood}. Zenodo (software) publication.
+5. Chael A., Bouman, K., Johnson  M., Wielgus M., Blackburn L., Chan C., \textbf{Farah J.}, Palumbo D., Pesce D., et al. 2022. \textit{eht-imaging: v1.2.4: Imaging interferometric data with regularized maximum likelihood}. Zenodo (software) publication.
 
-Chael A., Bouman, K., Johnson  M., Wielgus M., Blackburn L., Chan C., \textbf{Farah J.}, Palumbo D., Pesce D. 2019. \textit{eht-imaging: v1.1.0: Imaging interferometric data with regularized maximum likelihood}. Zenodo (software) publication.
+4. Chael A., Bouman, K., Johnson  M., Wielgus M., Blackburn L., Chan C., \textbf{Farah J.}, Palumbo D., Pesce D. 2019. \textit{eht-imaging: v1.1.0: Imaging interferometric data with regularized maximum likelihood}. Zenodo (software) publication.
 
-\textbf{Farah J}, Felt N, Franklin M, Giorimini P, Rogan C, Tuna A, Wang A. 2017. \textit{All The Sparks We Cannot See}. ATLAS Internal Note.
+3. \textbf{Farah J}, Felt N, Franklin M, Giorimini P, Rogan C, Tuna A, Wang A. 2017. \textit{All The Sparks We Cannot See}. ATLAS Internal Note.
 
-\textbf{Farah J}, Felt N, Frank, Giorimini P, Rogan C, Tuna A, Wang A. 2017. \textit{Test of the Micromegas Trigger Processor with Cosmic Ray Muons}. ATLAS Internal Note.
+2. \textbf{Farah J}, Felt N, Frank, Giorimini P, Rogan C, Tuna A, Wang A. 2017. \textit{Test of the Micromegas Trigger Processor with Cosmic Ray Muons}. ATLAS Internal Note.
 
-Felt N, Franklin M, Giorimini P, Rogan C, Tuna A, Wang A, \textbf{Farah J}. 2017. \textit{Performance of a Micromegas octuplet after removing the major cause of MMFE8 noise}. ATLAS Internal Note.
+1. Felt N, Franklin M, Giorimini P, Rogan C, Tuna A, Wang A, \textbf{Farah J}. 2017. \textit{Performance of a Micromegas octuplet after removing the major cause of MMFE8 noise}. ATLAS Internal Note.
 
 \vspace{+.4cm}
 \section{\sc Classifications, telegrams, and circulars}
 (last updated: Aug 2025)
 %% using icarus from ADS
-\bibitem[Farah et al.(2025)]{2025TNSCR3013....1F} Farah, J., Andrews, M., Wynn, K., Howell, D.~A., McCully, C.\ 2025.\ Global SN Project Transient Classification Report for 2025-07-31.\ Transient Name Server Classification Report 2025-3013.
-\bibitem[Andrews et al.(2025)]{2025TNSCR2699....1A} Andrews, M., Farah, J., Wynn, K., Bosteroem, A., Howell, D.~A., McCully, C.\ 2025.\ Global SN Project Transient Classification Report for 2025-07-14.\ Transient Name Server Classification Report 2025-2699.
+\bibitem[Farah et al.(2025)]{2025TNSCR3013....1F} \textbf{Farah, J.}, Andrews, M., Wynn, K., Howell, D.~A., McCully, C.\ 2025.\ Global SN Project Transient Classification Report for 2025-07-31.\ Transient Name Server Classification Report 2025-3013.
+\bibitem[Andrews et al.(2025)]{2025TNSCR2699....1A} Andrews, M., \textbf{Farah, J.}, Wynn, K., Bosteroem, A., Howell, D.~A., McCully, C.\ 2025.\ Global SN Project Transient Classification Report for 2025-07-14.\ Transient Name Server Classification Report 2025-2699.
 \bibitem[Li et al.(2025)]{2025GCN.40975....1L} Li, W.~X. and 8 colleagues 2025.\ EP250704a/GRB 250704B: GSP observations of the optical counterpart.\ GRB Coordinates Network, Circular Service, No. 40975 40975.
-\bibitem[Farah et al.(2025)]{2025TNSCR2162....1F} Farah, J., Andrew, M., Howell, D.~A., McCully, C., Ni, Y.~Q., Wynn, K.\ 2025.\ Global SN Project Transient Classification Report for 2025-06-09.\ Transient Name Server Classification Report 2025-2162.
-\bibitem[Ni et al.(2025)]{2025TNSCR2041....1N} Ni, C., Andrews, M., Farah, J., Wynn, K., Howell, D.~A., McCully, C.\ 2025.\ Global SN Project Transient Classification Report for 2025-05-30.\ Transient Name Server Classification Report 2025-2041.
-\bibitem[Ni et al.(2025)]{2025TNSCR2027....1N} Ni, C., Andrews, M., Farah, J., Wynn, K., Howell, D.~A., McCully, C.\ 2025.\ Global SN Project Transient Classification Report for 2025-05-29.\ Transient Name Server Classification Report 2025-2027.
-\bibitem[Andrews et al.(2025)]{2025TNSCR1947....1A} Andrews, M., Farah, J., Ni, C., Wynn, K., Howell, D.~A., McCully, C.\ 2025.\ Global SN Project Transient Classification Report for 2025-05-24.\ Transient Name Server Classification Report 2025-1947.
-\bibitem[Ni et al.(2025)]{2025TNSCR1733....1N} Ni, C., Andrews, M., Farah, J., Wynn, K., Howell, D.~A., McCully, C.\ 2025.\ Global SN Project Transient Classification Report for 2025-05-09.\ Transient Name Server Classification Report 2025-1733.
+\bibitem[Farah et al.(2025)]{2025TNSCR2162....1F} \textbf{Farah, J.}, Andrew, M., Howell, D.~A., McCully, C., Ni, Y.~Q., Wynn, K.\ 2025.\ Global SN Project Transient Classification Report for 2025-06-09.\ Transient Name Server Classification Report 2025-2162.
+\bibitem[Ni et al.(2025)]{2025TNSCR2041....1N} Ni, C., Andrews, M., \textbf{Farah, J.}, Wynn, K., Howell, D.~A., McCully, C.\ 2025.\ Global SN Project Transient Classification Report for 2025-05-30.\ Transient Name Server Classification Report 2025-2041.
+\bibitem[Ni et al.(2025)]{2025TNSCR2027....1N} Ni, C., Andrews, M., \textbf{Farah, J.}, Wynn, K., Howell, D.~A., McCully, C.\ 2025.\ Global SN Project Transient Classification Report for 2025-05-29.\ Transient Name Server Classification Report 2025-2027.
+\bibitem[Andrews et al.(2025)]{2025TNSCR1947....1A} Andrews, M., \textbf{Farah, J.}, Ni, C., Wynn, K., Howell, D.~A., McCully, C.\ 2025.\ Global SN Project Transient Classification Report for 2025-05-24.\ Transient Name Server Classification Report 2025-1947.
+\bibitem[Ni et al.(2025)]{2025TNSCR1733....1N} Ni, C., Andrews, M., \textbf{Farah, J.}, Wynn, K., Howell, D.~A., McCully, C.\ 2025.\ Global SN Project Transient Classification Report for 2025-05-09.\ Transient Name Server Classification Report 2025-1733.
 \bibitem[Baldini et al.(2025)]{2025TNSCR1720....1B} Baldini, P. and 7 colleagues 2025.\ Transient Classification Report for 2025-05-08.\ Transient Name Server Classification Report 2025-1720.
 \bibitem[Baldini et al.(2025)]{2025TNSAN.142....1B} Baldini, P. and 7 colleagues 2025.\ Spectroscopic classification of the re-brightening associated with AT 2021gqu as a SNIa-pec..\ Transient Name Server AstroNote 142.
-\bibitem[Andrews et al.(2025)]{2025TNSCR1539....1A} Andrews, M., Farah, J., Ni, C., Wynn, K., Howell, D.~A., McCully, C.\ 2025.\ Global SN Project Transient Classification Report for 2025-04-25.\ Transient Name Server Classification Report 2025-1539.
-\bibitem[Andrews et al.(2025)]{2025TNSCR1531....1A} Andrews, M., Farah, J., Ni, C., Wynn, K., Howell, D.~A., McCully, C.\ 2025.\ Global SN Project Transient Classification Report for 2025-04-24.\ Transient Name Server Classification Report 2025-1531.
+\bibitem[Andrews et al.(2025)]{2025TNSCR1539....1A} Andrews, M., \textbf{Farah, J.}, Ni, C., Wynn, K., Howell, D.~A., McCully, C.\ 2025.\ Global SN Project Transient Classification Report for 2025-04-25.\ Transient Name Server Classification Report 2025-1539.
+\bibitem[Andrews et al.(2025)]{2025TNSCR1531....1A} Andrews, M., \textbf{Farah, J.}, Ni, C., Wynn, K., Howell, D.~A., McCully, C.\ 2025.\ Global SN Project Transient Classification Report for 2025-04-24.\ Transient Name Server Classification Report 2025-1531.
 \bibitem[Newsome et al.(2025)]{2025TNSCR1351....1N} Newsome, M. and 8 colleagues 2025.\ Transient Classification Report for 2025-04-10.\ Transient Name Server Classification Report 2025-1351.
 \bibitem[Li et al.(2025)]{2025GCN.40157....1L} Li, W.~X. and 8 colleagues 2025.\ EP250416a: GSP optical upper limit.\ GRB Coordinates Network, Circular Service, No. 40157 40157.
-\bibitem[Andrews et al.(2025)]{2025TNSCR1076....1A} Andrews, M., Farah, J., Howell, D.~A., McCully, C.\ 2025.\ Transient Classification Report for 2025-03-21.\ Transient Name Server Classification Report 2025-1076.
-\bibitem[Andrews et al.(2025)]{2025TNSCR1033....1A} Andrews, M., Farah, J., Howell, D.~A., McCully, C.\ 2025.\ Transient Classification Report for 2025-03-18.\ Transient Name Server Classification Report 2025-1033.
-\bibitem[Andrews et al.(2025)]{2025TNSCR.991....1A} Andrews, M., Farah, J., Howell, D.~A., McCully, C.\ 2025.\ Transient Classification Report for 2025-03-14.\ Transient Name Server Classification Report 2025-991.
-\bibitem[Andrews et al.(2025)]{2025TNSCR.977....1A} Andrews, M., Farah, J., Howell, D.~A., McCully, C.\ 2025.\ Transient Classification Report for 2025-03-13.\ Transient Name Server Classification Report 2025-977.
-\bibitem[Farah et al.(2025)]{2025TNSCR.922....1F} Farah, J., Andrews, M., Ni, C., Howell, D.~A., McCully, C.\ 2025.\ Transient Classification Report for 2025-03-08.\ Transient Name Server Classification Report 2025-922.
+\bibitem[Andrews et al.(2025)]{2025TNSCR1076....1A} Andrews, M., \textbf{Farah, J.}, Howell, D.~A., McCully, C.\ 2025.\ Transient Classification Report for 2025-03-21.\ Transient Name Server Classification Report 2025-1076.
+\bibitem[Andrews et al.(2025)]{2025TNSCR1033....1A} Andrews, M., \textbf{Farah, J.}, Howell, D.~A., McCully, C.\ 2025.\ Transient Classification Report for 2025-03-18.\ Transient Name Server Classification Report 2025-1033.
+\bibitem[Andrews et al.(2025)]{2025TNSCR.991....1A} Andrews, M., \textbf{Farah, J.}, Howell, D.~A., McCully, C.\ 2025.\ Transient Classification Report for 2025-03-14.\ Transient Name Server Classification Report 2025-991.
+\bibitem[Andrews et al.(2025)]{2025TNSCR.977....1A} Andrews, M., \textbf{Farah, J.}, Howell, D.~A., McCully, C.\ 2025.\ Transient Classification Report for 2025-03-13.\ Transient Name Server Classification Report 2025-977.
+\bibitem[Farah et al.(2025)]{2025TNSCR.922....1F} \textbf{Farah, J.}, Andrews, M., Ni, C., Howell, D.~A., McCully, C.\ 2025.\ Transient Classification Report for 2025-03-08.\ Transient Name Server Classification Report 2025-922.
 \bibitem[Andrews et al.(2025)]{2025TNSCR.914....1A} Andrews, M. and 6 colleagues 2025.\ Transient Classification Report for 2025-03-07.\ Transient Name Server Classification Report 2025-914.
 \bibitem[Shrestha et al.(2025)]{2025GCN.39896....1S} Shrestha, M. and 13 colleagues 2025.\ GRB 250327B: Las Cumbres optical counterpart detection.\ GRB Coordinates Network, Circular Service, No. 39896 39896.
 \bibitem[Li et al.(2025)]{2025GCN.39627....1L} Li, W.~X. and 8 colleagues 2025.\ EP250308a: GSP optical upper limit.\ GRB Coordinates Network, Circular Service, No. 39627 39627.
-\bibitem[Andrews et al.(2025)]{2025TNSCR.802....1A} Andrews, M., Hiramatsu, D., Farah, J., Howell, D.~A., McCully, C.\ 2025.\ Transient Classification Report for 2025-02-26.\ Transient Name Server Classification Report 2025-802.
-\bibitem[Farah et al.(2025)]{2025TNSCR.530....1F} Farah, J., Andrews, M., Ni, C., Howell, D.~A., McCully, C., Wynn, K.\ 2025.\ Transient Classification Report for 2025-02-07.\ Transient Name Server Classification Report 2025-530.
+\bibitem[Andrews et al.(2025)]{2025TNSCR.802....1A} Andrews, M., Hiramatsu, D., \textbf{Farah, J.}, Howell, D.~A., McCully, C.\ 2025.\ Transient Classification Report for 2025-02-26.\ Transient Name Server Classification Report 2025-802.
+\bibitem[Farah et al.(2025)]{2025TNSCR.530....1F} \textbf{Farah, J.}, Andrews, M., Ni, C., Howell, D.~A., McCully, C., Wynn, K.\ 2025.\ Transient Classification Report for 2025-02-07.\ Transient Name Server Classification Report 2025-530.
 \bibitem[Li et al.(2025)]{2025GCN.39489....1L} Li, W.~X. and 8 colleagues 2025.\ EP250226a/GRB 250226A: GSP detects optical counterpart.\ GRB Coordinates Network, Circular Service, No. 39489 39489.
 \bibitem[Li et al.(2025)]{2025GCN.39477....1L} Li, W.~X. and 8 colleagues 2025.\ EP250225a: GSP optical upper limit.\ GRB Coordinates Network, Circular Service, No. 39477 39477.
 \bibitem[Faris et al.(2025)]{2025TNSCR..25....1F} Faris, S. and 6 colleagues 2025.\ StarDestroyers Transient Classification Report for 2025-01-02.\ Transient Name Server Classification Report 2025-25.
-\bibitem[Andrews et al.(2024)]{2024TNSCR4593....1A} Andrews, M., Farah, J., Ni, C., Howell, D.~A., McCully, C.\ 2024.\ Global SN Project Transient Classification Report for 2024-11-22.\ Transient Name Server Classification Report 2024-4593.
+\bibitem[Andrews et al.(2024)]{2024TNSCR4593....1A} Andrews, M., \textbf{Farah, J.}, Ni, C., Howell, D.~A., McCully, C.\ 2024.\ Global SN Project Transient Classification Report for 2024-11-22.\ Transient Name Server Classification Report 2024-4593.
 \bibitem[Newsome et al.(2024)]{2024TNSCR4486....1N} Newsome, M. and 6 colleagues 2024.\ Transient Classification Report for 2024-11-13.\ Transient Name Server Classification Report 2024-4486.
 \bibitem[Newsome et al.(2024)]{2024TNSCR4446....1N} Newsome, M. and 6 colleagues 2024.\ Transient Classification Report for 2024-11-11.\ Transient Name Server Classification Report 2024-4446.
 \bibitem[Faris et al.(2024)]{2024TNSCR4428....1F} Faris, S. and 6 colleagues 2024.\ StarDestroyers Transient Classification Report for 2024-11-10.\ Transient Name Server Classification Report 2024-4428.
@@ -707,37 +753,37 @@ Felt N, Franklin M, Giorimini P, Rogan C, Tuna A, Wang A, \textbf{Farah J}. 2017
 \bibitem[Faris et al.(2024)]{2024TNSCR4005....1F} Faris, S. and 6 colleagues 2024.\ StarDestroyers Transient Classification Report for 2024-10-14.\ Transient Name Server Classification Report 2024-4005.
 \bibitem[Shrestha et al.(2024)]{2024GCN.37913....1S} Shrestha, M. and 11 colleagues 2024.\ GRB 241026A: Las Cumbres optical detection.\ GRB Coordinates Network, Circular Service, No. 37913 37913.
 \bibitem[Li et al.(2024)]{2024GCN.37844....1L} Li, W.~X. and 8 colleagues 2024.\ EP241021a: GSP detects optical candidate counterpart.\ GRB Coordinates Network, Circular Service, No. 37844 37844.
-\bibitem[Newsome et al.(2024)]{2024TNSCR3794....1N} Newsome, M., Andrews, M., Farah, J., Howell, D.~A., McCully, C.\ 2024.\ Global SN Project Transient Classification Report for 2024-09-30.\ Transient Name Server Classification Report 2024-3794.
-\bibitem[Andrews et al.(2024)]{2024TNSCR3490....1A} Andrews, M., Farah, J., Howell, D.~A., McCully, C.\ 2024.\ Transient Classification Report for 2024-09-13.\ Transient Name Server Classification Report 2024-3490.
+\bibitem[Newsome et al.(2024)]{2024TNSCR3794....1N} Newsome, M., Andrews, M., \textbf{Farah, J.}, Howell, D.~A., McCully, C.\ 2024.\ Global SN Project Transient Classification Report for 2024-09-30.\ Transient Name Server Classification Report 2024-3794.
+\bibitem[Andrews et al.(2024)]{2024TNSCR3490....1A} Andrews, M., \textbf{Farah, J.}, Howell, D.~A., McCully, C.\ 2024.\ Transient Classification Report for 2024-09-13.\ Transient Name Server Classification Report 2024-3490.
 
-\bibitem[Andrews et al.(2024)]{2024TNSCR3471....1A} Andrews, M., Farah, J., Howell, D.~A., McCully, C.\ 2024.\ Transient Classification Report for 2024-09-12.\ Transient Name Server Classification Report 2024-3471.
+\bibitem[Andrews et al.(2024)]{2024TNSCR3471....1A} Andrews, M., \textbf{Farah, J.}, Howell, D.~A., McCully, C.\ 2024.\ Transient Classification Report for 2024-09-12.\ Transient Name Server Classification Report 2024-3471.
 \bibitem[Bostroem et al.(2024)]{2024TNSCR2571....1B} Bostroem, K.~A. and 24 colleagues 2024.\ DLT40 Transient Classification Report for 2024-07-24.\ Transient Name Server Classification Report 2024-2571.
-\bibitem[Newsome et al.(2024)]{2024TNSCR1687....1N} Newsome, M., Farah, J., Howell, D.~A., McCully, C., Gonzalez, E.~P., Terreran, G.\ 2024.\ Global SN Project Transient Classification Report for 2024-05-28.\ Transient Name Server Classification Report 2024-1687.
+\bibitem[Newsome et al.(2024)]{2024TNSCR1687....1N} Newsome, M., \textbf{Farah, J.}, Howell, D.~A., McCully, C., Gonzalez, E.~P., Terreran, G.\ 2024.\ Global SN Project Transient Classification Report for 2024-05-28.\ Transient Name Server Classification Report 2024-1687.
 \bibitem[Hosseinzadeh et al.(2024)]{2024TNSCR1686....1H} Hosseinzadeh, G. and 8 colleagues 2024.\ Global SN Project Transient Classification Report for 2024-05-28.\ Transient Name Server Classification Report 2024-1686.
-\bibitem[Terreran et al.(2024)]{2024TNSCR.843....1T} Terreran, G., Howell, D.~A., McCully, C., Newsome, M., Gonzalez, E.~P., Farah, J.\ 2024.\ Global SN Project Transient Classification Report for 2024-03-28.\ Transient Name Server Classification Report 2024-843.
-\bibitem[Terreran et al.(2024)]{2024TNSCR.828....1T} Terreran, G., Howell, D.~A., McCully, C., Newsome, M., Gonzalez, E.~P., Farah, J.\ 2024.\ Global SN Project Transient Classification Report for 2024-03-27.\ Transient Name Server Classification Report 2024-828.
+\bibitem[Terreran et al.(2024)]{2024TNSCR.843....1T} Terreran, G., Howell, D.~A., McCully, C., Newsome, M., Gonzalez, E.~P., \textbf{Farah, J.}\ 2024.\ Global SN Project Transient Classification Report for 2024-03-28.\ Transient Name Server Classification Report 2024-843.
+\bibitem[Terreran et al.(2024)]{2024TNSCR.828....1T} Terreran, G., Howell, D.~A., McCully, C., Newsome, M., Gonzalez, E.~P., \textbf{Farah, J.}\ 2024.\ Global SN Project Transient Classification Report for 2024-03-27.\ Transient Name Server Classification Report 2024-828.
 \bibitem[Newsome et al.(2024)]{2024TNSCR.505....1N} Newsome, M. and 7 colleagues 2024.\ Global SN Project Transient Classification Report for 2024-02-21.\ Transient Name Server Classification Report 2024-505.
-\bibitem[Newsome et al.(2024)]{2024TNSCR.448....1N} Newsome, M., Farah, J., Howell, D.~A., McCully, C., Gonzalez, E.~P., Terreran, G.\ 2024.\ Global SN Project Transient Classification Report for 2024-02-14.\ Transient Name Server Classification Report 2024-448.
-\bibitem[Newsome et al.(2024)]{2024TNSCR.413....1N} Newsome, M., Farah, J., Howell, D.~A., McCully, C., Gonzalez, E.~P., Terreran, G.\ 2024.\ Global SN Project Transient Classification Report for 2024-02-12.\ Transient Name Server Classification Report 2024-413.
+\bibitem[Newsome et al.(2024)]{2024TNSCR.448....1N} Newsome, M., \textbf{Farah, J.}, Howell, D.~A., McCully, C., Gonzalez, E.~P., Terreran, G.\ 2024.\ Global SN Project Transient Classification Report for 2024-02-14.\ Transient Name Server Classification Report 2024-448.
+\bibitem[Newsome et al.(2024)]{2024TNSCR.413....1N} Newsome, M., \textbf{Farah, J.}, Howell, D.~A., McCully, C., Gonzalez, E.~P., Terreran, G.\ 2024.\ Global SN Project Transient Classification Report for 2024-02-12.\ Transient Name Server Classification Report 2024-413.
 \bibitem[Gonzalez et al.(2024)]{2024TNSCR.399....1G} Gonzalez, E.~P. and 6 colleagues 2024.\ Global SN Project Transient Classification Report for 2024-02-11.\ Transient Name Server Classification Report 2024-399.
 \bibitem[Newsome et al.(2024)]{2024TNSCR.344....1N} Newsome, M. and 8 colleagues 2024.\ Global SN Project Transient Classification Report for 2024-02-04.\ Transient Name Server Classification Report 2024-344.
 \bibitem[Newsome et al.(2024)]{2024TNSCR.261....1N} Newsome, M. and 6 colleagues 2024.\ Global SN Project Transient Classification Report for 2024-01-26.\ Transient Name Server Classification Report 2024-261.
 \bibitem[Terreran et al.(2024)]{2024TNSCR.232....1T} Terreran, G. and 6 colleagues 2024.\ Global SN Project Transient Classification Report for 2024-01-22.\ Transient Name Server Classification Report 2024-232.
 \bibitem[Newsome et al.(2024)]{2024TNSCR..44....1N} Newsome, M. and 6 colleagues 2024.\ Global SN Project Transient Classification Report for 2024-01-05.\ Transient Name Server Classification Report 2024-44.
-\bibitem[Arcavi et al.(2023)]{2023TNSCR3391....1A} Arcavi, I., Terreran, G., Newsome, M., Farah, J., Charalampopoulos, P.\ 2023.\ StarDestroyers Transient Classification Report for 2023-12-30.\ Transient Name Server Classification Report 2023-3391.
-\bibitem[Terreran et al.(2023)]{2023TNSCR3376....1T} Terreran, G., Howell, D.~A., McCully, C., Newsome, M., Gonzalez, E.~P., Farah, J.\ 2023.\ Global SN Project Transient Classification Report for 2023-12-28.\ Transient Name Server Classification Report 2023-3376.
-\bibitem[Farah et al.(2023)]{2023TNSCR2992....1F} Farah, J. and 6 colleagues 2023.\ Transient Classification Report for 2023-11-17.\ Transient Name Server Classification Report 2023-2992.
-\bibitem[Newsome et al.(2023)]{2023TNSCR2557....1N} Newsome, M., Farah, J., Howell, D.~A., McCully, C., Gonzalez, E.~P., Terreran, G.\ 2023.\ Global SN Project Transient Classification Report for 2023-10-11.\ Transient Name Server Classification Report 2023-2557.
+\bibitem[Arcavi et al.(2023)]{2023TNSCR3391....1A} Arcavi, I., Terreran, G., Newsome, M., \textbf{Farah, J.}, Charalampopoulos, P.\ 2023.\ StarDestroyers Transient Classification Report for 2023-12-30.\ Transient Name Server Classification Report 2023-3391.
+\bibitem[Terreran et al.(2023)]{2023TNSCR3376....1T} Terreran, G., Howell, D.~A., McCully, C., Newsome, M., Gonzalez, E.~P., \textbf{Farah, J.}\ 2023.\ Global SN Project Transient Classification Report for 2023-12-28.\ Transient Name Server Classification Report 2023-3376.
+\bibitem[Farah et al.(2023)]{2023TNSCR2992....1F} \textbf{Farah, J.} and 6 colleagues 2023.\ Transient Classification Report for 2023-11-17.\ Transient Name Server Classification Report 2023-2992.
+\bibitem[Newsome et al.(2023)]{2023TNSCR2557....1N} Newsome, M., \textbf{Farah, J.}, Howell, D.~A., McCully, C., Gonzalez, E.~P., Terreran, G.\ 2023.\ Global SN Project Transient Classification Report for 2023-10-11.\ Transient Name Server Classification Report 2023-2557.
 \bibitem[Gonzalez et al.(2023)]{2023TNSCR2348....1G} Gonzalez, E.~P. and 6 colleagues 2023.\ Global SN Project Transient Classification Report for 2023-09-21.\ Transient Name Server Classification Report 2023-2348.
 \bibitem[Pellegrino et al.(2023)]{2023TNSCR2244....1P} Pellegrino, C. and 6 colleagues 2023.\ Global SN Project Transient Classification Report for 2023-09-12.\ Transient Name Server Classification Report 2023-2244.
-\bibitem[Farah et al.(2023)]{2023TNSCR2213....1F} Farah, J. and 6 colleagues 2023.\ Transient Classification Report for 2023-09-08.\ Transient Name Server Classification Report 2023-2213.
+\bibitem[Farah et al.(2023)]{2023TNSCR2213....1F} \textbf{Farah, J.} and 6 colleagues 2023.\ Transient Classification Report for 2023-09-08.\ Transient Name Server Classification Report 2023-2213.
 \bibitem[Terreran et al.(2023)]{2023TNSCR2212....1T} Terreran, G. and 6 colleagues 2023.\ Transient Classification Report for 2023-09-08.\ Transient Name Server Classification Report 2023-2212.
 \bibitem[Terreran et al.(2023)]{2023TNSCR2162....1T} Terreran, G. and 6 colleagues 2023.\ Global SN Project Transient Classification Report for 2023-09-04.\ Transient Name Server Classification Report 2023-2162.
 \bibitem[Pellegrino et al.(2023)]{2023TNSCR2134....1P} Pellegrino, C. and 6 colleagues 2023.\ Global SN Project Transient Classification Report for 2023-08-31.\ Transient Name Server Classification Report 2023-2134.
 \bibitem[Gonzalez et al.(2023)]{2023TNSCR2054....1G} Gonzalez, E.~P. and 6 colleagues 2023.\ Global SN Project Transient Classification Report for 2023-08-23.\ Transient Name Server Classification Report 2023-2054.
 \bibitem[Newsome et al.(2023)]{2023TNSCR2033....1N} Newsome, M. and 6 colleagues 2023.\ Global SN Project Transient Classification Report for 2023-08-21.\ Transient Name Server Classification Report 2023-2033.
 \bibitem[Newsome et al.(2023)]{2023TNSCR1999....1N} Newsome, M. and 6 colleagues 2023.\ Global SN Project Transient Classification Report for 2023-08-17.\ Transient Name Server Classification Report 2023-1999.
-\bibitem[Farah et al.(2023)]{2023TNSCR1960....1F} Farah, J. and 6 colleagues 2023.\ Transient Classification Report for 2023-08-14.\ Transient Name Server Classification Report 2023-1960.
+\bibitem[Farah et al.(2023)]{2023TNSCR1960....1F} \textbf{Farah, J.} and 6 colleagues 2023.\ Transient Classification Report for 2023-08-14.\ Transient Name Server Classification Report 2023-1960.
 \bibitem[Newsome et al.(2023)]{2023TNSCR1865....1N} Newsome, M. and 8 colleagues 2023.\ Global SN Project Transient Classification Report for 2023-08-05.\ Transient Name Server Classification Report 2023-1865.
 \bibitem[Newsome et al.(2023)]{2023TNSCR1767....1N} Newsome, M. and 7 colleagues 2023.\ Global SN Project Transient Classification Report for 2023-07-25.\ Transient Name Server Classification Report 2023-1767.
 \bibitem[Newsome et al.(2023)]{2023TNSCR1754....1N} Newsome, M. and 8 colleagues 2023.\ Global SN Project Transient Classification Report for 2023-07-24.\ Transient Name Server Classification Report 2023-1754.
@@ -746,17 +792,17 @@ Felt N, Franklin M, Giorimini P, Rogan C, Tuna A, Wang A, \textbf{Farah J}. 2017
 \bibitem[Gonzalez et al.(2023)]{2023TNSCR1496....1G} Gonzalez, E.~P. and 6 colleagues 2023.\ Global SN Project Transient Classification Report for 2023-06-26.\ Transient Name Server Classification Report 2023-1496.
 \bibitem[Pellegrino et al.(2023)]{2023TNSCR1474....1P} Pellegrino, C. and 6 colleagues 2023.\ Global SN Project Transient Classification Report for 2023-06-23.\ Transient Name Server Classification Report 2023-1474.
 \bibitem[Pellegrino et al.(2023)]{2023TNSCR1279....1P} Pellegrino, C. and 7 colleagues 2023.\ Global SN Project Transient Classification Report for 2023-05-30.\ Transient Name Server Classification Report 2023-1279.
-\bibitem[Farah et al.(2023)]{2023TNSCR1137....1F} Farah, J. and 6 colleagues 2023.\ Transient Classification Report for 2023-05-17.\ Transient Name Server Classification Report 2023-1137.
+\bibitem[Farah et al.(2023)]{2023TNSCR1137....1F} \textbf{Farah, J.} and 6 colleagues 2023.\ Transient Classification Report for 2023-05-17.\ Transient Name Server Classification Report 2023-1137.
 \bibitem[Gonzalez et al.(2023)]{2023TNSCR1017....1G} Gonzalez, E.~P. and 6 colleagues 2023.\ Global SN Project Transient Classification Report for 2023-05-05.\ Transient Name Server Classification Report 2023-1017.
 \bibitem[Newsome et al.(2023)]{2023TNSCR.944....1N} Newsome, M. and 6 colleagues 2023.\ Global SN Project Transient Classification Report for 2023-04-27.\ Transient Name Server Classification Report 2023-944.
-\bibitem[Farah et al.(2023)]{2023TNSCR.793....1F} Farah, J. and 6 colleagues 2023.\ Transient Classification Report for 2023-04-14.\ Transient Name Server Classification Report 2023-793.
+\bibitem[Farah et al.(2023)]{2023TNSCR.793....1F} \textbf{Farah, J.} and 6 colleagues 2023.\ Transient Classification Report for 2023-04-14.\ Transient Name Server Classification Report 2023-793.
 \bibitem[Pellegrino et al.(2023)]{2023TNSCR.725....1P} Pellegrino, C. and 6 colleagues 2023.\ Global SN Project Transient Classification Report for 2023-04-06.\ Transient Name Server Classification Report 2023-725.
 \bibitem[Pellegrino et al.(2023)]{2023TNSAN..75....1P} Pellegrino, C. and 6 colleagues 2023.\ Classification of AT 2023emq as a Type Icn Supernova.\ Transient Name Server AstroNote 75.
 \bibitem[Pellegrino et al.(2023)]{2023TNSCR.542....1P} Pellegrino, C. and 7 colleagues 2023.\ Global SN Project Transient Classification Report for 2023-03-15.\ Transient Name Server Classification Report 2023-542.
 \bibitem[Terreran et al.(2023)]{2023TNSCR.490....1T} Terreran, G. and 6 colleagues 2023.\ Global SN Project Transient Classification Report for 2023-03-07.\ Transient Name Server Classification Report 2023-490.
 \bibitem[Hosseinzadeh et al.(2023)]{2023TNSCR.277....1H} Hosseinzadeh, G. and 8 colleagues 2023.\ Global SN Project Transient Classification Report for 2023-02-03.\ Transient Name Server Classification Report 2023-277.
 \bibitem[Pellegrino et al.(2023)]{2023TNSCR.218....1P} Pellegrino, C. and 6 colleagues 2023.\ Global SN Project Transient Classification Report for 2023-01-27.\ Transient Name Server Classification Report 2023-218.
-\bibitem[Farah et al.(2023)]{2023TNSCR.144....1F} Farah, J. and 6 colleagues 2023.\ Transient Classification Report for 2023-01-20.\ Transient Name Server Classification Report 2023-144.
+\bibitem[Farah et al.(2023)]{2023TNSCR.144....1F} \textbf{Farah, J.} and 6 colleagues 2023.\ Transient Classification Report for 2023-01-20.\ Transient Name Server Classification Report 2023-144.
 \bibitem[Pellegrino et al.(2022)]{2022TNSCR2757....1P} Pellegrino, C. and 8 colleagues 2022.\ Global SN Project Transient Classification Report for 2022-09-23.\ Transient Name Server Classification Report 2022-2757.
 \bibitem[Pellegrino et al.(2022)]{2022TNSCR2707....1P} Pellegrino, C. and 7 colleagues 2022.\ Global SN Project Transient Classification Report for 2022-09-19.\ Transient Name Server Classification Report 2022-2707.
 \bibitem[Pellegrino et al.(2022)]{2022TNSCR2535....1P} Pellegrino, C. and 8 colleagues 2022.\ Global SN Project Transient Classification Report for 2022-08-31.\ Transient Name Server Classification Report 2022-2535.
