@@ -76,6 +76,32 @@
 \newcommand{\jgr}{J.~Geophys.~Res.}       % Journal of Geophysical Research
 
 
+\newlength{\cardwd}
+\newlength{\cardgap}
+\setlength{\cardgap}{4mm}      % horizontal gap between cards
+ 
+% \setcardcols{N} : sets card width so N cards fill \linewidth exactly
+\newcommand{\setcardcols}[1]{%
+  \setlength{\cardwd}{%
+    \dimexpr(\linewidth-\numexpr#1-1\relax\cardgap)/#1\relax}}
+ 
+% \statcard{value}{label}
+\newcommand{\statcard}[2]{%
+  \begin{minipage}[t]{\cardwd}
+    {\color{Maroon}\rule{\linewidth}{1.1pt}}\\[0.9mm]
+    {\fontsize{19}{19}\selectfont\bfseries #1}\\[0.4mm]
+    {\footnotesize\color{gray}\raggedright\textit{#2}\par}
+  \end{minipage}\hfill}
+ 
+% \cardbreak : start a new row of cards, with vertical breathing room
+\newcommand{\cardbreak}{\par\vspace{5.5mm}\noindent}
+ 
+% \cardfill : pads out an incomplete final row so cards stay
+%             left-aligned instead of being spread by \hfill
+\newcommand{\cardfill}{\hspace*{\dimexpr\cardwd+\cardgap\relax}}
+ 
+ 
+
 \renewcommand{\thefootnote}{\fnsymbol{footnote}}
 
 \newenvironment{list1}{
@@ -141,6 +167,53 @@ I lead programs to measure the spins of compact objects across regimes, from inf
 {\em B.S. in Physics, summa cum laude, with distinction}
 
 
+
+% ============================================================
+% PUBLICATION SUMMARY  --- place after \section{\sc Education}
+% Requires (already in your preamble): xcolor[dvipsnames], hyperref
+%
+% Put \statcard in your PREAMBLE (with your other \newcommands):
+%
+% ============================================================
+
+% \vspace{-0.5cm}
+\section{\sc {Publication} Summary}
+\vspace*{-1.7mm}   % <-- TUNE THIS until the margin header lines up
+
+\setcardcols{5}\noindent
+\statcard{8}{First-author, ref'd}
+\statcard{160+}{Total, ref'd}
+\statcard{26{,}000+}{Citations}
+\statcard{43}{$h$-index}
+\statcard{97}{i10-index}
+
+\begin{mdframed}[linecolor=Maroon]
+\vspace{+.3cm}
+\noindent {\bf \large Selected Publications}
+\vspace{-.2cm}
+
+{\leftskip=5mm
+\noindent {\color{Maroon}\textbf{J. R. Farah}}, Prust, L. J., Howell, D. A., \textit{et al.}. 2026.
+\textit{Lense-Thirring precessing magnetar engine drives a superluminous supernova}.
+\nat, 651, \href{...}{321-325}. \\
+{\color{gray} Reported the discovery of the first ``chirping'' supernova and its implications for the central engine hypothesis. Selected for the \href{...}{cover} of the March 12, 2026 issue.}
+
+\vspace*{+1mm}
+\noindent {\color{Maroon}\textbf{J. R. Farah}}, Galison, P., Akiyama, K., \textit{et al.}. 2022.
+\textit{Selective Dynamical Imaging of Interferometric Data}.
+\apjl, 930, \href{...}{L18}. \\
+{\color{gray} Seventh paper of the EHT's first Sagittarius~A$^\ast$ results series, with full Collaboration co-authorship. Method recognized by the LeRoy Apker Award, EHT Early Career Award.}
+\par}
+\vspace{0.35cm}
+\end{mdframed}
+
+
+% \hline
+
+
+
+%%%%%%%%%%%%%%%%%%%%%
+
 % \textit{GPA}: 3.9/4.0 
 % \textit{GPA (physics)}: 3.909/4.0
 \vspace{-.6cm}
@@ -159,7 +232,7 @@ Bhaumik Prize Postdoctoral Fellowship, UCLA (declined) \hfill 2026\\
 UC Santa Barbara Mananya Tantiwiwat Award \hfill 2025
 % {\color{gray}\textsc{Award amount}: \$1500}
 
-
+\newpage
 \vspace*{-2mm}
 Broida-Hirschfelder Fellowship  \hfill 2025  \\
 {\color{gray}\textsc{citation}: \textit{In recognition of his project uncovering the secrets of the strangest object in the universe, the black hole photon ring.}}
@@ -245,7 +318,7 @@ $1^\textrm{st}$ Place Award, Massachusetts State Science and Engineering Fair \h
 {\bf Miller Institute for Basic Research in Science}
 
 \vspace{-.4cm}
-{\em Miller Research Fellow, UC Berkeley --- Berkeley, CA} \hfill 2026 - Present \\
+{\em Miller Research Fellow, UC Berkeley --- Berkeley, CA} \hfill 2026--Present \\
 \textit{Hosts: Daniel Kasen, Raffaella Margutti}
 \end{changemargin}
 
@@ -265,7 +338,7 @@ $1^\textrm{st}$ Place Award, Massachusetts State Science and Engineering Fair \h
 
 
 
-{\bf Las Cumbres Observatory}\hfill 2021 - 2026
+{\bf Las Cumbres Observatory}\hfill 2021--2026
 
 
 \vspace{-.4cm}
@@ -282,14 +355,14 @@ $1^\textrm{st}$ Place Award, Massachusetts State Science and Engineering Fair \h
 {\bf Harvard-Smithsonian Center for Astrophysics}
 
 \vspace{-.4cm}
-{\em Member of the Black Hole Explorer Collaboration --- Cambridge, MA} \hfill 2020 - 2026
+{\em Member of the Black Hole Explorer Collaboration --- Cambridge, MA} \hfill 2020--2026
 % \vspace{-.3cm}\\
 \\
 \textit{Supervisor: Michael Johnson, Alex Lupsasca}
 
 
 % \vspace{-.4cm}
-{\em Smithsonian Fellowship with the Event Horizon Telescope --- Cambridge, MA} \hfill 2018 - 2021
+{\em Smithsonian Fellowship with the Event Horizon Telescope --- Cambridge, MA} \hfill 2018--2021
 %
 % \begin{changemargin}{-0.0cm}{2.5cm} 
 % I image supermassive black holes and assist in observations using the Event Horizon Telescope in order to help take the first ever pictures of black holes. I explored alternative parametric representations of shadows in the Kerr metric and non-standard GR theories, and methods constraining the angular momentum of rotating black holes in EHT data using image- and Fourier-domain feature extraction methods. As an undergraduate, I was the first and only junior collaborator of the EHT Consortium. 
@@ -297,19 +370,19 @@ $1^\textrm{st}$ Place Award, Massachusetts State Science and Engineering Fair \h
 \textit{Supervisor: Michael Johnson}
 \end{changemargin}
 
-{\bf Quantum Computing Research Group}\hfill 2019 - 2021
+{\bf Quantum Computing Research Group}\hfill 2019--2021
 
 \vspace{-.4cm}
 {\em Research Intern with Dr. Alioscia Hamma  --- Boston, MA}
 
 \vspace{.1cm}
-{\bf Harvard Laboratory for Particle Physics and Cosmology}\hfill 2017 - 2018
+{\bf Harvard Laboratory for Particle Physics and Cosmology}\hfill 2017--2018
 
 \vspace{-.4cm}
 {\em Research Intern with Dr. Melissa Franklin --- Cambridge, MA}
 
 % 
-{\bf QBism Research Group}\hfill 2017 - 2019
+{\bf QBism Research Group}\hfill 2017--2019
 
 \vspace{-.4cm}
 {\em Oracle Fellow with Dr. Christopher Fuchs  --- Boston, MA}
@@ -324,42 +397,6 @@ $1^\textrm{st}$ Place Award, Massachusetts State Science and Engineering Fair \h
 \vspace{-.4cm}
 {\em Summer Research Intern mentored by Dr. Anna Sajina --- Medford, MA}
 
-
-
-
-
-% \vspace{+.4cm}
-% \section{{\sc Publications (major contribution)  \\ \vspace{0.3cm} {\footnotesize Citations: 19,100+ \\ \vspace{0.1cm} \noindent Ref'd Papers: 110+ \vspace{0.1cm} \\ $h$-index: 37 \\ i10-index: 74}} \\ }
-
-% \textbf{NB:} Please see full list of publications on page 5
-
-
-% 1--6. \footnote[$\dagger$]{\noindent $^\dagger$These six papers are the first results papers from the Event Horizon Telescope, presenting the first image of a black hole.} \textbf{Event Horizon Telescope Collaboration} et al. (2019) ApJL, 875, \href{https://iopscience.iop.org/journal/2041-8205/page/Focus_on_EHT}{L2-6}.
-
-
-
-% 7--16. \footnote[$^S$]{\noindent $^S$These 10  papers are the first Galactic Center results papers from the Event Horizon Telescope, presenting the second image of a black hole and the first horizon-scale images of Sgr A$^\ast$.}\textbf{Event Horizon Telescope Collaboration et al}. (2022) ApJL 930 \href{https://iopscience.iop.org/journal/2041-8205/page/Focus_on_First_Sgr_A_Results}{L12-17,L19-21}.
-
-% 17. \textbf{$^S$J. R. Farah}, ..., and the Event Horizon Telescope Collaboration. (2022) \textit{Selective Dynamical Imaging of Interferometric Data.} ApJL, 930, \href{https://iopscience.iop.org/article/10.3847/2041-8213/ac6615}{L18}.
-
-% 18. \textbf{J. R. Farah}, L. J. Prust, D. A. Howell. Y. Q. Ni, et al. 2025. \textit{Lense-Thirring precessing magnetar engine drives a superluminous supernova.} Nature, submitted; positive referee report received. \href{https://arxiv.org/abs/2509.08051}{arXiv:2509.08051}.
-
-
-% 19. \textbf{J. R. Farah}, D. A. Howell, G. Terreran, et al. 2025. \textit{Shock-cooling Constraints via Early-time Observations of the Type IIb SN 2022hnt}. ApJ, 984, \href{https://iopscience.iop.org/article/10.3847/1538-4357/adad5a}{60}.
-
-
-% 20. \textbf{J. R. Farah}, J. Davelaar, D. Palumbo, M. Johnson, J. Delgado. 2025. \textit{Machine- and deep-learning-driven angular momentum inference from BHEX observations of the $n = 1$ photon ring}. ApJ, 983, \href{https://iopscience.iop.org/article/10.3847/1538-4357/adbbe3}{185}.
-
-% 21. \textbf{J. R. Farah}, D. W. Pesce, M. D. Johnson, \& L. Blackburn. 2020. \textit{On the Approximation of the Black Hole Shadow with a Simple Polar Curve}. ApJ, 900, \href{https://iopscience.iop.org/article/10.3847/1538-4357/aba59a}{77}.
-
-
-% 22. \textbf{J. R. Farah}, D. Hiramatsu, D. A. Howell, et al. 2025. \textit{When IIb Ceases To Be: Bridging the Gap Between Type IIb and Short-plateau Supernovae}. ApJ, submitted; positive referee report received. \href{https://arxiv.org/abs/2509.12470}{arXiv:2509.12470}.
-
-% 23. \textbf{J. R. Farah}, L. J. Prust, G. Terreran, D. A. Howell. 2025. \textit{The First 4 Years of SN 1993J Revisited: Geometric Modeling of the Radio Shell with Closure Quantities}. ApJ, submitted. \href{https://arxiv.org/abs/2509.20601}{arXiv:2509.20601}.
-
-% 24. \textbf{J. R. Farah}, A. Lupsasca, C. Gammie. 2025. \textit{Interferometric inference of black hole spin from the photon ring brightness profile}. ApJ, submitted. \href{https://arxiv.org/abs/2509.23628}{arXiv:2509.23628}.
-
-% 46. G. Hosseinzadeh, \textbf{J. R. Farah} et al. 2023. \textit{Shock Cooling and Possible Precursor Emission in the Early Light Curve of the Type II SN 2023ixf}. ApJL. 953, 1, \href{https://iopscience.iop.org/article/10.3847/2041-8213/ace4c4}{L16}.  
 
 
 
@@ -385,9 +422,9 @@ Teaching Assistant, PHYS 23 (Electrostatics and waves), UC Santa Barbara. Fall 2
 \noindent \textbf{Undergraduate research mentoring}
 \vspace{-0.65cm}
 \begin{itemize}
-    \item[] Eyouel Abate (UC Berkeley) \hfill 2026 - Present
-    \item[] Austin Mei (UC Berkeley) \hfill 2026 - Present
-    \item[] Courtney Duong (UC Santa Barbara) \hfill 2024 - Present \\
+    \item[] Eyouel Abate (UC Berkeley) \hfill 2026--Present
+    \item[] Austin Mei (UC Berkeley) \hfill 2026--Present
+    \item[] Courtney Duong (UC Santa Barbara) \hfill 2024--Present \\
     \vspace{-0.7cm}
     \begin{itemize}
         \item[] Project: Convolutional neural network for extraction of the $n=1$ black hole photon ring
@@ -395,20 +432,20 @@ Teaching Assistant, PHYS 23 (Electrostatics and waves), UC Santa Barbara. Fall 2
         \item[] Award: \textit{Edison STEM Research Scholarship}
     \end{itemize}
     \vspace{-0.2cm}
-    \item[] Franklin Myhre (UC Santa Barbara) \hfill 2024 - Present
+    \item[] Franklin Myhre (UC Santa Barbara) \hfill 2024--Present
     \vspace{-0.2cm}
     \begin{itemize}
         \item[] Project: Development of a \texttt{python} library for automated image-domain subring extraction
     \end{itemize}
     \vspace{-0.2cm}
-    \item[] Sanjit Masanam (UC Santa Barbara) \hfill 2024 - 2026
+    \item[] Sanjit Masanam (UC Santa Barbara) \hfill 2024--2026
     \vspace{-0.2cm}
     \begin{itemize}
         \item[] Award: \textit{2025 Goldwater Scholarship (nominated)}
         \item[] Award: \textit{2025 Ernest F. Hollings Scholarship}
     \end{itemize}
     \vspace{-0.2cm}
-    \item[] Songgun Lee (UC Santa Barbara) \hfill 2024 - 2026
+    \item[] Songgun Lee (UC Santa Barbara) \hfill 2024--2026
     \vspace{-0.2cm}
     \begin{itemize}
         \item[] \textit{Co-founder at Masterminding}
@@ -443,15 +480,6 @@ Local Organizing Committee, EHT Collaboration Meeting. 2020.
 \vspace*{-2mm}
 Local Organizing Committee, 2nd EHT Imaging Workshop, Black Hole Initiative, Harvard University, Cambridge, MA. July 2018.
 
-\vspace{+.2cm}
-\section{\sc Software Development}
-
-\texttt{eht-imaging}. Contributor. {\color{blue}\href{https://github.com/achael/eht-imaging}{Repository.}}
-
-\vspace*{-2mm}
-The Supernova Exchange (SNEx). Contributor. {\color{blue}\href{https://supernova.exchange}{Live site link.}}
-
-
 % \section{\sc Academic\\ Service}
 \vspace{+.0cm}
 \section{\sc Invited Talks \\ and Colloquia}
@@ -481,10 +509,21 @@ Very Long Baseline Interferometry and the Event Horizon Telescope. Astronomy 121
 \vspace{+.2cm}
 \section{\sc Seminars and Contributed Talks}
 
+Spin inference of compact objects across regimes. Black Hole Initiative, Cambridge, MA. August 2026.
+
 Precessing magnetar central engine drives a superluminous supernova. METAL group, University of Virginia, Charlottesville, VA. August 2026.
 
 \vspace*{-2mm}
 Spin inference of compact objects across regimes. Greene research group, Princeton University, Princeton, NJ. July 2026.
+
+\vspace*{-2mm}
+Precessing magnetar central engine drives a superluminous supernova. Narayan group, Center for Astrophysics $|$ Harvard \& Smithsonian, Cambridge, MA. July 2026.
+
+\vspace*{-2mm}
+Presentation presentation: a seminar on seminars. Workshop, Las Cumbres Observatory, Goleta, CA. January 2026.
+
+\vspace*{-2mm}
+General relativity meets a supernova for the first time. Las Cumbres Observatory colloquium, Goleta, CA. January 2026. {\color{blue}\href{https://lco.global/seminar/jfarah/}{Event URL.}}
 
 \vspace*{-2mm}
 Lense-Thirring precessing magnetar engine drives a superluminous supernova. KIPAC, Stanford University, Stanford, CA. November 2025.
@@ -499,27 +538,20 @@ Current and future impacts of survey capabilities on the stripped-envelope probl
 Shock-cooling constraints via early-time observations of the Type IIb SN 2022hnt. Kavli Institute for Theoretical Physics, Santa Barbara, CA. February 2025.
 
 \vspace*{-2mm}
+Selective dynamical imaging of interferometric data and the second image of a black hole. \textit{Astro Tea}, University of California, Santa Barbara, CA. June 2022.
+
+\vspace*{-2mm}
 Seeing the unseeable: the first image of a black hole. University of Massachusetts Boston, Boston, MA. May 2019.
 
 \vspace*{-2mm}
 Imaging a black hole with the Event Horizon Telescope. Harvard University, Cambridge, MA. April 2019.
 
-\vspace{+.2cm}
-\section{\sc Internal and Institutional Talks}
+% \vspace{+.2cm}
+% \section{\sc Internal and Institutional Talks}
 
-Spin inference of compact objects across regimes. Black Hole Initiative, Cambridge, MA. August 2026.
 
-\vspace*{-2mm}
-Precessing magnetar central engine drives a superluminous supernova. Narayan group, Center for Astrophysics $|$ Harvard \& Smithsonian, Cambridge, MA. July 2026.
 
-\vspace*{-2mm}
-General relativity meets a supernova for the first time. Las Cumbres Observatory colloquium, Goleta, CA. January 2026. {\color{blue}\href{https://lco.global/seminar/jfarah/}{Event URL.}}
 
-\vspace*{-2mm}
-Presentation presentation: a seminar on seminars. Workshop, Las Cumbres Observatory, Goleta, CA. January 2026.
-
-\vspace*{-2mm}
-Selective dynamical imaging of interferometric data and the second image of a black hole. \textit{Astro Tea}, University of California, Santa Barbara, CA. June 2022.
 
 \vspace{+.2cm}
 \section{\sc Outreach and Public Engagement}
@@ -565,10 +597,21 @@ Galison, P. L. (Director). 2021. \textit{Black Holes: The Edge of All We Know.} 
 \vspace*{-2mm}
 Galison, P. L. (Director). 2019. \textit{Portrait of a Shadow.} Sandbox Films.
 
+\vspace{+.2cm}
+\section{\sc Software Development}
 
+\texttt{eht-imaging}. Contributor. {\color{blue}\href{https://github.com/achael/eht-imaging}{Repository.}}
+
+\vspace*{-2mm}
+The Supernova Exchange (SNEx). Contributor. {\color{blue}\href{https://supernova.exchange}{Live site link.}}
+
+
+
+\phantomsection\label{sec:firstauthor}
 
 \vspace{+.4cm}
-\section{{\sc Publications (first-author)  \\ \vspace{0.3cm} {\footnotesize \textbf{\color{Maroon} Stats (all papers)}: \\Citations: 25,000+ \\ \vspace{0.1cm} \noindent Ref'd Papers: 140+ \vspace{0.1cm} \\ $h$-index: 41 \\ i10-index: 90}} \\ }
+\section{{\sc Publications (first-author)  \\ \vspace{0.3cm} {\footnotesize \textbf{\color{Maroon} Stats (all papers)}: \\Citations: 26,000+ \\ \vspace{0.1cm} \noindent Ref'd Papers: 160+ \vspace{0.1cm} \\ $h$-index: 43 \\ i10-index: 97}} \\ }
+
 
 % \textbf{NB:} Please see full list of publications on page 6
 
@@ -816,7 +859,7 @@ Galison, P. L. (Director). 2019. \textit{Portrait of a Shadow.} Sandbox Films.
 
 8. Fabbiano, G., Elvis, M., Accomazzi, A., \textit{et al.}. 2019. \textit{Increasing the Discovery Space in Astrophysics: The Exploration Question for Compact Objects}. \baas, 51, 89.
 
-7. Fabbiano, G., Elvis, M., Accomazzi, A., \textit{et al.}. 2019. \textit{Increasing the Discovery Space in Astrophysics - A Collation of Six Submitted White Papers}. arXiv e-prints, \href{https://arxiv.org/abs/1903.06634}{arXiv:1903.06634}.
+7. Fabbiano, G., Elvis, M., Accomazzi, A., \textit{et al.}. 2019. \textit{Increasing the Discovery Space in Astrophysics--A Collation of Six Submitted White Papers}. arXiv e-prints, \href{https://arxiv.org/abs/1903.06634}{arXiv:1903.06634}.
 
 \begin{mdframed}[linecolor=red]
 6. $^\dagger$Event Horizon Telescope Collaboration, ..., \textbf{J. R. Farah}, \textit{et al.}. 2019. \textit{First M87 Event Horizon Telescope Results. VI. The Shadow and Mass of the Central Black Hole}. \apjl, 875, L6. \href{https://arxiv.org/abs/1906.11243}{arXiv:1906.11243}.
@@ -843,7 +886,7 @@ Galison, P. L. (Director). 2019. \textit{Portrait of a Shadow.} Sandbox Films.
 
 2. Blackburn, L., Doeleman, S., Dexter, J., ... \textbf{J. R. Farah} et al.\ 2019. \textit{Studying Black Holes on Horizon Scales with VLBI Ground Arrays}. arXiv:1909.01411 
 
-1. Fabbiano, E., Berriman, B., Bose, C., ... \textbf{J. R. Farah}, et al. 2019. \textit{Increasing the Discovery Space in Astrophysics - A Collation of Six Submitted White Papers.} 
+1. Fabbiano, E., Berriman, B., Bose, C., ... \textbf{J. R. Farah}, et al. 2019. \textit{Increasing the Discovery Space in Astrophysics--A Collation of Six Submitted White Papers.} 
 
 
 \vspace{+.4cm}

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.4.7)  4 AUG 2026 02:06
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.4.7)  6 AUG 2026 17:02
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -352,23 +352,26 @@ Package footmisc Info: Declaring symbol style lamport* on input line 903.
 Package footmisc Info: Declaring symbol style lamport*-robust on input line 924
 .
 )
+\cardwd=\skip121
+\cardgap=\skip122
+
 (./main.aux)
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 97.
-LaTeX Font Info:    ... okay on input line 97.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 97.
-LaTeX Font Info:    ... okay on input line 97.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 97.
-LaTeX Font Info:    ... okay on input line 97.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 97.
-LaTeX Font Info:    ... okay on input line 97.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 97.
-LaTeX Font Info:    ... okay on input line 97.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 97.
-LaTeX Font Info:    ... okay on input line 97.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 97.
-LaTeX Font Info:    ... okay on input line 97.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 97.
-LaTeX Font Info:    ... okay on input line 97.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 123.
+LaTeX Font Info:    ... okay on input line 123.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 123.
+LaTeX Font Info:    ... okay on input line 123.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 123.
+LaTeX Font Info:    ... okay on input line 123.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 123.
+LaTeX Font Info:    ... okay on input line 123.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 123.
+LaTeX Font Info:    ... okay on input line 123.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 123.
+LaTeX Font Info:    ... okay on input line 123.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 123.
+LaTeX Font Info:    ... okay on input line 123.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 123.
+LaTeX Font Info:    ... okay on input line 123.
 
 (/usr/local/texlive/2020/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
@@ -385,7 +388,7 @@ LaTeX Font Info:    ... okay on input line 97.
 \everyMPtoPDFconversion=\toks25
 )
 \AtBeginShipoutBox=\box54
-Package hyperref Info: Link coloring ON on input line 97.
+Package hyperref Info: Link coloring ON on input line 123.
  (/usr/local/texlive/2020/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2019/09/16 v2.46 Cross-referencing by name of section
 
@@ -398,45 +401,57 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
 \c@section@level=\count274
 )
-LaTeX Info: Redefining \ref on input line 97.
-LaTeX Info: Redefining \pageref on input line 97.
-LaTeX Info: Redefining \nameref on input line 97.
+LaTeX Info: Redefining \ref on input line 123.
+LaTeX Info: Redefining \pageref on input line 123.
+LaTeX Info: Redefining \nameref on input line 123.
  (./main.out) (./main.out)
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 105.
+(Font)              <7> on input line 131.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 105.
+(Font)              <5> on input line 131.
 
-Overfull \hbox (90.26999pt too wide) in paragraph at lines 105--111
+Overfull \hbox (90.26999pt too wide) in paragraph at lines 131--137
 [][] 
  []
 
+
+LaTeX Font Warning: Font shape `OT1/cmr/m/n' in size <19> not available
+(Font)              size <17.28> substituted on input line 184.
+
+
+LaTeX Font Warning: Font shape `OT1/cmr/bx/n' in size <19> not available
+(Font)              size <17.28> substituted on input line 184.
+
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8> on input line 187.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 187.
 [1
 
 {/usr/local/texlive/2020/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
 
 ]
 
-! LaTeX Error: \begin{resume} on input line 101 ended by \end{changemargin}.
+! LaTeX Error: \begin{resume} on input line 127 ended by \end{changemargin}.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.250 \end{changemargin}
+l.323 \end{changemargin}
                         
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-! LaTeX Error: \begin{resume} on input line 101 ended by \end{changemargin}.
+! LaTeX Error: \begin{resume} on input line 127 ended by \end{changemargin}.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.263 \end{changemargin}
+l.336 \end{changemargin}
                         
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -449,7 +464,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.278 \end{changemargin}
+l.351 \end{changemargin}
                         
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -458,10 +473,11 @@ or  <return>  to continue without it.
 ! Extra \endgroup.
 <recently read> \endgroup 
                           
-l.278 \end{changemargin}
+l.351 \end{changemargin}
                         
 Things are pretty mixed up, but I think the worst is over.
 
+[2]
 
 ! LaTeX Error: \begin{document} ended by \end{changemargin}.
 
@@ -469,7 +485,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.298 \end{changemargin}
+l.371 \end{changemargin}
                         
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -478,42 +494,41 @@ or  <return>  to continue without it.
 ! Extra \endgroup.
 <recently read> \endgroup 
                           
-l.298 \end{changemargin}
+l.371 \end{changemargin}
                         
 Things are pretty mixed up, but I think the worst is over.
 
-[2] [3] [4]
+[3] [4]
 
 LaTeX Font Warning: Font shape `OT1/cmr/bx/sc' undefined
-(Font)              using `OT1/cmr/bx/n' instead on input line 571.
+(Font)              using `OT1/cmr/bx/n' instead on input line 613.
 
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 571.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 571.
+[5
+
+]
 ! Missing number, treated as zero.
 <to be read again> 
                    $
-l.593 2. \footnote[$^S$]
+l.636 2. \footnote[$^S$]
                         {\noindent $^S$This was the seventh paper of the 10-...
 A number should have been here; I inserted `0'.
 (If you can't figure out why I needed to see a number,
 look up `weird error' in the index to The TeXbook.)
 
-[5] [6
+[6
 
-] [7] [8] [9]
+] [7] [8] [9] [10]
 ! Missing number, treated as zero.
 <to be read again> 
                    $
-l.762 34.  \footnote[$^S$]
+l.805 34.  \footnote[$^S$]
                           {\noindent $^S$This is the first Galactic Center r...
 A number should have been here; I inserted `0'.
 (If you can't figure out why I needed to see a number,
 look up `weird error' in the index to The TeXbook.)
 
-[10] [11]
-Overfull \hbox (13.59703pt too wide) in paragraph at lines 828--829
+[11] [12]
+Overfull \hbox (13.59703pt too wide) in paragraph at lines 871--872
 \OT1/cmr/m/it/10 Hori-zon Tele-scope Re-sults. III. Data Pro-cess-ing and Cal-i
 -bra-tion\OT1/cmr/m/n/10 . ApJL, 875, L3. [][]arXiv:1906.11240[][]. 
  []
@@ -521,18 +536,18 @@ Overfull \hbox (13.59703pt too wide) in paragraph at lines 828--829
 ! Missing number, treated as zero.
 <to be read again> 
                    $
-l.832 1.  \footnote[$\dagger$]
+l.875 1.  \footnote[$\dagger$]
                               {\noindent $^\dagger$These six papers are the ...
 A number should have been here; I inserted `0'.
 (If you can't figure out why I needed to see a number,
 look up `weird error' in the index to The TeXbook.)
 
-[12]
+[13]
 ! Extra \endgroup.
 \endresume ->\endgroup 
                        
-l.970 \end{resume}
-                  
+l.1013 \end{resume}
+                   
 Things are pretty mixed up, but I think the worst is over.
 
 
@@ -542,8 +557,8 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.970 \end{resume}
-                  
+l.1013 \end{resume}
+                   
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
@@ -551,28 +566,32 @@ or  <return>  to continue without it.
 ! Extra \endgroup.
 <recently read> \endgroup 
                           
-l.970 \end{resume}
-                  
+l.1013 \end{resume}
+                   
 Things are pretty mixed up, but I think the worst is over.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 972.
-[13]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 972.
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 972.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 972.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1015.
+[14]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 1015.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1015.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 1015.
+
+
+LaTeX Font Warning: Size substitutions with differences
+(Font)              up to 1.72pt have occurred.
 
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 7333 strings out of 480608
- 118049 string characters out of 5903631
- 416458 words of memory out of 5000000
- 23089 multiletter control sequences out of 15000+600000
- 541521 words of font info for 54 fonts, out of 8000000 for 9000
+ 7348 strings out of 480608
+ 118203 string characters out of 5903631
+ 411609 words of memory out of 5000000
+ 23100 multiletter control sequences out of 15000+600000
+ 542479 words of font info for 57 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 44i,9n,40p,827b,431s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 44i,9n,40p,827b,337s stack positions out of 5000i,500n,10000p,200000b,80000s
 pdfTeX warning (dest): name{Hfootnote.1} has been referenced but does not exi
 st, replaced by a fixed one
 
@@ -594,12 +613,13 @@ ve/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texliv
 e/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local/texlive/
 2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/20
 20/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/202
-0/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/local/texlive/2020
-/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb>
-Output written on main.pdf (13 pages, 229935 bytes).
+0/texmf-dist/fonts/type1/public/amsfonts/cm/cmti8.pfb></usr/local/texlive/2020/
+texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/local/texlive/2020/t
+exmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb>
+Output written on main.pdf (14 pages, 246484 bytes).
 PDF statistics:
- 263 PDF objects out of 1000 (max. 8388607)
- 229 compressed objects within 3 object streams
- 18 named destinations out of 1000 (max. 500000)
+ 276 PDF objects out of 1000 (max. 8388607)
+ 240 compressed objects within 3 object streams
+ 20 named destinations out of 1000 (max. 500000)
  9 words of extra memory for PDF output out of 10000 (max. 10000000)
 
