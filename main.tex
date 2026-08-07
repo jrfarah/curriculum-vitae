@@ -93,6 +93,13 @@
     {\footnotesize\color{gray}\raggedright\textit{#2}\par}
   \end{minipage}\hfill}
  
+\newcommand{\statcites}{26{,}000+}
+\newcommand{\statrefd}{160+}
+\newcommand{\stath}{43}
+\newcommand{\stati}{97}
+\newcommand{\statfapapers}{8}
+
+
 % \cardbreak : start a new row of cards, with vertical breathing room
 \newcommand{\cardbreak}{\par\vspace{5.5mm}\noindent}
  
@@ -169,11 +176,7 @@ I lead programs to measure the spins of compact objects across regimes, from inf
 
 
 % ============================================================
-% PUBLICATION SUMMARY  --- place after \section{\sc Education}
-% Requires (already in your preamble): xcolor[dvipsnames], hyperref
-%
-% Put \statcard in your PREAMBLE (with your other \newcommands):
-%
+% PUBLICATION SUMMARY  
 % ============================================================
 
 % \vspace{-0.5cm}
@@ -181,11 +184,11 @@ I lead programs to measure the spins of compact objects across regimes, from inf
 \vspace*{-1.7mm}   % <-- TUNE THIS until the margin header lines up
 
 \setcardcols{5}\noindent
-\statcard{8}{First-author, ref'd}
-\statcard{160+}{Total, ref'd}
-\statcard{26{,}000+}{Citations}
-\statcard{43}{$h$-index}
-\statcard{97}{i10-index}
+\statcard{\statfapapers}{First-author}
+\statcard{\statrefd}{Total}
+\statcard{\statcites}{Citations}
+\statcard{\stath}{$h$-index}
+\statcard{\stati}{i10-index}
 
 \begin{mdframed}[linecolor=Maroon]
 \vspace{+.3cm}
@@ -195,13 +198,13 @@ I lead programs to measure the spins of compact objects across regimes, from inf
 {\leftskip=5mm
 \noindent {\color{Maroon}\textbf{J. R. Farah}}, Prust, L. J., Howell, D. A., \textit{et al.}. 2026.
 \textit{Lense-Thirring precessing magnetar engine drives a superluminous supernova}.
-\nat, 651, \href{...}{321-325}. \\
-{\color{gray} Reported the discovery of the first ``chirping'' supernova and its implications for the central engine hypothesis. Selected for the \href{...}{cover} of the March 12, 2026 issue.}
+{\color{Maroon}\nat}, 651, \href{...}{321-325}. \\
+{\color{gray} Reported the discovery of the first ``chirping'' supernova and its implications for the central engine hypothesis. Selected for the \href{https://www.nature.com/nature/volumes/651/issues/8105}{cover} of the March 12, 2026 issue of \textit{Nature}.}
 
 \vspace*{+1mm}
 \noindent {\color{Maroon}\textbf{J. R. Farah}}, Galison, P., Akiyama, K., \textit{et al.}. 2022.
 \textit{Selective Dynamical Imaging of Interferometric Data}.
-\apjl, 930, \href{...}{L18}. \\
+{\color{Maroon}\apjl}, 930, \href{https://iopscience.iop.org/article/10.3847/2041-8213/ac6615}{L18}. \\
 {\color{gray} Seventh paper of the EHT's first Sagittarius~A$^\ast$ results series, with full Collaboration co-authorship. Method recognized by the LeRoy Apker Award, EHT Early Career Award.}
 \par}
 \vspace{0.35cm}
@@ -597,20 +600,10 @@ Galison, P. L. (Director). 2021. \textit{Black Holes: The Edge of All We Know.} 
 \vspace*{-2mm}
 Galison, P. L. (Director). 2019. \textit{Portrait of a Shadow.} Sandbox Films.
 
-\vspace{+.2cm}
-\section{\sc Software Development}
-
-\texttt{eht-imaging}. Contributor. {\color{blue}\href{https://github.com/achael/eht-imaging}{Repository.}}
-
-\vspace*{-2mm}
-The Supernova Exchange (SNEx). Contributor. {\color{blue}\href{https://supernova.exchange}{Live site link.}}
-
-
-
 \phantomsection\label{sec:firstauthor}
 
 \vspace{+.4cm}
-\section{{\sc Publications (first-author)  \\ \vspace{0.3cm} {\footnotesize \textbf{\color{Maroon} Stats (all papers)}: \\Citations: 26,000+ \\ \vspace{0.1cm} \noindent Ref'd Papers: 160+ \vspace{0.1cm} \\ $h$-index: 43 \\ i10-index: 97}} \\ }
+\section{{\sc Publications (first-author)  \\ \vspace{0.3cm} {\footnotesize \textbf{\color{Maroon} Stats (all papers)}: \\Citations: \statcites \\ \vspace{0.1cm} \noindent Ref'd Papers: \statrefd \vspace{0.1cm} \\ $h$-index: \stath \\ i10-index: \stati}} \\ }
 
 
 % \textbf{NB:} Please see full list of publications on page 6
@@ -909,6 +902,16 @@ The Supernova Exchange (SNEx). Contributor. {\color{blue}\href{https://supernova
 
 \vspace{-2mm}
 First or co-author on 90+ Transient Name Server classification reports, AstroNotes, and GCN circulars, 2022--present, as part of the Global Supernova Project.
+
+\vspace{+.2cm}
+\section{\sc Software Development}
+
+\texttt{eht-imaging}. Contributor. {\color{blue}\href{https://github.com/achael/eht-imaging}{Repository.}}
+
+\vspace*{-2mm}
+The Supernova Exchange (SNEx). Contributor. {\color{blue}\href{https://supernova.exchange}{Live site link.}}
+
+
 
 % %% using icarus from ADS
 % \bibitem[Farah et al.(2025)]{2025TNSCR3013....1F} \textbf{Farah, J.}, Andrews, M., Wynn, K., Howell, D.~A., McCully, C.\ 2025.\ Global SN Project Transient Classification Report for 2025-07-31.\ Transient Name Server Classification Report 2025-3013.
