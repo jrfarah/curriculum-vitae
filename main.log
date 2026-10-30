@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999998 (TeX Live 2026) (preloaded format=xelatex 2026.3.22)  29 OCT 2026 22:18
+This is XeTeX, Version 3.141592653-2.6-0.999998 (TeX Live 2026) (preloaded format=xelatex 2026.3.22)  29 OCT 2026 22:40
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -363,76 +363,76 @@ Package footmisc Info: Declaring symbol style lamport*-robust on input line 618
 \awardtmp=\skip126
 
 (./main.aux)
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 141.
-LaTeX Font Info:    ... okay on input line 141.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 141.
-LaTeX Font Info:    ... okay on input line 141.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 141.
-LaTeX Font Info:    ... okay on input line 141.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 141.
-LaTeX Font Info:    ... okay on input line 141.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 141.
-LaTeX Font Info:    ... okay on input line 141.
-LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 141.
-LaTeX Font Info:    ... okay on input line 141.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 141.
-LaTeX Font Info:    ... okay on input line 141.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 141.
-LaTeX Font Info:    ... okay on input line 141.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 141.
-LaTeX Font Info:    ... okay on input line 141.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 141.
-LaTeX Font Info:    ... okay on input line 141.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 147.
+LaTeX Font Info:    ... okay on input line 147.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 147.
+LaTeX Font Info:    ... okay on input line 147.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 147.
+LaTeX Font Info:    ... okay on input line 147.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 147.
+LaTeX Font Info:    ... okay on input line 147.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 147.
+LaTeX Font Info:    ... okay on input line 147.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 147.
+LaTeX Font Info:    ... okay on input line 147.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 147.
+LaTeX Font Info:    ... okay on input line 147.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 147.
+LaTeX Font Info:    ... okay on input line 147.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 147.
+LaTeX Font Info:    ... okay on input line 147.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 147.
+LaTeX Font Info:    ... okay on input line 147.
 
 \providecommand\hyper@newdestlabel[2]{}
-Package hyperref Info: Link coloring ON on input line 141.
+Package hyperref Info: Link coloring ON on input line 147.
 (./main.out) (./main.out)
 
 Package hyperref Warning: Rerun to get /PageLabels entry.
 
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 149.
+(Font)              <7> on input line 155.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 149.
+(Font)              <5> on input line 155.
 
-Overfull \hbox (90.26999pt too wide) in paragraph at lines 149--155
+Overfull \hbox (90.26999pt too wide) in paragraph at lines 155--161
 [][] 
  []
 
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 201.
+(Font)              <8> on input line 207.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 201.
+(Font)              <6> on input line 207.
+
+! LaTeX Error: \begin{resume} on input line 151 ended by \end{changemargin}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.248 \end{changemargin}
+                        
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: \begin{resume} on input line 151 ended by \end{changemargin}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.261 \end{changemargin}
+                        
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
 [1
 
 
 ]
-
-! LaTeX Error: \begin{resume} on input line 145 ended by \end{changemargin}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.321 \end{changemargin}
-                        
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! LaTeX Error: \begin{resume} on input line 145 ended by \end{changemargin}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.334 \end{changemargin}
-                        
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
 
 ! LaTeX Error: \begin{document} ended by \end{changemargin}.
 
@@ -440,7 +440,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.349 \end{changemargin}
+l.276 \end{changemargin}
                         
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -449,7 +449,7 @@ or  <return>  to continue without it.
 ! Extra \endgroup.
 \end  ...end#1\endcsname \@checkend {#1}\endgroup 
                                                   \UseHook {env/#1/after}\if...
-l.349 \end{changemargin}
+l.276 \end{changemargin}
                         
 Things are pretty mixed up, but I think the worst is over.
 
@@ -460,7 +460,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.362 \end{changemargin}
+l.289 \end{changemargin}
                         
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -469,14 +469,14 @@ or  <return>  to continue without it.
 ! Extra \endgroup.
 \end  ...end#1\endcsname \@checkend {#1}\endgroup 
                                                   \UseHook {env/#1/after}\if...
-l.362 \end{changemargin}
+l.289 \end{changemargin}
                         
 Things are pretty mixed up, but I think the worst is over.
 
 [2] [3] [4] [5]
 
 LaTeX Font Warning: Font shape `TU/lmr/bx/sc' undefined
-(Font)              using `TU/lmr/bx/n' instead on input line 738.
+(Font)              using `TU/lmr/bx/n' instead on input line 709.
 
 [6
 
@@ -484,14 +484,14 @@ LaTeX Font Warning: Font shape `TU/lmr/bx/sc' undefined
 ! Missing number, treated as zero.
 <to be read again> 
                    $
-l.764 2. \footnote[$^S$]
+l.735 2. \footnote[$^S$]
                         {\noindent $^S$This was the seventh paper of the 10-...
 A number should have been here; I inserted `0'.
 (If you can't figure out why I needed to see a number,
 look up `weird error' in the index to The TeXbook.)
 
 
-Overfull \hbox (9.15756pt too wide) in paragraph at lines 789--790
+Overfull \hbox (9.15756pt too wide) in paragraph at lines 760--761
 \TU/lmr/m/it/10 powered Ic-BL supernova associated with X-ray transient EP25030
 4a\TU/lmr/m/n/10 . arXiv e-prints, [][]arXiv:2609.08356[][]. 
  []
@@ -499,15 +499,13 @@ Overfull \hbox (9.15756pt too wide) in paragraph at lines 789--790
 [7
 
 ]
-Overfull \hbox (1.78873pt too wide) in paragraph at lines 793--794
+Overfull \hbox (1.78873pt too wide) in paragraph at lines 764--765
 \TU/lmr/m/it/10 Superluminous Supernova Showing Electron-scattering Signatures\
 TU/lmr/m/n/10 . ApJ, 1008, 135. [][]arXiv:2608.30309[][]. 
  []
 
-[8] [9] [10] [11] [12] [13] [14]
-Package mdframed Info: Not enough space on this page on input line 1011.
- [15]
-Overfull \hbox (21.8921pt too wide) in paragraph at lines 1046--1047
+[8] [9] [10] [11] [12] [13] [14] [15]
+Overfull \hbox (21.8921pt too wide) in paragraph at lines 1017--1018
 \TU/lmr/m/it/10 Properties of M87 during the 2017 Event Horizon Telescope Campa
 ign\TU/lmr/m/n/10 . ApJL, 911, L11. [][]arXiv:2104.06855[][]. 
  []
@@ -516,7 +514,7 @@ ign\TU/lmr/m/n/10 . ApJL, 911, L11. [][]arXiv:2104.06855[][].
 ! Extra \endgroup.
 \endresume ->\endgroup 
                        
-l.1234 \end{resume}
+l.1205 \end{resume}
                    
 Things are pretty mixed up, but I think the worst is over.
 
@@ -527,7 +525,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.1234 \end{resume}
+l.1205 \end{resume}
                    
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -536,7 +534,7 @@ or  <return>  to continue without it.
 ! Extra \endgroup.
 \end  ...end#1\endcsname \@checkend {#1}\endgroup 
                                                   \UseHook {env/#1/after}\if...
-l.1234 \end{resume}
+l.1205 \end{resume}
                    
 Things are pretty mixed up, but I think the worst is over.
 
@@ -551,12 +549,12 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 9830 strings out of 468168
- 157024 string characters out of 5432815
- 605089 words of memory out of 5000000
- 38415 multiletter control sequences out of 15000+600000
+ 9829 strings out of 468168
+ 156977 string characters out of 5432815
+ 605156 words of memory out of 5000000
+ 38414 multiletter control sequences out of 15000+600000
  634654 words of font info for 80 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 84i,9n,93p,578b,456s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 84i,9n,93p,578b,458s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on main.xdv (17 pages, 539160 bytes).
+Output written on main.xdv (17 pages, 539436 bytes).

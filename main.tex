@@ -13,7 +13,7 @@
 %\setlength{\pdfpageheight}{\paperheight} 
 \raggedbottom
 
-\pagestyle{empty}
+% \pagestyle{empty}
 
 
 \usepackage{xcolor}
@@ -106,6 +106,12 @@
 % \cardfill : pads out an incomplete final row so cards stay
 %             left-aligned instead of being spread by \hfill
 \newcommand{\cardfill}{\hspace*{\dimexpr\cardwd+\cardgap\relax}}
+
+\newcommand{\mentee}[3]{%
+  {\leftskip=5mm \noindent #1\hfill #2\par}%
+  {\leftskip=11mm \noindent #3\par}%
+  \vspace{1.5mm}}
+\newcommand{\menteehead}[1]{\vspace{2mm}\noindent\textbf{#1}\par\vspace{0.5mm}}
  
 
 \newlength{\awarddatewd}
@@ -230,86 +236,7 @@ I lead programs to measure the spins of compact objects across regimes, from inf
 
 % \textit{GPA}: 3.9/4.0 
 % \textit{GPA (physics)}: 3.909/4.0
-\vspace{-.6cm}
-
-\section{\sc {\color{Maroon} Selected\\ Honors} and \\ Awards}
-\vspace*{0.67cm}
- 
-\award{{\color{Maroon}Miller Fellowship, Miller Institute for Basic Research in Science, Berkeley}}{2026--2029} \\
-{\color{gray}\textsc{Award amount}: \$354,000}
- 
-\vspace*{-2mm}
-\award{Bhaumik Prize Postdoctoral Fellowship, UCLA (declined)}{2026} \\
-{\color{gray}\textsc{Award amount}: \$276,000}
- 
-\vspace*{-2mm}
-\award{UC Santa Barbara Mananya Tantiwiwat Award}{2025}
-% {\color{gray}\textsc{Award amount}: \$1500}
- 
-\newpage
-\vspace*{-2mm}
-\award{Broida-Hirschfelder Fellowship}{2025} \\
-{\color{gray}\textsc{citation}: \textit{In recognition of his project uncovering the secrets of the strangest object in the universe, the black hole photon ring.}}
-% {\color{gray}\textsc{Award amount}: \$10,834}
- 
-\vspace*{-2mm}
-\award{$1^\textrm{st}$ Place Award, UC Santa Barbara Grad Slam}{2025} \\
-{\color{gray}\textit{Round 1 (Physics and Chemistry)}}
- 
-\vspace*{-2mm}
-\award{UC Santa Barbara GSA Excellence in Teaching Award (nominated)}{2025}
- 
-\vspace*{-2mm}
-\award{UC Santa Barbara Academic Senate Outstanding Teaching Assistant Award (nominated)}{2024}
- 
-\vspace*{-2mm}
-\award{Event Horizon Telescope Early Career Award}{2022} \\
-{\color{gray}\href{https://twitter.com/ehtelescope/status/1602826998346551296}{\textsc{citation}}: \textit{For his leadership and contribution to the dynamic imaging of the interferometric data used to image Sgr A*.}}
- 
-\vspace*{-2mm}
-\award[Maroon]{LeRoy Apker Award}{2021} \\
-{\color{gray}\href{https://www.aps.org/funding-recognition/award/leroy-apker-award}{\textsc{citation}}: \textit{For the invention of the selective dynamical imaging method, with applications for studying rapidly-varying black holes.}}
-% {\color{gray}\textsc{Award amount}: \$10,000}
- 
-\vspace*{-2mm}
-\award{UC Santa Barbara James and Mary Jo Hartle Graduate Fellowship}{2021}
-% {\color{gray}\textsc{Award amount}: \$2,463}
- 
-\vspace*{-2mm}
-\award[Maroon]{National Science Foundation Graduate Research Fellowship}{2021--2026} \\
-{\color{gray}\textsc{Award amount}: \$138,000}
- 
-\vspace*{-2mm}
-\award[Maroon]{Breakthrough Prize in Fundamental Physics (co-recipient)}{2020}
- 
-\vspace*{-2mm}
-\award[Maroon]{Barry M. Goldwater Scholarship}{2019}
-% {\color{gray}\textsc{Award amount}: \$15,000}
- 
-\vspace*{-2mm}
-\award{National Science Foundation Diamond Achievement Award$^\ddag$}{2019}
- 
-\vspace*{-2mm}
-\award{Smithsonian Fellowship}{2018, 2019}
- 
-\vspace*{-2mm}
-\award{Oracle Fellowship}{2018, 2019}
- 
-\vspace*{-2mm}
-\award{AJAS/AAAS Lifetime Fellowship}{2018}
- 
-\vspace*{-2mm}
-\award{\textbf{Selected undergraduate scholarships}: Chancellor's Scholarship (2017--2021), Alton J.~Brann Endowed Scholarship (2019), Northrop Grumman Scholarship (2020), Arthur W.~Martin III Scholarship (2021)}{2017--2021}
- 
-
-% \vspace*{-2mm}
-% $2^\textrm{nd}$ Place Award, Massachusetts State Science and Engineering Fair \hfill 2017
-
-% \vspace*{-2mm}
-% $1^\textrm{st}$ Place Award, Massachusetts State Science and Engineering Fair \hfill 2016
-
-
-\vspace{+.4cm}
+\vspace{-.3cm}
 \section{\sc Selected Work and Research Experience}
 
 
@@ -361,22 +288,10 @@ I lead programs to measure the spins of compact objects across regimes, from inf
 \textit{Supervisor: Dr.~Michael Johnson}
 \end{changemargin}
 
-{\bf Quantum Computing Research Group}\hfill 2019--2021
+{\bf Undergraduate Research, UMass Boston and Harvard University}\hfill 2017--2021
 
 \vspace{-.4cm}
-{\em Research Intern with Dr.~Alioscia Hamma  --- Boston, MA}
-
-\vspace{.1cm}
-{\bf Harvard Laboratory for Particle Physics and Cosmology}\hfill 2017--2018
-
-\vspace{-.4cm}
-{\em Research Intern with Dr.~Melissa Franklin --- Cambridge, MA}
-
-% 
-{\bf QBism Research Group}\hfill 2017--2019
-
-\vspace{-.4cm}
-{\em Oracle Fellow with Dr.~Christopher Fuchs  --- Boston, MA}
+{\em Quantum computing with Dr.~Alioscia Hamma (2019--2021); QBism as an Oracle Fellow with Dr.~Christopher Fuchs (2017--2019); ATLAS Micromegas detector instrumentation with Dr.~Melissa Franklin, Harvard Laboratory for Particle Physics and Cosmology (2017--2018)}
 
 % {\bf Harvard School for Engineering and Applied Sciences}\hfill Summer 2016
 
@@ -439,113 +354,83 @@ I lead programs to measure the spins of compact objects across regimes, from inf
 {\em Collaboration Member}\\
 {\color{gray} Joined as the collaboration's first undergraduate member. Contributed to imaging, modeling, and theory for the first images of M87$^\ast$ (2019) and Sgr~A$^\ast$ (2022). Led the selective dynamical imaging paper in the 2022 Sgr~A$^\ast$ results (\apjl, 930, L18), recognized with the EHT Early Career Award.}
 
-
+\newpage
 \vspace{+.2cm}
-\section{\sc Teaching and Mentoring}
 
-Invited workshop creator and lecturer, \textit{Presentation presentation: a seminar on seminars}, Las Cumbres Observatory, Goleta, CA. January 2026.
-
+\section{\sc {\color{Maroon} Selected\\ Honors} and \\ Awards}
+\vspace*{0.67cm}
+ 
+\award{{\color{Maroon}Miller Fellowship, Miller Institute for Basic Research in Science, Berkeley}}{2026--2029} \\
+{\color{gray}\textsc{Award amount}: \$354,000}
+ 
 \vspace*{-2mm}
-Death Star Seminar, founder and lecturer. Informal graduate seminar series on supernova theory, Las Cumbres Observatory, Goleta, CA. Designed curriculum and delivered lectures. 2026.
-
+\award{Bhaumik Prize Postdoctoral Fellowship, UCLA (declined)}{2026} \\
+{\color{gray}\textsc{Award amount}: \$276,000}
+ 
 \vspace*{-2mm}
-Creator and lecturer, online derivation series, \textit{Astraveo}. Blackboard lectures working through core astrophysics and general science results from first principles. 2025--Present. 
-
+\award{UC Santa Barbara Mananya Tantiwiwat Award}{2025}
+% {\color{gray}\textsc{Award amount}: \$1500}
+ 
 \vspace*{-2mm}
-Teaching Assistant, PHYS 23 (Electrostatics and waves), UC Santa Barbara. Fall 2024.\par
-\vspace{-0.4cm}
-{\leftskip=4mm \noindent
-{UC Santa Barbara GSA Excellence in Teaching Award (nominated)} \\
-{UC Santa Barbara Academic Senate Outstanding Teaching Assistant Award (nominated)}\par}
-
+\award{Broida-Hirschfelder Fellowship}{2025} \\
+{\color{gray}\textsc{citation}: \textit{In recognition of his project uncovering the secrets of the strangest object in the universe, the black hole photon ring.}}
+% {\color{gray}\textsc{Award amount}: \$10,834}
+ 
 \vspace*{-2mm}
-Guest Lecturer. Astronomy 121, University of Massachusetts Boston, Boston, MA. 2019 (x2), 2020 (x2).
-
-
-\vspace{+.1cm}
-\noindent \textbf{Graduate research mentoring}
-\vspace{-0.65cm}
-\begin{itemize}
-    \item[] Nicole Flors (CIERA/Northwestern) \hfill 2026--Present
-    \begin{itemize}
-        \item[] Project: Simulation of magnetar+disk system with HAM-R
-    \end{itemize}
-\end{itemize}
-
-\vspace{+.1cm}
-\noindent \textbf{Undergraduate research mentoring}
-\vspace{-0.65cm}
-\begin{itemize}
-    \item[] Eyouel Abate (UC Berkeley) \hfill 2026--Present
-    \begin{itemize}
-        \item[] Project: Development of automated CHIRPS filter on Rubin infrastructure
-    \end{itemize}
-    \item[] Austin Mei (UC Berkeley) \hfill 2026--Present
-    \begin{itemize}
-        \item[] Frequency-domain methods for identification of periodicity in supernova light curves
-    \end{itemize}
-    \item[] Mai Haller (UC Berkeley) \hfill 2026--Present
-    \begin{itemize}
-        \item[] Investigation of contrast ratios of SLSNe to surface brightness of hosts
-    \end{itemize}
-    \item[] Courtney Duong (UC Santa Barbara) \hfill 2024--Present \\
-    \vspace{-0.7cm}
-    \begin{itemize}
-        \item[] Project: Convolutional neural network for extraction of the $n=1$ black hole photon ring (Published in \textit{ApJ})
-        \item[] Award: \textit{Gene and Susan Lucas Undergraduate Research Scholarship}
-        \item[] Award: \textit{Edison STEM Research Scholarship}
-    \end{itemize}
-    \vspace{-0.2cm}
-    \item[] Franklin Myhre (UC Santa Barbara) \hfill 2024--Present
-    \vspace{-0.2cm}
-    \begin{itemize}
-        \item[] Project: Development of a \texttt{python} library for automated image-domain subring extraction
-    \end{itemize}
-    \vspace{-0.2cm}
-    \item[] Sanjit Masanam (UC Santa Barbara) \hfill 2024--2026
-    \vspace{-0.2cm}
-    \begin{itemize}
-        \item[] Award: \textit{2025 Goldwater Scholarship (nominated)}
-        \item[] Award: \textit{2025 Ernest F. Hollings Scholarship}
-    \end{itemize}
-    \vspace{-0.2cm}
-    \item[] Songgun Lee (UC Santa Barbara) \hfill 2024--2026
-    \vspace{-0.2cm}
-    \begin{itemize}
-        \item[] \textit{Co-founder at Masterminding}
-    \end{itemize}
-    \vspace{-0.2cm}
-    \item[] Tazzy Imbabi (UC Santa Barbara) \hfill 2024
-    \vspace{-0.2cm}
-    \begin{itemize}
-        \item[] Project: Exploration of selective dynamical imaging applications to BHEX
-    \end{itemize}
-\end{itemize}
-
-
-% \vspace{+.1cm}
-\section{\sc Service}
-
-{\bf Referee:}\par
-\vspace{-0.4cm}
-{\leftskip=3mm \noindent
-\textit{The Astrophysical Journal} \\
-\textit{Astronomy \& Astrophysics}\par}
-
+\award{$1^\textrm{st}$ Place Award, UC Santa Barbara Grad Slam}{2025} \\
+{\color{gray}\textit{Round 1 (Physics and Chemistry)}}
+ 
 \vspace*{-2mm}
-Internal referee, Event Horizon Telescope Collaboration.
-
+\award{UC Santa Barbara GSA Excellence in Teaching Award (nominated)}{2025}
+ 
 \vspace*{-2mm}
-Invited presenter, Las Cumbres Observatory Science Advisory Committee, Goleta, CA. Invited to present on the observatory's high-energy astrophysics science program. August 2025.
-
+\award{UC Santa Barbara Academic Senate Outstanding Teaching Assistant Award (nominated)}{2024}
+ 
 \vspace*{-2mm}
-Local Organizing Committee, EHT Collaboration Meeting. 2020.
-
+\award{Event Horizon Telescope Early Career Award}{2022} \\
+{\color{gray}\href{https://twitter.com/ehtelescope/status/1602826998346551296}{\textsc{citation}}: \textit{For his leadership and contribution to the dynamic imaging of the interferometric data used to image Sgr A*.}}
+ 
 \vspace*{-2mm}
-Local Organizing Committee, 2nd EHT Imaging Workshop, Black Hole Initiative, Harvard University, Cambridge, MA. July 2018.
-
+\award[Maroon]{LeRoy Apker Award}{2021} \\
+{\color{gray}\href{https://www.aps.org/funding-recognition/award/leroy-apker-award}{\textsc{citation}}: \textit{For the invention of the selective dynamical imaging method, with applications for studying rapidly-varying black holes.}}
+% {\color{gray}\textsc{Award amount}: \$10,000}
+ 
 \vspace*{-2mm}
-Founder and organizer, \textit{Research@UMB}, University of Massachusetts Boston. Connected undergraduates seeking research experience with faculty through faculty lightning-talk sessions and direct student--faculty matching. 2019. %% CHECK "Founder" vs "Organizer", year
+\award{UC Santa Barbara James and Mary Jo Hartle Graduate Fellowship}{2021}
+% {\color{gray}\textsc{Award amount}: \$2,463}
+ 
+\vspace*{-2mm}
+\award[Maroon]{National Science Foundation Graduate Research Fellowship}{2021--2026} \\
+{\color{gray}\textsc{Award amount}: \$138,000}
+ 
+\vspace*{-2mm}
+\award[Maroon]{Breakthrough Prize in Fundamental Physics (co-recipient)}{2020}
+ 
+\vspace*{-2mm}
+\award[Maroon]{Barry M. Goldwater Scholarship}{2019}
+% {\color{gray}\textsc{Award amount}: \$15,000}
+ 
+\vspace*{-2mm}
+\award{National Science Foundation Diamond Achievement Award$^\ddag$}{2019}
+ 
+\vspace*{-2mm}
+\award{Smithsonian Fellowship}{2018, 2019}
+ 
+\vspace*{-2mm}
+\award{Oracle Fellowship}{2018, 2019}
+ 
+\vspace*{-2mm}
+\award{AJAS/AAAS Lifetime Fellowship}{2018}
+ 
+\vspace*{-2mm}
+\award{\textbf{Selected undergraduate scholarships}: Chancellor's Scholarship (2017--2021), Alton J.~Brann Endowed Scholarship (2019), Northrop Grumman Scholarship (2020), Arthur W.~Martin III Scholarship (2021)}{2017--2021}
+ 
+
+% \vspace*{-2mm}
+% $2^\textrm{nd}$ Place Award, Massachusetts State Science and Engineering Fair \hfill 2017
+
+% \vspace*{-2mm}
+% $1^\textrm{st}$ Place Award, Massachusetts State Science and Engineering Fair \hfill 2016
 
 
 % \section{\sc Academic\\ Service}
@@ -625,6 +510,92 @@ Imaging a black hole with the Event Horizon Telescope. Harvard University, Cambr
 
 
 
+
+
+\vspace{+.2cm}
+\section{\sc Teaching and Mentoring}
+
+Invited workshop creator and lecturer, \textit{Presentation presentation: a seminar on seminars}, Las Cumbres Observatory, Goleta, CA. January 2026.
+
+\vspace*{-2mm}
+Death Star Seminar, founder and lecturer. Informal graduate seminar series on supernova theory, Las Cumbres Observatory, Goleta, CA. Designed curriculum and delivered lectures. 2026.
+
+\vspace*{-2mm}
+Creator and lecturer, online derivation series, \textit{Astraveo}. Blackboard lectures working through core astrophysics and general science results from first principles. 2025--Present. 
+
+\vspace*{-2mm}
+Teaching Assistant, PHYS 23 (Electrostatics and waves), UC Santa Barbara. Fall 2024.\par
+\vspace{-0.4cm}
+{\leftskip=4mm \noindent
+{UC Santa Barbara GSA Excellence in Teaching Award (nominated)} \\
+{UC Santa Barbara Academic Senate Outstanding Teaching Assistant Award (nominated)}\par}
+
+\vspace*{-2mm}
+Guest Lecturer. Astronomy 121, University of Massachusetts Boston, Boston, MA. 2019 (x2), 2020 (x2).
+
+{\setlength{\parskip}{0pt}
+ 
+\vspace*{0.3cm}
+\menteehead{Graduate research mentoring}
+ 
+\mentee{Nicole Flors (CIERA/Northwestern)}{2026--Present}
+  {Project: Simulation of magnetar+disk system with HAM-R}
+ 
+\menteehead{Undergraduate research mentoring}
+ 
+\mentee{Eyouel Abate (UC Berkeley)}{2026--Present}
+  {Project: Development of automated CHIRPS filter on Rubin infrastructure}
+ 
+\mentee{Austin Mei (UC Berkeley)}{2026--Present}
+  {Project: Frequency-domain methods for identification of periodicity in supernova light curves}
+ 
+\mentee{Mai Haller (UC Berkeley)}{2026--Present}
+  {Project: Investigation of contrast ratios of SLSNe to surface brightness of hosts}
+ 
+\mentee{Courtney Duong (UC Santa Barbara)}{2024--Present}
+  {Project: Convolutional neural network for extraction of the $n=1$ black hole photon ring (Published in \textit{ApJ}) \\
+   Award: \textit{Gene and Susan Lucas Undergraduate Research Scholarship} \\
+   Award: \textit{Edison STEM Research Scholarship}}
+ 
+\mentee{Franklin Myhre (UC Santa Barbara)}{2024--Present}
+  {Project: Development of a \texttt{python} library for automated image-domain subring extraction}
+ 
+\mentee{Sanjit Masanam (UC Santa Barbara)}{2024--2026}
+  {Award: \textit{2025 Goldwater Scholarship (nominated)} \\
+   Award: \textit{2025 Ernest F. Hollings Scholarship}}
+ 
+\mentee{Songgun Lee (UC Santa Barbara)}{2024--2026}
+  {\textit{Co-founder at Masterminding}}
+ 
+\mentee{Tazzy Imbabi (UC Santa Barbara)}{2024}
+  {Project: Exploration of selective dynamical imaging applications to BHEX}
+ 
+}
+
+
+% \vspace{+.1cm}
+\section{\sc Service}
+
+{\bf Referee:}\par
+\vspace{-0.4cm}
+{\leftskip=3mm \noindent
+\textit{The Astrophysical Journal} \\
+\textit{Astronomy \& Astrophysics}\par}
+
+\vspace*{-2mm}
+Internal referee, Event Horizon Telescope Collaboration.
+
+\vspace*{-2mm}
+Invited presenter, Las Cumbres Observatory Science Advisory Committee, Goleta, CA. Invited to present on the observatory's high-energy astrophysics science program. August 2025.
+
+\vspace*{-2mm}
+Local Organizing Committee, EHT Collaboration Meeting. 2020.
+
+\vspace*{-2mm}
+Local Organizing Committee, 2nd EHT Imaging Workshop, Black Hole Initiative, Harvard University, Cambridge, MA. July 2018.
+
+\vspace*{-2mm}
+Founder and organizer, \textit{Research@UMB}, University of Massachusetts Boston. Connected undergraduates seeking research experience with faculty through faculty lightning-talk sessions and direct student--faculty matching. 2019. %% CHECK "Founder" vs "Organizer", year
 
 
 \vspace{+.2cm}
@@ -782,7 +753,7 @@ profile in \href{https://www.symmetrymagazine.org/article/drag-racing-and-black-
 
 147. Barna, B., Singh, M., Kwok, L. A., ..., \textbf{J. R. Farah}, \textit{et al.} 2026. \textit{Tomography analysis of the intermediate-luminosity Type Iax SN 2024pxl}. arXiv e-prints, \href{https://arxiv.org/abs/2609.28712}{arXiv:2609.28712}.
 
-*146. Duong, C., Myhre, F., \textbf{J. R. Farah}. 2026. \textit{Convolutional Neural Network for Extraction of $n = 1$ Photon Ring of Black Holes}. arXiv e-prints, \href{https://arxiv.org/abs/2609.25344}{arXiv:2609.25344}.
+\begin{mdframed}[linecolor=red]*146. Duong, C., Myhre, F., \textbf{J. R. Farah}. 2026. \textit{Convolutional Neural Network for Extraction of $n = 1$ Photon Ring of Black Holes}. arXiv e-prints, \href{https://arxiv.org/abs/2609.25344}{arXiv:2609.25344}.\end{mdframed}
 
 145. Dukiya, N., Misra, K., Pastorello, A., ..., \textbf{J. R. Farah}, \textit{et al.} 2026. \textit{Early NIR echo and the time variable mass loss history of Type IIn SN 2024kgi}. arXiv e-prints, \href{https://arxiv.org/abs/2609.25233}{arXiv:2609.25233}.
 
@@ -1234,7 +1205,3 @@ The Supernova Exchange (SNEx). Contributor. {\color{blue}\href{https://supernova
 \end{resume}
 
 \end{document}
-
-
-
-
